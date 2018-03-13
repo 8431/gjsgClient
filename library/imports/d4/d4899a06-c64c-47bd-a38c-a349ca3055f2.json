@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "room_text_ox",
+    "texture": "c1c8e849-b2d9-429b-a959-c50dfe259d76",
+    "atlas": "",
+    "rect": [
+      0,
+      8,
+      952,
+      83
+    ],
+    "offset": [
+      -6.5,
+      0.5
+    ],
+    "originalSize": [
+      965,
+      100
+    ]
+  }
+}

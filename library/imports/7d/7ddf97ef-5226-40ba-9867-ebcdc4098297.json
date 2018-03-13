@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameLand-pic_call_score",
+    "texture": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+    "atlas": "26c91ed1-ef88-4cb1-95ba-8dda1f0c46c5",
+    "rect": [
+      1425,
+      1309,
+      160,
+      25
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      162,
+      25
+    ]
+  }
+}

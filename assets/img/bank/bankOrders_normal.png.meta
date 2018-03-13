@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "37c134ac-0d34-4a49-8fe4-63ff3269a77a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "bankOrders_normal": {
+      "ver": "1.0.3",
+      "uuid": "bea911f3-7db8-4d24-81e9-2a42472be6d4",
+      "rawTextureUuid": "37c134ac-0d34-4a49-8fe4-63ff3269a77a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 162,
+      "height": 58,
+      "rawWidth": 162,
+      "rawHeight": 58,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

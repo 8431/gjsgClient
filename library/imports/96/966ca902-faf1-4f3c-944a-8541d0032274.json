@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "saveGold_pressed",
+    "texture": "e11ceeb8-a4ec-4646-8ff3-37b71fc13f4f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      60
+    ]
+  }
+}

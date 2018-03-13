@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "luan",
+    "texture": "fd1d5b30-b084-4e74-9942-39e9a6b4e557",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      14,
+      14
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      14,
+      19
+    ]
+  }
+}

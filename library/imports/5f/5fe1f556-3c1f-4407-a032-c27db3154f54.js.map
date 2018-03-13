@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "msg",
+    "onLoad",
+    "showAlert",
+    "event",
+    "e",
+    "target",
+    "destroy",
+    "init"
+  ],
+  "mappings": ";;AACAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;AAeLC,SAAI,IAfC;AAgBL;AACAC,YAAQ,kBAAY,CAGnB,CApBI;AAqBLC;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA,MAAW,UAAUC,KAAV,EAAiB;AACxB,YAAIC,IAAID,MAAME,MAAd;AACAH,kBAAW,KAAK,KAAL,CAAX;AACAE,UAAEE,OAAF;AAEH,KALD,CArBK;AA2BLC,UAAM,cAAUP,GAAV,EAAe;AACjB,aAAK,KAAL,IAAcA,GAAd;AACH;AACD;AACA;;AAEA;AAjCK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n    msg:null,\r\n    // use this for initialization\r\n    onLoad: function () {\r\n          \r\n\r\n    },\r\n    showAlert: function (event) {\r\n        let e = event.target;\r\n        showAlert( this['msg']);\r\n        e.destroy();\r\n\r\n    },\r\n    init: function (msg) {\r\n        this['msg'] = msg;\r\n    }\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

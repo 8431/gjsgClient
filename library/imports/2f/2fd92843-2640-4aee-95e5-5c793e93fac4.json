@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "open_fj",
+    "texture": "f23f9f09-ea09-4b03-81f0-b71c87d214ea",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      83,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      35
+    ]
+  }
+}

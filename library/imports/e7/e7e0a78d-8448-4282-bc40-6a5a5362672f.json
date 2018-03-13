@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "room_text_zajinhua",
+    "texture": "23f1c169-ac90-40c9-be0b-38ace6aaf129",
+    "atlas": "",
+    "rect": [
+      0,
+      9,
+      949,
+      82
+    ],
+    "offset": [
+      -8,
+      0
+    ],
+    "originalSize": [
+      965,
+      100
+    ]
+  }
+}

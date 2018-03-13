@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "battleAttack_60005",
+    "texture": "9afd0d8d-b922-4f6d-bf6f-3a04d4d80bc6",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      195,
+      88
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      196,
+      88
+    ]
+  }
+}

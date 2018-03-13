@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "text",
+    "RichText",
+    "initAlert",
+    "msg",
+    "sureEvent",
+    "cancelEvent",
+    "suerParameter",
+    "cancelParameter",
+    "string",
+    "sureClickEvent",
+    "node",
+    "destroy",
+    "cancelClickEvnet",
+    "log"
+  ],
+  "mappings": ";;AACAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,cAAML,GAAGM;AADD,KAHP;;AAOL;;;;;;;AAOAC,eAAW,mBAASC,GAAT,EAAcC,SAAd,EAAyBC,WAAzB,EAAqCC,aAArC,EAAmDC,eAAnD,EAAmE;AAC1E,aAAKP,IAAL,CAAUQ,MAAV,GAAmBL,GAAnB;AACA,aAAKC,SAAL,GAAiBA,SAAjB;AACA,aAAKC,WAAL,GAAmBA,WAAnB;AACA,aAAKC,aAAL,GAAqBA,aAArB;AACA,aAAKC,eAAL,GAAuBA,eAAvB;AACH,KApBI;;AAsBLE,oBAAgB,0BAAU;AACtB,YAAG,KAAKL,SAAR,EAAkB;AACd,iBAAKA,SAAL,CAAe,KAAKE,aAApB;AACH;AACD,aAAKI,IAAL,CAAUC,OAAV;AACH,KA3BI;;AA6BLC,sBAAkB,4BAAU;AACxBjB,WAAGkB,GAAH,CAAO,kBAAP;AACA,YAAG,KAAKR,WAAR,EAAoB;AAChB,iBAAKA,WAAL,CAAiB,KAAKE,eAAtB;AACH;AACD,aAAKG,IAAL,CAAUC,OAAV;AACH;AAnCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        text: cc.RichText\r\n    },\r\n\r\n    /**\r\n     * msg: 显示的内容\r\n     * sureEvent: 确定按钮回调函数，没有传undefined或者null\r\n     * cancelEvent: 返回按钮回调函数，没有传undefined或者null\r\n     * suerParameter: 确定按钮回调函数参数\r\n     * cancelParameter: 返回按钮回调函数参数\r\n     */\r\n    initAlert: function(msg, sureEvent, cancelEvent,suerParameter,cancelParameter){\r\n        this.text.string = msg;\r\n        this.sureEvent = sureEvent;\r\n        this.cancelEvent = cancelEvent;\r\n        this.suerParameter = suerParameter;\r\n        this.cancelParameter = cancelParameter;\r\n    },\r\n\r\n    sureClickEvent: function(){\r\n        if(this.sureEvent){\r\n            this.sureEvent(this.suerParameter);\r\n        }\r\n        this.node.destroy();\r\n    },\r\n\r\n    cancelClickEvnet: function(){\r\n        cc.log('cancelClickEvnet')\r\n        if(this.cancelEvent){\r\n            this.cancelEvent(this.cancelParameter);\r\n        }\r\n        this.node.destroy();\r\n    }\r\n});\r\n"
+  ]
+}

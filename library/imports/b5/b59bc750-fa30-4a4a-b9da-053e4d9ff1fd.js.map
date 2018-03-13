@@ -1,0 +1,53 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "self",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "content",
+    "Node",
+    "fujiangPrefab",
+    "Prefab",
+    "getBtnPrefab",
+    "onLoad",
+    "clearScrollview",
+    "ajaxData",
+    "HxsgUrl",
+    "fujiangConfigUrl",
+    "initFujiangConfig",
+    "data",
+    "msg",
+    "i",
+    "length",
+    "item",
+    "instantiate",
+    "name",
+    "getChildByName",
+    "getComponent",
+    "init",
+    "addChild",
+    "getBtn",
+    "on",
+    "EventType",
+    "TOUCH_END",
+    "getBtnEvent",
+    "height",
+    "log",
+    "backEvent",
+    "returnLastScene",
+    "HxsgScenes",
+    "fujiang",
+    "removeAllChildren"
+  ],
+  "mappings": ";;AACA,IAAIA,IAAJ;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,iBAASL,GAAGM,IADJ;AAERC,uBAAeP,GAAGQ,MAFV;AAGRC,sBAAcT,GAAGQ;AAHT,KAHP;;AASL;AACAE,YAAQ,kBAAY;AAChBX,eAAO,IAAP;AACAA,aAAKY,eAAL;AACAC,iBAASC,QAAQC,gBAAjB,EAAmC,IAAnC,EAAwCf,KAAKgB,iBAA7C;AACH,KAdI;;AAgBLA,uBAAmB,2BAASC,IAAT,EAAc;AAC7B,YAAIC,MAAMD,KAAKC,GAAf;AACA;AACA,aAAI,IAAIC,IAAI,CAAZ,EAAeA,IAAID,IAAIE,MAAvB,EAA+BD,GAA/B,EAAoC;AAChC,gBAAIE,OAAOpB,GAAGqB,WAAH,CAAetB,KAAKQ,aAApB,CAAX;AACAa,iBAAKE,IAAL,GAAY,mBAAmBJ,CAA/B;AACAE,iBAAKG,cAAL,CAAoB,cAApB,EAAoCC,YAApC,CAAiD,aAAjD,EAAgEC,IAAhE,CAAqEP,CAArE,EAAwED,IAAIC,CAAJ,CAAxE;AACAnB,iBAAKM,OAAL,CAAaqB,QAAb,CAAsBN,IAAtB;AACH;AACD,YAAIO,SAAS3B,GAAGqB,WAAH,CAAetB,KAAKU,YAApB,CAAb;AACAkB,eAAOL,IAAP,GAAc,cAAd;AACAK,eAAOC,EAAP,CAAU5B,GAAGM,IAAH,CAAQuB,SAAR,CAAkBC,SAA5B,EAAuC/B,KAAKgC,WAA5C,EAAyDhC,IAAzD;AACAA,aAAKM,OAAL,CAAaqB,QAAb,CAAsBC,MAAtB;AACA5B,aAAKM,OAAL,CAAa2B,MAAb,GAAsB,KAAKjC,KAAKM,OAAL,CAAa2B,MAAxC;AACH,KA9BI;;AAgCLD,iBAAa,uBAAU;AACnB/B,WAAGiC,GAAH,CAAO,aAAP;AACH,KAlCI;;AAoCLC,eAAW,qBAAU;AACjB;AACAC,wBAAgBC,WAAWC,OAA3B;AACH,KAvCI;;AA0CL1B,qBAAiB,2BAAY;AACzB,aAAKN,OAAL,CAAaiC,iBAAb;AACH;;AAED;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAtHK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\nvar self;\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        content: cc.Node,\r\n        fujiangPrefab: cc.Prefab,\r\n        getBtnPrefab: cc.Prefab\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        self = this;\r\n        self.clearScrollview();\r\n        ajaxData(HxsgUrl.fujiangConfigUrl, null,self.initFujiangConfig);\r\n    },\r\n\r\n    initFujiangConfig: function(data){\r\n        var msg = data.msg;\r\n        // var msg = self.testInfo();\r\n        for(var i = 0; i < msg.length; i ++){\r\n            var item = cc.instantiate(self.fujiangPrefab);\r\n            item.name = 'fujiangPrefab_' + i;\r\n            item.getChildByName('fujiangLabel').getComponent('FujiangItem').init(i, msg[i]);\r\n            self.content.addChild(item);\r\n        }\r\n        var getBtn = cc.instantiate(self.getBtnPrefab);\r\n        getBtn.name = 'getBtnPrefab';\r\n        getBtn.on(cc.Node.EventType.TOUCH_END, self.getBtnEvent, self);\r\n        self.content.addChild(getBtn);\r\n        self.content.height = 20 + self.content.height;\r\n    },\r\n\r\n    getBtnEvent: function(){\r\n        cc.log('获取能学技能的历史副将');\r\n    },\r\n\r\n    backEvent: function(){\r\n        // cc.director.loadScene(HxsgScenes.index);\r\n        returnLastScene(HxsgScenes.fujiang);\r\n    },\r\n\r\n\r\n    clearScrollview: function () {\r\n        this.content.removeAllChildren();\r\n    }\r\n\r\n    // testInfo: function(){\r\n    //     var msg = {\r\n    //         \"msg\": [\r\n    //             {\r\n    //                 \"fuId\": 10512,\r\n    //                 \"name\": \"(1级)张邈\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"休息\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10513,\r\n    //                 \"name\": \"(1级)吕布\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"休息\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10610,\r\n    //                 \"name\": \"(1级)于 禁\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10397,\r\n    //                 \"name\": \"(41级)吕布\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10402,\r\n    //                 \"name\": \"(44级)于 禁\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10411,\r\n    //                 \"name\": \"(1级)刘氏\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10412,\r\n    //                 \"name\": \"(48级)张邈\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10670,\r\n    //                 \"name\": \"(12级)潘璋\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10671,\r\n    //                 \"name\": \"(1级)司马昭\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10672,\r\n    //                 \"name\": \"(1级)潘璋\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             },\r\n    //             {\r\n    //                 \"fuId\": 10673,\r\n    //                 \"name\": \"(1级)刘氏\",\r\n    //                 \"roleId\": 1000,\r\n    //                 \"status\": \"战斗\"\r\n    //             }\r\n    //         ]\r\n    //     }\r\n    //     return msg;\r\n    // }\r\n});\r\n"
+  ]
+}

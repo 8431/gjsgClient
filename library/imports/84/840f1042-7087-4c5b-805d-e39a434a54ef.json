@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stand",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "button/body": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                54.8,
+                -15.8
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                54.8,
+                -14.8
+              ]
+            }
+          ]
+        }
+      },
+      "button/top": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 3
+            },
+            {
+              "frame": 0.5,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "button/attack": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                21.200000000000003,
+                20
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                27.200000000000003,
+                20
+              ]
+            }
+          ]
+        }
+      },
+      "status": {
+        "props": {}
+      },
+      "kouxue": {
+        "props": {}
+      }
+    }
+  },
+  "events": []
+}

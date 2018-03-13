@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lookOver_pressed",
+    "texture": "4389dbdb-45e2-4dad-b8ea-db48931565a8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      102,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      102,
+      62
+    ]
+  }
+}

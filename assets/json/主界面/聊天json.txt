@@ -1,0 +1,163 @@
+聊天json:
+说明----------
+按照下面数据将json数据拼凑后显示在主界面聊天界面上---可参考html的demo---格式为（ 13:55 awdawd：你是个好人！）
+服务器返回: [
+    {
+        "id": 1198,
+        "roleid": 1001,//游戏角色IDD
+        "rolename": "awdawd",//角色名
+        "message": "你是个好人！",//信息
+        "data": "Oct 10, 2016 2:00:12 PM"//时间
+    },
+    {
+        "id": 1197,
+        "roleid": 1000,
+        "rolename": "咕叽",
+        "message": "你是个好人！",
+        "data": "Oct 10, 2016 1:55:31 PM"
+    },
+    {
+        "id": 1196,
+        "roleid": 1000,
+        "rolename": "咕叽",
+        "message": "\u003cimg class\u003d\"gif\" src\u003d\"../face/vip1/6.gif\"\u003e",
+        "type": "3",
+        "data": "Sep 28, 2016 1:47:33 PM"
+    },
+    {
+        "id": 1195,
+        "roleid": 1001,
+        "rolename": "awdawd",
+        "message": "aaaa",
+        "type": "3",
+        "data": "Sep 27, 2016 4:32:12 PM"
+    },
+    {
+        "id": 1194,
+        "roleid": 1434,
+        "rolename": "叫我小天",
+        "message": "。",
+        "type": "3",
+        "data": "Mar 5, 2016 3:14:15 PM"
+    },
+    {
+        "id": 1193,
+        "roleid": 1306,
+        "rolename": "余书捡",
+        "message": "。。。",
+        "type": "3",
+        "data": "Mar 5, 2016 2:23:41 PM"
+    },
+    {
+        "id": 1192,
+        "roleid": 1412,
+        "rolename": "不懂事的小屁孩.",
+        "message": "吕布马上到手了",
+        "type": "3",
+        "data": "Mar 5, 2016 1:24:29 PM"
+    },
+    {
+        "id": 1191,
+        "roleid": 1055,
+        "rolename": "夜",
+        "message": "........\n\n\n000",
+        "type": "3",
+        "data": "Mar 5, 2016 1:26:50 AM"
+    },
+    {
+        "id": 1190,
+        "roleid": 1000,
+        "rolename": "咕叽",
+        "message": "\u003cimg class\u003d\"gif\" src\u003d\"../face/vip1/5.gif\"\u003e\u003cimg class\u003d\"gif\" src\u003d\"../face/vip1/5.gif\"\u003e",
+        "type": "3",
+        "data": "Mar 5, 2016 12:53:30 AM"
+    },
+    {
+        "id": 1189,
+        "roleid": 1662,
+        "rolename": "Gary",
+        "message": "玩毛",
+        "type": "3",
+        "data": "Mar 5, 2016 12:42:37 AM"
+    },
+    {
+        "id": 1188,
+        "roleid": 1579,
+        "rolename": "君の陌",
+        "message": "傻逼",
+        "type": "3",
+        "data": "Mar 4, 2016 9:10:05 PM"
+    },
+    {
+        "id": 1187,
+        "roleid": 1412,
+        "rolename": "不懂事的小屁孩.",
+        "message": "。。。",
+        "type": "3",
+        "data": "Mar 4, 2016 3:07:02 PM"
+    },
+    {
+        "id": 1186,
+        "roleid": 1306,
+        "rolename": "余书捡",
+        "message": "。",
+        "type": "3",
+        "data": "Mar 4, 2016 12:07:33 AM"
+    },
+    {
+        "id": 1185,
+        "roleid": 1511,
+        "rolename": "",
+        "message": "傻逼们好",
+        "type": "3",
+        "data": "Mar 3, 2016 9:05:35 PM"
+    },
+    {
+        "id": 1184,
+        "roleid": 1594,
+        "rolename": "浪成瘾",
+        "message": "没人",
+        "type": "3",
+        "data": "Mar 3, 2016 8:12:52 PM"
+    },
+    {
+        "id": 1183,
+        "roleid": 1504,
+        "rolename": "边疆悍匪",
+        "message": "有人吗",
+        "type": "3",
+        "data": "Mar 3, 2016 7:09:20 PM"
+    },
+    {
+        "id": 1182,
+        "roleid": 1562,
+        "rolename": "云梦",
+        "message": "",
+        "type": "3",
+        "data": "Mar 3, 2016 3:05:53 PM"
+    },
+    {
+        "id": 1181,
+        "roleid": 1643,
+        "rolename": "奈何、",
+        "message": "赌钱",
+        "type": "3",
+        "data": "Mar 3, 2016 2:39:03 PM"
+    },
+    {
+        "id": 1180,
+        "roleid": 1641,
+        "rolename": "斗鱼TV丶推广",
+        "message": "。。。。。。",
+        "type": "3",
+        "data": "Mar 3, 2016 2:38:42 PM"
+    },
+    {
+        "id": 1179,
+        "roleid": 1643,
+        "rolename": "奈何、",
+        "message": "聊天",
+        "type": "3",
+        "data": "Mar 3, 2016 2:38:31 PM"
+    }
+]

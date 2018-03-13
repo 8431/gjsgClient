@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "loadCommomScence",
+    "dzzb",
+    "director",
+    "loadScene",
+    "hsbs",
+    "hcbs",
+    "hcks",
+    "gmks",
+    "wphs"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;;AAgBL;AACAC,YAAQ,kBAAY;AACvBC;AACI,KAnBI;AAoBLC,UAAM,gBAAY;AACXP,WAAGQ,QAAH,CAAYC,SAAZ,CAAsB,MAAtB;AAEN,KAvBI;AAwBLC,UAAM,gBAAY,CAEjB,CA1BI;AA2BLC,UAAM,gBAAY,CAEjB,CA7BI;AA8BLC,UAAM,gBAAY,CAEjB,CAhCI;AAiCLC,UAAM,gBAAY,CAEjB,CAnCI;AAoCJC,UAAM,gBAAY,CAElB;;AAtCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n loadCommomScence();\r\n    },\r\n    dzzb: function () {\r\n           cc.director.loadScene('dzzb');\r\n\r\n    },\r\n    hsbs: function () {\r\n\r\n    },\r\n    hcbs: function () {\r\n\r\n    },\r\n    hcks: function () {\r\n\r\n    },\r\n    gmks: function () {\r\n\r\n    },\r\n     wphs: function () {\r\n\r\n    },\r\n\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,56 @@
+2018-03-13T01:08:45.055Z - normal: Load ~/.CocosCreator/settings.json
+2018-03-13T01:08:45.062Z - normal: checking language setting...
+2018-03-13T01:08:45.062Z - normal: Language: zh
+2018-03-13T01:08:46.620Z - success: protocol editor-framework registered
+2018-03-13T01:08:46.621Z - success: protocol app registered
+2018-03-13T01:08:46.621Z - success: protocol theme registered
+2018-03-13T01:08:46.621Z - success: protocol profile registered
+2018-03-13T01:08:46.621Z - success: protocol packages registered
+2018-03-13T01:08:46.621Z - success: protocol unpack registerred
+2018-03-13T01:08:46.621Z - success: protocol disable-commonjs registerred
+2018-03-13T01:08:46.908Z - normal: connected!
+2018-03-13T01:08:46.911Z - normal: Check project D:\gjsgClientV3.0\hxsg3.1
+2018-03-13T01:08:46.913Z - normal: Initializing Cocos2d
+2018-03-13T01:08:47.254Z - normal: Initializing Asset Database
+2018-03-13T01:08:47.285Z - success: protocol uuid registerred
+2018-03-13T01:08:47.285Z - success: protocol db registerred
+2018-03-13T01:08:47.285Z - success: protocol thumbnail registerred
+2018-03-13T01:08:47.285Z - normal: Loading editor/builtin packages
+2018-03-13T01:08:47.442Z - success: assets loaded
+2018-03-13T01:08:47.444Z - success: builder loaded
+2018-03-13T01:08:47.448Z - success: hierarchy loaded
+2018-03-13T01:08:47.451Z - success: inspector loaded
+2018-03-13T01:08:47.453Z - success: keystore loaded
+2018-03-13T01:08:47.457Z - success: node-library loaded
+2018-03-13T01:08:47.459Z - success: preferences loaded
+2018-03-13T01:08:47.474Z - success: project-importer loaded
+2018-03-13T01:08:47.477Z - success: project-settings loaded
+2018-03-13T01:08:47.479Z - success: ui-kit loaded
+2018-03-13T01:08:47.482Z - success: ui-grid loaded
+2018-03-13T01:08:47.485Z - success: scene loaded
+2018-03-13T01:08:47.491Z - success: sprite-editor loaded
+2018-03-13T01:08:47.563Z - success: store loaded
+2018-03-13T01:08:47.568Z - success: timeline loaded
+2018-03-13T01:08:47.569Z - normal: Loading builtin packages
+2018-03-13T01:08:47.573Z - success: anysdk loaded
+2018-03-13T01:08:47.575Z - success: asset-db-debugger loaded
+2018-03-13T01:08:47.578Z - success: code-editor loaded
+2018-03-13T01:08:47.579Z - success: color-picker loaded
+2018-03-13T01:08:47.583Z - success: console loaded
+2018-03-13T01:08:47.585Z - success: package-manager loaded
+2018-03-13T01:08:47.589Z - success: tester loaded
+2018-03-13T01:08:47.591Z - success: ui-kit-preview-extra loaded
+2018-03-13T01:08:47.593Z - success: ui-kit-preview loaded
+2018-03-13T01:08:47.595Z - success: ui-tree loaded
+2018-03-13T01:08:47.654Z - normal: Initializing project D:\gjsgClientV3.0\hxsg3.1
+2018-03-13T01:08:47.657Z - normal: Loading packages
+2018-03-13T01:08:47.660Z - normal: Watching packages
+2018-03-13T01:08:47.675Z - normal: Run Application
+2018-03-13T01:08:50.186Z - failed: [db-task][init] uuid collision, the uuid for D:\gjsgClientV3.0\hxsg3.1\assets\js\wupin\userJiNengShu\touzhuitem.js is already in used by D:\gjsgClientV3.0\hxsg3.1\assets\js\wupin\userJiNengShu\jiNengButton.js. Assigning a new uuid.
+2018-03-13T01:08:55.781Z - success: preview server running at http://localhost:7456
+2018-03-13T01:08:55.781Z - normal: Compiling scripts...
+2018-03-13T01:08:59.822Z - normal: Compiled project javascript file successfully
+2018-03-13T01:09:04.919Z - normal: 1.4.2
+2018-03-13T01:09:08.789Z - warn: The id already added in the tree: 5cf8933b-1ec6-4dd9-b76d-59991d5a3f86
+2018-03-13T01:09:10.244Z - normal: 开启pk连接onopen
+2018-03-13T01:09:10.336Z - normal: WebSocket = 已连接-

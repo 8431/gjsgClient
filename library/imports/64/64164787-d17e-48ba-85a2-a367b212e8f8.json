@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rechargeGoldCertificate_normal",
+    "texture": "29b9067b-fe1c-495a-bea3-f708c74a777d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      58
+    ]
+  }
+}

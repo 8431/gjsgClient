@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "login_box",
+    "texture": "dc494ebe-363a-4aff-b636-f14509b12670",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      772,
+      566
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      772,
+      566
+    ]
+  }
+}

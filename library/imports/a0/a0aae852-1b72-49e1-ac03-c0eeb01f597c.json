@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "qichong",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.7,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "a503c878-0f8e-42b3-b0ee-7950ed898a4c"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "6f44c8d0-2507-4dca-a6d9-df9d8da34520"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "92440c98-0c16-4412-b999-55c4c18ae226"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "9cd8ecd0-0155-4da5-b223-b40679a6d88b"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "50eda095-7e5d-47cd-a112-e0c1a4fb0a02"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "e400feff-7a07-4c01-90f1-782fa05afc69"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0.6,
+          "value": 255
+        },
+        {
+          "frame": 0.7,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

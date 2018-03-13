@@ -1,0 +1,31 @@
+var localhost = "119.29.234.184:8080/hxsg/";
+1.登录角色
+var loginUrl=localhost+"cocos2dLogin/login"
+var dataJson=JSON.stringify({'name':"sang",'password':"123456" });
+2.注册账号
+var zhuCeUrl=localhost+"cocos2dLogin/creatAccount"
+var dataJson=JSON.stringify({'name':"sang",'password':"123456",'supperpass':"1111111" });
+3.验证账号是否被注册
+var zhuCeUrl=localhost+"cocos2dLogin/checkRole"
+var dataJson=JSON.stringify({'name':"sang"});
+4.创建角色
+var dataJson={
+"zhiye":"zhiye",//职业
+"juesename":"juesename",//角色名
+"sex":"sex",//性别
+"role_tx":"role_tx",//头像
+}
+5.验证角色名是否重复
+var zhuCeUrl=localhost+"cocos2dLogin/checkRole"
+var dataJson=JSON.stringify({'juesename':"sang"});
+ $.ajax({
+                    type: 'GET',
+					url:loginUrl,
+					data:dataJson,
+					dataType : 'jsonp',
+					jsonp: "jsonpCallback",//服务端用于接收callback调用的function名的参数
+					success: function(msg){
+						alert(msg)//true---登录成功---false登录失败
+
+                       }
+                   });

@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "self",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "yaopinPrefab",
+    "Prefab",
+    "content",
+    "Node",
+    "onLoad",
+    "ajaxData",
+    "HxsgUrl",
+    "queryFriends",
+    "userWuPin",
+    "objects",
+    "friendsList",
+    "data",
+    "msg",
+    "log",
+    "num",
+    "length",
+    "showAlert",
+    "total",
+    "i",
+    "itemMsg",
+    "item",
+    "instantiate",
+    "addChild",
+    "comp",
+    "getComponentInChildren",
+    "initFriendsList",
+    "height",
+    "backEvent",
+    "returnLast"
+  ],
+  "mappings": ";;AAAA,IAAIA,IAAJ;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACJC,sBAAcL,GAAGM,MADb;AAECC,iBAASP,GAAGQ;AAFb,KAHP;;AAkBL;AACAC,YAAQ,kBAAY;;AAEhBV,eAAK,IAAL;AACCW,iBAASC,QAAQC,YAAjB,EAA8BC,UAAUC,OAAxC,EAAgD,KAAKC,WAArD;AAGJ,KAzBI;AA0BLA,iBAAa,qBAAUC,IAAV,EAAgB;AAC1B;AACC,YAAIC,MAAMD,KAAKC,GAAf;AACAjB,WAAGkB,GAAH,CAAOF,IAAP;AACA,YAAIG,MAAI,CAAR;AACA,YAAGF,OAAK,EAAL,IAAS,OAAOA,GAAP,IAAa,WAAtB,IAAmCA,IAAIG,MAAJ,IAAY,CAAlD,EAAoD;AAChDC,sBAAU,WAAV;AACH,SAFD,MAEK;AACL,gBAAIC,QAAML,IAAIG,MAAd;AACA,iBAAK,IAAIG,IAAI,CAAb,EAAgBA,IAAIN,IAAIG,MAAxB,EAAgCG,GAAhC,EAAqC;AACjC,oBAAIC,UAAUP,IAAIM,CAAJ,CAAd;AACA,oBAAIE,OAAOzB,GAAG0B,WAAH,CAAe3B,KAAKM,YAApB,CAAX;AACAN,qBAAKQ,OAAL,CAAaoB,QAAb,CAAsBF,IAAtB;AACE,oBAAIG,OAAOH,KAAKI,sBAAL,CAA4B,iBAA5B,CAAX;AACFV,uBAAKS,KAAKE,eAAL,CAAqBP,CAArB,EAAwB,SAAxB,EAAmCC,OAAnC,CAAL;AACD;AACF;AACDzB,iBAAKQ,OAAL,CAAawB,MAAb,GAAsBd,IAAIG,MAAJ,GAAa,EAAnC;AACC;AAEJ,KA9CI;AA+CJ;;;AAGDY,eAAW,qBAAY;AACtBC;AACA;AApDI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var self;\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n            yaopinPrefab: cc.Prefab,\r\n                 content: cc.Node,\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        \r\n        self=this;\r\n         ajaxData(HxsgUrl.queryFriends,userWuPin.objects,this.friendsList);\r\n\r\n\r\n    },\r\n    friendsList: function (data) {\r\n       // this.clearScrollview();\r\n        var msg = data.msg\r\n        cc.log(data)\r\n        var num=0;\r\n        if(msg==''||typeof(msg)=='undefined'||msg.length==0){\r\n            showAlert(\"没有查到搜索信息！\")\r\n        }else{\r\n        var total=msg.length;\r\n        for (var i = 0; i < msg.length; i++) {\r\n            var itemMsg = msg[i];\r\n            var item = cc.instantiate(self.yaopinPrefab);\r\n            self.content.addChild(item);\r\n              var comp = item.getComponentInChildren('friendsListItem');\r\n            num+=comp.initFriendsList(i, 'friends', itemMsg);\r\n           // comp.selectBn.node.on(\"click\",self.skillList,self)\r\n        }\r\n        self.content.height = msg.length * 65;\r\n        }\r\n       \r\n    },\r\n     /**\r\n     * 点击事件-->返回\r\n     */\r\n    backEvent: function () {\r\n     returnLast();\r\n    },\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

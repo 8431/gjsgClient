@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dlg_insure_bar",
+    "texture": "ffc306c4-21cd-499a-8d00-803c4a987608",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      312
+    ],
+    "offset": [
+      0,
+      55.5
+    ],
+    "originalSize": [
+      250,
+      423
+    ]
+  }
+}

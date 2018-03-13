@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pk_bomb_prepare_19",
+    "texture": "c5ac643d-10eb-4aba-b9ca-2269e7bca516",
+    "atlas": "",
+    "rect": [
+      42,
+      103,
+      330,
+      396
+    ],
+    "offset": [
+      4.5,
+      -13
+    ],
+    "originalSize": [
+      405,
+      576
+    ]
+  }
+}

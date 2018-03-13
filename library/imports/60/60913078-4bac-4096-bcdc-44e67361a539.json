@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "systemMsg2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.05,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "4bbd80e4-149f-41b8-b414-1336a2ea17b7"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "2152f15b-bd68-4120-8352-59a984b38aaa"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

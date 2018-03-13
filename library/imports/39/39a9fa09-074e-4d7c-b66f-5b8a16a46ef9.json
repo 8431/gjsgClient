@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hero_Skill_13_Shadow",
+    "texture": "dd510e12-88f3-4ec5-bc90-d4cb5ba94796",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      88,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      30
+    ]
+  }
+}

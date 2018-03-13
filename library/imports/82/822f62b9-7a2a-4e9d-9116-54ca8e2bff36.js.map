@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "totalPointsLabel",
+    "Label",
+    "fangyuValueLabel",
+    "qixueLabel",
+    "tizhiLabel",
+    "jingliLabel",
+    "zhiliLabel",
+    "gongjiLabel",
+    "liliangLabel",
+    "suduLabel",
+    "minjieLabel",
+    "onLoad",
+    "loadCommomScence",
+    "self",
+    "init",
+    "ajaxCallback",
+    "msg",
+    "fujiang",
+    "fjmsg",
+    "string",
+    "keyongds",
+    "qiXue2",
+    "qixueds",
+    "jingLi2",
+    "jinglids",
+    "gongJi",
+    "gongJids",
+    "suDu",
+    "sududs",
+    "backEvent",
+    "returnLastScene",
+    "HxsgScenes",
+    "propertyCheck"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,0BAAkBL,GAAGM,KADb;AAERC,0BAAkBP,GAAGM,KAFb;AAGRE,oBAAYR,GAAGM,KAHP;AAIRG,oBAAYT,GAAGM,KAJP;AAKRI,qBAAaV,GAAGM,KALR;AAMRK,oBAAYX,GAAGM,KANP;AAORM,qBAAaZ,GAAGM,KAPR;AAQRO,sBAAcb,GAAGM,KART;AASRQ,mBAAWd,GAAGM,KATN;AAURS,qBAAaf,GAAGM;AAVR,KAHP;;AAgBL;AACAU,YAAQ,kBAAY;AAChBC;AACAC,eAAO,IAAP;AACA,aAAKC,IAAL;AACH,KArBI;;AAuBL;;;;AAIAC,kBAAc,sBAAUC,GAAV,EAAe;AACzBH,aAAKC,IAAL;AACH,KA7BI;;AA+BL;;;;AAIAA,UAAM,gBAAY;AACd,YAAIE,MAAIC,QAAQC,KAAhB;AACA;AACAL,aAAKb,gBAAL,CAAsBmB,MAAtB,GAA+BH,IAAII,QAAnC;AACAP,aAAKX,gBAAL,CAAsBiB,MAAtB,GAA+B,CAA/B;AACAN,aAAKV,UAAL,CAAgBgB,MAAhB,GAAyBH,IAAIK,MAA7B;AACAR,aAAKT,UAAL,CAAgBe,MAAhB,GAAyBH,IAAIM,OAA7B;AACAT,aAAKR,WAAL,CAAiBc,MAAjB,GAA0BH,IAAIO,OAA9B;AACAV,aAAKP,UAAL,CAAgBa,MAAhB,GAAyBH,IAAIQ,QAA7B;AACAX,aAAKN,WAAL,CAAiBY,MAAjB,GAA0BH,IAAIS,MAA9B;AACAZ,aAAKL,YAAL,CAAkBW,MAAlB,GAA2BH,IAAIU,QAA/B;AACAb,aAAKJ,SAAL,CAAeU,MAAf,GAAwBH,IAAIW,IAA5B;AACAd,aAAKH,WAAL,CAAiBS,MAAjB,GAA0BH,IAAIY,MAA9B;AAEH,KAjDI;;AAmDLC,eAAW,qBAAY;AACnBC,wBAAgBC,WAAWC,aAA3B;AACH;;AAED;AACA;;AAEA;AA1DK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        totalPointsLabel: cc.Label,\r\n        fangyuValueLabel: cc.Label,\r\n        qixueLabel: cc.Label,\r\n        tizhiLabel: cc.Label,\r\n        jingliLabel: cc.Label,\r\n        zhiliLabel: cc.Label,\r\n        gongjiLabel: cc.Label,\r\n        liliangLabel: cc.Label,\r\n        suduLabel: cc.Label,\r\n        minjieLabel: cc.Label\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        loadCommomScence();\r\n        self = this;\r\n        this.init();\r\n    },\r\n\r\n    /**\r\n     * 服务器请求回掉函数\r\n     * @param msg\r\n     */\r\n    ajaxCallback: function (msg) {\r\n        self.init();\r\n    },\r\n\r\n    /**\r\n     * 根据数据初始化场景页面\r\n     * @param msg\r\n     */\r\n    init: function () {\r\n        let msg=fujiang.fjmsg\r\n        //Label赋值\r\n        self.totalPointsLabel.string = msg.keyongds;\r\n        self.fangyuValueLabel.string = 0;\r\n        self.qixueLabel.string = msg.qiXue2;\r\n        self.tizhiLabel.string = msg.qixueds;\r\n        self.jingliLabel.string = msg.jingLi2;\r\n        self.zhiliLabel.string = msg.jinglids;\r\n        self.gongjiLabel.string = msg.gongJi;\r\n        self.liliangLabel.string = msg.gongJids;\r\n        self.suduLabel.string = msg.suDu;\r\n        self.minjieLabel.string = msg.sududs;\r\n       \r\n    },\r\n\r\n    backEvent: function () {\r\n        returnLastScene(HxsgScenes.propertyCheck);\r\n    }\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

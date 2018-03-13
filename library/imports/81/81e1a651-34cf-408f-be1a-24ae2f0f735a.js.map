@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "msg",
+    "Label",
+    "onLoad",
+    "string",
+    "setMsg",
+    "msgStr"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,aAAKL,GAAGM;AADA,KAHP;;AAOL;AACAC,YAAQ,kBAAY;AAChB,aAAKF,GAAL,CAASG,MAAT,GAAkB,EAAlB;AACH,KAVI;;AAYLC,YAAQ,gBAASC,MAAT,EAAgB;AACpB,aAAKL,GAAL,CAASG,MAAT,GAAkBE,MAAlB;AACH;;AAdI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        msg: cc.Label\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.msg.string = '';\r\n    },\r\n\r\n    setMsg: function(msgStr){\r\n        this.msg.string = msgStr;\r\n    }\r\n\r\n});\r\n"
+  ]
+}

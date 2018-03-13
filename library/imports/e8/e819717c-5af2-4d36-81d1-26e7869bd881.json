@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZPoker-tip_pic_add",
+    "texture": "faced866-1636-4940-bb5e-1b99fa3174dc",
+    "atlas": "69f33637-ffdc-4728-ae9a-656738bd8a5b",
+    "rect": [
+      929,
+      453,
+      80,
+      42
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      82,
+      42
+    ]
+  }
+}

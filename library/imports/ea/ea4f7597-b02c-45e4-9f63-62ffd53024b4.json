@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sellGold_normal",
+    "texture": "c06b6fe0-8987-4c78-89d2-7e1c38ee99c4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      58
+    ]
+  }
+}

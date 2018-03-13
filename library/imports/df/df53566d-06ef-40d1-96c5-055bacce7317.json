@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bank_titel",
+    "texture": "0d28cb52-5a0f-4ee3-9380-9111bbd5a53e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      88,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      56
+    ]
+  }
+}

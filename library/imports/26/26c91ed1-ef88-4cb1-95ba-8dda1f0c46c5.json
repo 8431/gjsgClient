@@ -1,0 +1,242 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "GameLandRes.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "GameLand-Animations-bomb_frame_01": {
+      "__uuid__": "fb0ce26e-d825-49e6-8833-9d88ee212037"
+    },
+    "GameLand-Animations-bomb_frame_02": {
+      "__uuid__": "557f124d-4e4d-49d2-adf8-8868dfbfec05"
+    },
+    "GameLand-Animations-bomb_frame_03": {
+      "__uuid__": "ec0c0a2a-9160-479d-95b8-6d5b69b69db7"
+    },
+    "GameLand-Animations-bomb_frame_04": {
+      "__uuid__": "05ca51b4-d451-49e1-bba1-3e33e645d444"
+    },
+    "GameLand-Animations-bomb_frame_05": {
+      "__uuid__": "6d755c6c-f3db-4916-9667-d3e1a53876cb"
+    },
+    "GameLand-Animations-bomb_frame_06": {
+      "__uuid__": "e60af345-ab21-4096-a97d-d8c1c36ac267"
+    },
+    "GameLand-Animations-bomb_frame_07": {
+      "__uuid__": "fd109a93-d4b5-42c4-8f35-8175af085e07"
+    },
+    "GameLand-Animations-bomb_frame_08": {
+      "__uuid__": "da691086-32d5-4c8d-9ec7-fa383b6b1233"
+    },
+    "GameLand-Animations-bomb_frame_09": {
+      "__uuid__": "4690b215-d149-4b76-aedd-df23367549fa"
+    },
+    "GameLand-Animations-bomb_frame_10": {
+      "__uuid__": "b70d09a6-ba50-4f09-abc7-c672f29320bf"
+    },
+    "GameLand-Animations-bomb_frame_11": {
+      "__uuid__": "17bd023d-37a2-410f-9f8f-1c7a5bf57410"
+    },
+    "GameLand-Animations-bomb_frame_12": {
+      "__uuid__": "1e577488-30ff-490a-a2a5-06204d6261c8"
+    },
+    "GameLand-Animations-bomb_frame_13": {
+      "__uuid__": "73da40c9-2651-4421-bf55-149701fdd553"
+    },
+    "GameLand-Animations-bomb_frame_14": {
+      "__uuid__": "bebd89e5-80e7-4a47-8adf-32f5613561fa"
+    },
+    "GameLand-Animations-bomb_frame_15": {
+      "__uuid__": "6c1cda47-93eb-4634-bdb1-eba4215313e4"
+    },
+    "GameLand-Animations-bomb_frame_16": {
+      "__uuid__": "2bb0559f-49f3-4165-83f3-8d3533bcc1a9"
+    },
+    "GameLand-Animations-bomb_frame_17": {
+      "__uuid__": "0af0831a-01e9-4ea6-b72a-08a34d37a4b8"
+    },
+    "GameLand-Animations-bomb_frame_18": {
+      "__uuid__": "1041d063-8505-4664-b613-f1507d160e2b"
+    },
+    "GameLand-Animations-bomb_frame_19": {
+      "__uuid__": "cc1c97d9-4438-4ae3-b397-dde183347746"
+    },
+    "GameLand-Animations-declear_anim_01": {
+      "__uuid__": "b8142dee-4d6d-48d8-8246-880e05a3fac5"
+    },
+    "GameLand-Animations-declear_anim_02": {
+      "__uuid__": "dbecfe50-d6c3-48c3-acdc-854066c76c8e"
+    },
+    "GameLand-Animations-declear_anim_03": {
+      "__uuid__": "2b310e96-b8d0-49fb-8397-fbaa2c8657bf"
+    },
+    "GameLand-Animations-declear_anim_04": {
+      "__uuid__": "3685f11f-7204-41ef-b8b5-e62209d0016f"
+    },
+    "GameLand-Animations-declear_anim_05": {
+      "__uuid__": "187b6bfe-0016-4867-a875-eb4fc5a6903c"
+    },
+    "GameLand-Animations-declear_anim_06": {
+      "__uuid__": "a09630e2-d039-4469-a409-dbb383abc487"
+    },
+    "GameLand-Animations-declear_anim_07": {
+      "__uuid__": "224703f0-ba7e-4555-bca8-f9838f9bc4f6"
+    },
+    "GameLand-Animations-declear_anim_08": {
+      "__uuid__": "1ade41cb-512e-4ef3-a60b-003c8275856a"
+    },
+    "GameLand-Animations-declear_anim_09": {
+      "__uuid__": "5c859cb4-6cc9-430d-a2b8-1d5d2108b97c"
+    },
+    "GameLand-Animations-declear_anim_10": {
+      "__uuid__": "46eb0756-378a-4fac-9503-d4f1b0d43453"
+    },
+    "GameLand-Animations-fst_table_anim_01": {
+      "__uuid__": "96b3c6b4-3c32-4b28-a5e0-38a53221f3c2"
+    },
+    "GameLand-Animations-fst_table_anim_02": {
+      "__uuid__": "36ed4a75-8c6d-49c1-8c3b-1b7e6df6fee5"
+    },
+    "GameLand-Animations-fst_table_anim_03": {
+      "__uuid__": "f35c43cb-522c-472b-8ce7-46b0edb2c158"
+    },
+    "GameLand-Animations-fst_table_anim_04": {
+      "__uuid__": "4444cf18-2bfe-49f0-add7-a654d0467e48"
+    },
+    "GameLand-Animations-plane1": {
+      "__uuid__": "288161c9-0f00-41fe-8732-b6a0517c571d"
+    },
+    "GameLand-Animations-plane2": {
+      "__uuid__": "742c18ff-9c5b-4084-9d39-f3b84656d4b2"
+    },
+    "GameLand-Animations-plane3": {
+      "__uuid__": "c24cdba5-04c9-4052-9a62-3ea83123bf91"
+    },
+    "GameLand-Animations-remain_alarm_1": {
+      "__uuid__": "0c15495b-9bc9-419c-8e31-5632be6c4603"
+    },
+    "GameLand-Animations-remain_alarm_2": {
+      "__uuid__": "074c4da7-e020-4aec-8a8c-9ab371e193a7"
+    },
+    "GameLand-btn_callscore_d_0": {
+      "__uuid__": "670653d4-5cde-4dc5-9274-2d6d67eaaf31"
+    },
+    "GameLand-btn_callscore_d_1": {
+      "__uuid__": "4872939d-7671-49bb-ab4c-e68d72de4962"
+    },
+    "GameLand-btn_callscore_d_2": {
+      "__uuid__": "355e9c87-4203-4108-a90a-d1143f04517c"
+    },
+    "GameLand-btn_callscore_d_3": {
+      "__uuid__": "fc3d71dc-c67b-45b1-bf92-7a23c192c6d9"
+    },
+    "GameLand-btn_callscore_n_0": {
+      "__uuid__": "09760599-6e16-4518-948c-45b7219d825a"
+    },
+    "GameLand-btn_callscore_n_1": {
+      "__uuid__": "4958bb30-c86d-4865-9031-1d8808e76ccd"
+    },
+    "GameLand-btn_callscore_n_2": {
+      "__uuid__": "3e1a1fc3-eafa-415f-b83c-9d4f25ab6a96"
+    },
+    "GameLand-btn_callscore_n_3": {
+      "__uuid__": "3ab4495f-6365-4bdb-ac47-f3fef05153f1"
+    },
+    "GameLand-btn_cardrecord_n": {
+      "__uuid__": "b3e42385-9924-4759-84da-39e586e2ebea"
+    },
+    "GameLand-btn_continue_n": {
+      "__uuid__": "aa178d10-85d7-474f-97e1-724fa2a7757e"
+    },
+    "GameLand-btn_exit_n": {
+      "__uuid__": "cc018867-1b1e-4749-85b0-c1f37b15a644"
+    },
+    "GameLand-btn_nobig_n": {
+      "__uuid__": "bc82e014-3a94-4ac0-b8ed-24976526ad78"
+    },
+    "GameLand-btn_pass_d": {
+      "__uuid__": "67c57856-23bd-4dcd-b4f5-20507262201b"
+    },
+    "GameLand-btn_pass_n": {
+      "__uuid__": "ba0b95f6-39d6-4e22-bb01-cb0ec402a995"
+    },
+    "GameLand-btn_product_d": {
+      "__uuid__": "d1621cf8-0795-4e0f-981f-df27c50629c8"
+    },
+    "GameLand-btn_product_n": {
+      "__uuid__": "1294dd12-7d7b-44a1-a86e-210d1af73733"
+    },
+    "GameLand-btn_prompt_d": {
+      "__uuid__": "bfc57905-9875-4c41-a6f7-ea7502cb50df"
+    },
+    "GameLand-btn_prompt_n": {
+      "__uuid__": "61009321-b262-410a-bbec-194c216b0742"
+    },
+    "GameLand-btn_reselect_d": {
+      "__uuid__": "0b934b78-ad81-4206-963f-89582a2af114"
+    },
+    "GameLand-btn_reselect_n": {
+      "__uuid__": "062d62fc-ec94-47c7-be69-05a583f6a868"
+    },
+    "GameLand-btn_stop_trustee_n": {
+      "__uuid__": "cab6a215-1fd6-46e3-8fa1-1b6e3006e199"
+    },
+    "GameLand-btn_stop_trustee_s": {
+      "__uuid__": "946eaf7c-dcc1-458d-b3d6-5a91859485f1"
+    },
+    "GameLand-buchu": {
+      "__uuid__": "0fee8fca-c949-465e-b0a2-cb02c563962f"
+    },
+    "GameLand-call_score_0": {
+      "__uuid__": "771b35e5-82fd-41e9-b257-645a579099c8"
+    },
+    "GameLand-call_score_1": {
+      "__uuid__": "18636c02-62d6-46d5-85b6-f5e7fc6d9ff5"
+    },
+    "GameLand-call_score_2": {
+      "__uuid__": "97d08480-bf77-4f7e-962a-266ec2463fe1"
+    },
+    "GameLand-call_score_3": {
+      "__uuid__": "0e0f8730-f99c-4405-95f6-7cf8b9daa611"
+    },
+    "GameLand-cannot_takeout_card_prompt": {
+      "__uuid__": "f4ac378c-250b-4b47-b506-a46c90ce4396"
+    },
+    "GameLand-card_bottom_bg": {
+      "__uuid__": "17d758b2-1279-4e09-beb6-2c89df643268"
+    },
+    "GameLand-card_record": {
+      "__uuid__": "01917c1c-f1d1-4284-bb14-7a650724a69a"
+    },
+    "GameLand-card_tag_dizhu": {
+      "__uuid__": "5ce9a16e-35c6-4bc3-9cc3-adc27a450418"
+    },
+    "GameLand-cardbg": {
+      "__uuid__": "1998461a-dd13-4e4c-90f3-228b7284929b"
+    },
+    "GameLand-head_box": {
+      "__uuid__": "6bf3e449-b13d-4739-93d4-eded75a7f930"
+    },
+    "GameLand-icon_score": {
+      "__uuid__": "82135cda-389b-4ee3-a0fc-b56e93359ccf"
+    },
+    "GameLand-pass": {
+      "__uuid__": "e0b4a6a7-502c-4b01-83f2-b66bcc86be01"
+    },
+    "GameLand-pic_bottom_score": {
+      "__uuid__": "c2ca05e5-9573-4352-a14e-9e525e930b8d"
+    },
+    "GameLand-pic_call_score": {
+      "__uuid__": "7ddf97ef-5226-40ba-9867-ebcdc4098297"
+    },
+    "GameLand-player_dz": {
+      "__uuid__": "1e0af2c5-480d-4e7c-9a23-1d182325d3e4"
+    },
+    "GameLand-player_nm": {
+      "__uuid__": "82188e87-9e5b-4635-8d0f-a4e7ecff5622"
+    },
+    "GameLand-rocket": {
+      "__uuid__": "1a86f0ef-b411-4cc4-919c-ef0984bff37c"
+    }
+  }
+}

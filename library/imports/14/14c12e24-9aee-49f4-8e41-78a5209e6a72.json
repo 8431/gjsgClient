@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "chat.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "chatBtnBg": {
+      "__uuid__": "8acb6d0b-2886-4414-84ba-520a88f4e1dd"
+    },
+    "chatTs": {
+      "__uuid__": "5602ed0b-63f0-4825-91b4-d1f3112db175"
+    },
+    "hybut": {
+      "__uuid__": "329aefca-3b5f-4d59-b89b-892fc79a6f2d"
+    },
+    "quxiao": {
+      "__uuid__": "b445989a-238b-431d-a3d3-0d3a2e69d85d"
+    },
+    "send": {
+      "__uuid__": "569fceee-acdf-4660-97a1-23f60505c590"
+    },
+    "speak": {
+      "__uuid__": "a07043f4-5bd5-4cc2-986b-42e44cf2b70c"
+    },
+    "speakPage": {
+      "__uuid__": "3c5701ed-5733-458e-a9f1-d35c8ec42059"
+    }
+  }
+}

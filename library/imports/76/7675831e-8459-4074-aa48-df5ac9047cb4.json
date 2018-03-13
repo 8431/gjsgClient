@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lookOver_normal",
+    "texture": "be16e22d-60a0-44e2-8ea5-7f9e09bafee0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      102,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      102,
+      58
+    ]
+  }
+}

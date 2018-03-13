@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hero_Skill_23_12",
+    "texture": "e7764867-6acb-45bc-97da-671bf2c57685",
+    "atlas": "",
+    "rect": [
+      39,
+      52,
+      220,
+      129
+    ],
+    "offset": [
+      -1,
+      -16.5
+    ],
+    "originalSize": [
+      300,
+      200
+    ]
+  }
+}

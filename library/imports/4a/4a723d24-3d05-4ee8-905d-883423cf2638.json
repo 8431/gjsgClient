@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZPoker-pic_progress_bg",
+    "texture": "faced866-1636-4940-bb5e-1b99fa3174dc",
+    "atlas": "69f33637-ffdc-4728-ae9a-656738bd8a5b",
+    "rect": [
+      781,
+      354,
+      119,
+      125
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      119,
+      125
+    ]
+  }
+}

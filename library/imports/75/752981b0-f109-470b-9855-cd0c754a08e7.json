@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Skill_Tornado_12",
+    "texture": "b2fe877f-6a46-4c11-8a21-d8bcbdf13b1e",
+    "atlas": "",
+    "rect": [
+      5,
+      2,
+      275,
+      196
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      280,
+      200
+    ]
+  }
+}

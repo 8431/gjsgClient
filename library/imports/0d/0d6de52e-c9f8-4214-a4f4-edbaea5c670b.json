@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZaJinHua-pic_card_type_6",
+    "texture": "a26f0722-50c3-4832-90b7-1bb19163a17f",
+    "atlas": "579f99d5-eaa2-4776-b7ff-c037fb97fba9",
+    "rect": [
+      169,
+      629,
+      54,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      24
+    ],
+    "rotated": 1
+  }
+}

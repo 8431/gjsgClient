@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hxsgHead",
+    "texture": "446740b3-f7aa-4e33-a280-e9db3cd077eb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      465,
+      115
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      467,
+      115
+    ]
+  }
+}

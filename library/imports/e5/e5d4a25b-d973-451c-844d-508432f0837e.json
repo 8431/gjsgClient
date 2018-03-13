@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "lable",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.36666666666666664,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 36,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            250,
+            631
+          ],
+          "motionPath": [
+            [
+              198,
+              623,
+              226,
+              599,
+              184,
+              612
+            ]
+          ]
+        },
+        {
+          "frame": 0.36666666666666664,
+          "value": [
+            190,
+            583
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

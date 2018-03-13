@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gongji",
+    "texture": "78fd723a-e6d9-437d-8835-8bb22ea0e907",
+    "atlas": "",
+    "rect": [
+      2,
+      3,
+      1396,
+      417
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      1400,
+      420
+    ]
+  }
+}

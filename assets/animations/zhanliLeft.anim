@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhanliLeft",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "body": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                40.027612121213444,
+                -29.111862683164517
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                40.027612121213444,
+                -30.111862683164517
+              ]
+            }
+          ]
+        }
+      },
+      "top": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -1
+            },
+            {
+              "frame": 0.5,
+              "value": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

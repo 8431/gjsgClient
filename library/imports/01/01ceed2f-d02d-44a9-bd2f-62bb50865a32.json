@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sellGold_pressed",
+    "texture": "8d9db612-fd48-46bd-b6ce-d773384cceb2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      60
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "msg",
+    "RichText",
+    "onLoad",
+    "self",
+    "string",
+    "ajaxData",
+    "HxsgUrl",
+    "userWuPin",
+    "wupinId",
+    "backEvent",
+    "loadScene",
+    "HxsgScenes",
+    "wupin",
+    "index"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,aAAIL,GAAGM;AADC,KAHP;;AAiBL;AACAC,YAAQ,kBAAY;AAChB,YAAIC,OAAK,IAAT;AACCA,aAAKH,GAAL,CAASI,MAAT,GAAgB,EAAhB;AACEC,iBAASC,QAAQC,SAAjB,EAA2B,EAAC,WAAUA,UAAUC,OAArB,EAA6B,OAAM,CAAnC,EAA3B,EAAkE,UAAUR,GAAV,EAAe;AAChFG,iBAAKH,GAAL,CAASI,MAAT,GAAgBJ,IAAIA,GAApB;AACC,SAFF;AAKN,KA1BI;AA2BR;;;AAGGS,eAAW,qBAAY;AACnB;AACD;AACGC,kBAAUC,WAAWC,KAArB,EAA4BD,WAAWE,KAAvC;AACL;AAlCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        msg:cc.RichText,\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        var self=this;\r\n         self.msg.string=\"\";\r\n           ajaxData(HxsgUrl.userWuPin,{\"wupinId\":userWuPin.wupinId,\"num\":1}, function (msg) {\r\n            self.msg.string=msg.msg;\r\n            }\r\n              \r\n          );\r\n    },\r\n /**\r\n     * 点击事件-->返回\r\n     */\r\n    backEvent: function () {\r\n        //调用通用的返回上一场景方法\r\n       //调用通用的返回上一场景方法\r\n          loadScene(HxsgScenes.wupin, HxsgScenes.index);\r\n    },\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

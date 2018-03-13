@@ -1,0 +1,44 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "self",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "yaoname",
+    "Label",
+    "level",
+    "ms",
+    "price",
+    "num",
+    "EditBox",
+    "onLoad",
+    "loadCommomScence",
+    "yaoClick",
+    "event",
+    "ajaxData",
+    "HxsgUrl",
+    "queryYaoPinDetail",
+    "data",
+    "code",
+    "re",
+    "string",
+    "yaoid",
+    "yaoprice",
+    "showAlert",
+    "goumai",
+    "log",
+    "buyYao",
+    "message"
+  ],
+  "mappings": ";;AACA,IAAIA,IAAJ;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,iBAASL,GAAGM,KADJ;AAERC,eAAOP,GAAGM,KAFF;AAGRE,YAAIR,GAAGM,KAHC;AAIRG,eAAOT,GAAGM,KAJF;AAKRI,aAAKV,GAAGW;AALA,KAHP;;AAqBL;AACAC,YAAQ,kBAAY;AAChBb,eAAO,IAAP;AACAc;AAEH,KA1BI;AA2BLC,cAAU,kBAAUC,KAAV,EAAiBL,GAAjB,EAAsB;AAC5BM,iBAASC,QAAQC,iBAAjB,EAAoC;AAChC,kBAAMR;AAD0B,SAApC,EAEG,UAAUS,IAAV,EAAgB;AACf,gBAAIA,KAAKC,IAAL,GAAY,KAAhB,EAAuB;AACnB,oBAAIC,KAAKF,KAAKA,IAAd;AACApB,qBAAKM,OAAL,CAAaiB,MAAb,GAAsBD,GAAGhB,OAAzB;AACAN,qBAAKQ,KAAL,CAAWe,MAAX,GAAoBD,GAAGE,KAAvB;AACAxB,qBAAKS,EAAL,CAAQc,MAAR,GAAiBD,GAAGb,EAApB;AACAT,qBAAKU,KAAL,CAAWa,MAAX,GAAoBD,GAAGG,QAAvB;AACH,aAND,MAMO;AACHC,0BAAU,QAAV;AAEH;AAEJ,SAdD;AAgBH,KA5CI;AA6CLC,YAAQ,kBAAY;AAChB1B,WAAG2B,GAAH,CAAO,UAAU5B,KAAKQ,KAAL,CAAWe,MAA5B;AACAtB,WAAG2B,GAAH,CAAO,UAAU5B,KAAKW,GAAL,CAASY,MAA1B;AACA,YAAIvB,KAAKW,GAAL,CAASY,MAAT,IAAmB,EAAvB,EAA2B;AACvBG,sBAAU,SAAV;AACH,SAFD,MAEO;AACHzB,eAAG2B,GAAH,CAAO,QAAP;AACAX,qBAASC,QAAQW,MAAjB,EAAyB,EAAE,MAAM7B,KAAKQ,KAAL,CAAWe,MAAnB,EAA0B,OAAOvB,KAAKW,GAAL,CAASY,MAA1C,EAAzB,EAA6E,UAAUH,IAAV,EAAgB;AACzF,oBAAIA,KAAKC,IAAL,IAAa,KAAjB,EAAwB;AACpBK,8BAAUN,KAAKA,IAAL,CAAUU,OAApB;AACH,iBAFD,MAEO;AACHJ,8BAAU,OAAV;AACH;AACJ,aAND;AAQH;AAKJ;;AAGD;AACA;;AAEA;AAvEK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\nvar self;\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        yaoname: cc.Label,\r\n        level: cc.Label,\r\n        ms: cc.Label,\r\n        price: cc.Label,\r\n        num: cc.EditBox,\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        self = this;\r\n        loadCommomScence();\r\n\r\n    },\r\n    yaoClick: function (event, num) {\r\n        ajaxData(HxsgUrl.queryYaoPinDetail, {\r\n            'id': num\r\n        }, function (data) {\r\n            if (data.code = \"000\") {\r\n                let re = data.data;\r\n                self.yaoname.string = re.yaoname;\r\n                self.level.string = re.yaoid;\r\n                self.ms.string = re.ms;\r\n                self.price.string = re.yaoprice;\r\n            } else {\r\n                showAlert(\"服务器出错！\");\r\n\r\n            }\r\n\r\n        });\r\n\r\n    },\r\n    goumai: function () {\r\n        cc.log(\"购买药品：\" + self.level.string);\r\n        cc.log(\"购买药品：\" + self.num.string);\r\n        if (self.num.string == \"\") {\r\n            showAlert(\"请输入购买数量\")\r\n        } else {\r\n            cc.log(\"提交购买药品\");\r\n            ajaxData(HxsgUrl.buyYao, { 'id': self.level.string,'num': self.num.string }, function (data) {\r\n                if (data.code == \"000\") {\r\n                    showAlert(data.data.message)\r\n                } else {\r\n                    showAlert(\"服务器错误\")\r\n                }\r\n            });\r\n\r\n        }\r\n\r\n\r\n\r\n\r\n    }\r\n\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hero_Skill_13_LionHead",
+    "texture": "cc680637-e2e4-4f97-b0f6-23f59e7a9397",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      120,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      110
+    ]
+  }
+}

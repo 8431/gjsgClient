@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "top",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "props": {}
+  },
+  "events": []
+}

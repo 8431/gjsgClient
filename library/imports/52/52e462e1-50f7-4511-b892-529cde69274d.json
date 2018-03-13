@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sparrow-user_bottom_black",
+    "texture": "64606081-5d77-464a-84b7-18157c283d46",
+    "atlas": "da1b791b-316c-4ff9-99c6-36a443f5be92",
+    "rect": [
+      104,
+      789,
+      70,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      100
+    ],
+    "rotated": 1
+  }
+}

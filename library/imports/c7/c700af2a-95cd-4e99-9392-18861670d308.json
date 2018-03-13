@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "while",
+    "texture": "3741e59b-f9b5-4429-9446-4899b662c73a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      472,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      472,
+      94
+    ]
+  }
+}

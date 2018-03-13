@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "emojis"
+  ],
+  "mappings": ";;AAAA,IAAIA,SAAS,CAAC,MAAD,EAAS,MAAT,EAAiB,MAAjB,EAAyB,MAAzB,EAAiC,MAAjC,EAAyC,MAAzC,EAAiD,MAAjD,EAAyD,MAAzD,EAAiE,MAAjE,EAAyE,MAAzE,EAAiF,MAAjF,EAAyF,MAAzF,EAAiG,MAAjG,EAAyG,MAAzG,EAAiH,MAAjH,EAAyH,MAAzH,EAAiI,MAAjI,EAAyI,MAAzI,EAAiJ,MAAjJ,EAAyJ,MAAzJ,EAAiK,MAAjK,EAAyK,MAAzK,EAAiL,MAAjL,CAAb",
+  "file": "unknown",
+  "sourcesContent": [
+    "var emojis = [\"f001\", \"f002\", \"f003\", \"f004\", \"f005\", \"f006\", \"f007\", \"f008\", \"f009\", \"f010\", \"f011\", \"f012\", \"f013\", \"f014\", \"f015\", \"f016\", \"f017\", \"f018\", \"f019\", \"f020\", \"f021\", \"f022\", \"f023\"];\r\n"
+  ]
+}

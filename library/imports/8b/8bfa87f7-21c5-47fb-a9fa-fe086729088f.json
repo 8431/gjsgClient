@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beibao",
+    "texture": "3c0fafd6-d7cd-4800-8b82-50cbe86944ec",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      119,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      119,
+      99
+    ]
+  }
+}

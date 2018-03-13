@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buyGold_normal",
+    "texture": "6aacae0c-4c3f-440c-9884-b49c3304789c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      58
+    ]
+  }
+}

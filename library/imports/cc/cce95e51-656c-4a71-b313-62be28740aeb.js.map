@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "account",
+    "default",
+    "type",
+    "EditBox",
+    "pass",
+    "pass2",
+    "suppass",
+    "suppass2",
+    "regInfo",
+    "Label",
+    "onLoad",
+    "string",
+    "zhuce",
+    "self",
+    "showAlert",
+    "log",
+    "dataJson",
+    "ajaxData",
+    "HxsgUrl",
+    "checkAcount",
+    "msg",
+    "code",
+    "data",
+    "register",
+    "loadScene",
+    "message",
+    "comeBack"
+  ],
+  "mappings": "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",
+  "file": "unknown",
+  "sourcesContent": [
+    "//var WS = require('serverSetup.js');\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        account: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        pass: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        pass2: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        suppass: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        suppass2: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        regInfo: {\r\n            default: null,\r\n            type: cc.Label,\r\n        },\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.regInfo.string = '';\r\n\r\n\r\n    },\r\n\r\n    //注册按钮\r\n    zhuce: function () {\r\n        //获取注册信息\r\n        var self = this;\r\n        var account = this.account.string;\r\n        var pass = this.pass.string;\r\n        var pass2 = this.pass2.string;\r\n        var suppass = this.suppass.string;\r\n        var suppass2 = this.suppass2.string;\r\n        //判断密码一致性（是否设置密码与超级密码不同？）\r\n        if (pass !== pass2) {\r\n            showAlert(\"两次密码不一致\");\r\n            //this.regInfo.string = \"两次密码不一致\";\r\n            pass2.string = \"\";\r\n            return;\r\n        }\r\n        if (suppass !== suppass2) {\r\n            showAlert(\"两次超级密码不一致\");\r\n            //this.regInfo.string = \"两次超级密码不一致\";\r\n            suppass2.string = \"\";\r\n            return;\r\n        }\r\n\r\n        cc.log(account);\r\n        cc.log(pass + \"==\" + pass2);\r\n        cc.log(suppass + \"==\" + suppass2);\r\n\r\n        var dataJson = { \"name\": account };\r\n        //检测账号重名\r\n        ajaxData(HxsgUrl.checkAcount, dataJson, function (msg) {\r\n            if (msg.code == \"000\") {\r\n                if (msg.data === \"001\") {\r\n                    showAlert(\"账号已存在\");\r\n                    //self.regInfo.string = \"账号已存在\"\r\n                    self.account.string = \"\";\r\n                    return;\r\n                }\r\n                //允许注册 \r\n                else if (msg.data === \"000\") {\r\n                    cc.log(\"账号注册开始\");\r\n                    cc.log(account);\r\n                    cc.log(pass);\r\n                    cc.log(suppass);\r\n                    var dataJson = { \"name\": account, \"password\": pass, \"supperpass\": suppass };\r\n                    //注册账号\r\n                    ajaxData(HxsgUrl.register, dataJson, function (msg) {\r\n                        cc.log(msg);\r\n                        if (msg.code == \"000\") {\r\n                            if (msg.data === \"000\") {\r\n                                cc.log(\"注册成功，跳转到角色创建界面\");\r\n                                showAlert(\"恭喜您注册成功\", function () { loadScene(\"login\", \"register\"); }, function () { loadScene(\"login\", \"register\"); })\r\n\r\n                                //cc.director.loadScene('createRole');\r\n                            }\r\n                            else if (msg.data === \"001\") {\r\n                                cc.log(\"注册失败\");\r\n                                showAlert(msg.message);\r\n                                return;\r\n                            }\r\n                            else {\r\n                                showAlert(\"未知错误，注册失败：msg：\" + msg);\r\n                                cc.log(\"未知错误\");\r\n                            }\r\n                        } else {\r\n                            showAlert(\"服务器异常\");\r\n                        }\r\n\r\n                    });\r\n                    return;\r\n                }\r\n\r\n\r\n            } else {\r\n                showAlert(\"服务器异常\");\r\n            }\r\n\r\n        });\r\n    },\r\n\r\n    //返回登入界面\r\n    comeBack: function () {\r\n        loadScene(\"login\", \"register\");\r\n        //cc.director.loadScene('login');\r\n    },\r\n});\r\n"
+  ]
+}

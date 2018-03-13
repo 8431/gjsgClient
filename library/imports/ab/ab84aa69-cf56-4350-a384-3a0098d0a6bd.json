@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CELL_NUMBER",
+    "texture": "48e6c2c0-e4e9-46c3-a819-e7ab923944c9",
+    "atlas": "",
+    "rect": [
+      13,
+      1,
+      238,
+      28
+    ],
+    "offset": [
+      6,
+      0
+    ],
+    "originalSize": [
+      252,
+      30
+    ]
+  }
+}

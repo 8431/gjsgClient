@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "richLabel",
+    "RichText",
+    "sprite",
+    "Sprite",
+    "onLoad",
+    "initChatMsgItem",
+    "index",
+    "type",
+    "data",
+    "event",
+    "node",
+    "name",
+    "richString",
+    "time",
+    "d",
+    "Date",
+    "hh",
+    "getHours",
+    "mm",
+    "getMinutes",
+    "times",
+    "myFriends",
+    "friendid",
+    "roleid",
+    "rolename",
+    "message",
+    "string"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,mBAAWL,GAAGM,QADN;AAERC,gBAAQP,GAAGQ;AAFH,KAHP;;AAQL;AACAC,YAAQ,kBAAY,CAEnB,CAXI;;AAaNC,qBAAiB,yBAAUC,KAAV,EAAiBC,IAAjB,EAAuBC,IAAvB,EAA6BC,KAA7B,EAAoC;;AAGhD,aAAKC,IAAL,CAAUC,IAAV,GAAiBJ,OAAOD,KAAxB;AACA,aAAKC,IAAL,GAAYA,IAAZ;AACA,aAAKC,IAAL,GAAYA,IAAZ;AACA,aAAKC,KAAL,GAAaA,KAAb;AACC,YAAIG,UAAJ;AACA,YAAIC,OAAKL,KAAKA,IAAd;AACH,YAAIM,IAAI,IAAIC,IAAJ,CAASF,IAAT,CAAR;AACE,YAAIG,KAAKF,EAAEG,QAAF,EAAT;AACA,YAAIC,KAAKJ,EAAEK,UAAF,EAAT;AACA,YAAID,KAAK,EAAT,EAAa;AACTA,iBAAK,MAAMA,EAAX;AACH;AACD,YAAIF,KAAK,EAAT,EAAa;AACTA,iBAAK,MAAMA,EAAX;AACH;AACD,YAAII,QAAQJ,KAAK,GAAL,GAAWE,EAAvB;AACC,YAAGG,UAAUC,QAAV,IAAoBd,KAAKe,MAA5B,EAAmC;AACzBX,yBAAaQ,QAAM,2CAAN,GAAoDZ,KAAKgB,QAAzD,GAAkE,sBAAlE,GAAyFhB,KAAKiB,OAA9F,GAAsG,MAAnH;AACF,SAFR,MAEY;AACAb,yBAAaQ,QAAM,2CAAN,GAAoDZ,KAAKgB,QAAzD,GAAkE,qBAAlE,GAAwFhB,KAAKiB,OAA7F,GAAqG,MAAlH;AACJ;;AAET,aAAKzB,SAAL,CAAe0B,MAAf,GAAwBd,UAAxB;AAEH;;AAxCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        richLabel: cc.RichText,\r\n        sprite: cc.Sprite\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n  \r\n   initChatMsgItem: function (index, type, data, event) {\r\n    \r\n\r\n        this.node.name = type + index;\r\n        this.type = type;\r\n        this.data = data;\r\n        this.event = event;\r\n         var richString;\r\n         var time=data.data;\r\n      var d = new Date(time);\r\n        var hh = d.getHours();\r\n        var mm = d.getMinutes();\r\n        if (mm < 10) {\r\n            mm = \"0\" + mm;\r\n        }\r\n        if (hh < 10) {\r\n            hh = \"0\" + hh;\r\n        }\r\n        var times = hh + \":\" + mm;\r\n         if(myFriends.friendid==data.roleid){\r\n                   richString = times+'<color=#FF0000 click=\"zawuRichTextEvent\">' + data.rolename+\":<c><color=#FAF9F9 >\"+data.message+'</c>';\r\n                }else{\r\n                     richString = times+'<color=#00B30F click=\"zawuRichTextEvent\">' + data.rolename+':<c><color=#FAF9F9>'+data.message+'</c>';\r\n                }\r\n     \r\n        this.richLabel.string = richString;\r\n      \r\n    },\r\n    \r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

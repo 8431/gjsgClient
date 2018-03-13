@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zcback",
+    "texture": "dec7286e-4824-484e-910e-48011521b080",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      320,
+      568
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      320,
+      568
+    ]
+  }
+}

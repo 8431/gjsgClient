@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "GameOxRes.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "Ox-btn_addscore_d": {
+      "__uuid__": "5be6f1c5-735b-4860-bab2-4e36af862166"
+    },
+    "Ox-btn_addscore_n": {
+      "__uuid__": "5231d94f-bd21-485b-96e0-94a1b9569a78"
+    },
+    "Ox-btn_addscore_s": {
+      "__uuid__": "bc3cc0bd-bf68-4a94-9bd6-5d1e78eab1b5"
+    },
+    "Ox-btn_banker_d": {
+      "__uuid__": "a9231b3b-7ca7-489d-8ec3-d98833ace68c"
+    },
+    "Ox-btn_banker_n": {
+      "__uuid__": "3e9b7075-3ff7-453b-a69f-437fec1c4f4d"
+    },
+    "Ox-btn_banker_s": {
+      "__uuid__": "399d5305-6ff1-4297-b6d4-f3331b1f3c3e"
+    },
+    "Ox-btn_cancel_d": {
+      "__uuid__": "0bc25aad-475f-4502-879c-4ad7a3695bf3"
+    },
+    "Ox-btn_cancel_n": {
+      "__uuid__": "e054d9fc-ebdf-4c2b-893d-401c4c12058e"
+    },
+    "Ox-btn_cancel_s": {
+      "__uuid__": "a9f81c13-fa3b-4455-a023-1e351c0b01f1"
+    },
+    "Ox-btn_look_n": {
+      "__uuid__": "9c3607c8-446b-4a4c-9317-7eafb73e3891"
+    },
+    "Ox-btn_look_s": {
+      "__uuid__": "23c6b178-8afe-49f1-8ada-cb738c4668b0"
+    },
+    "Ox-cellscore_bg": {
+      "__uuid__": "eff92a8f-48fd-4e99-9e78-fd0b0df39c8c"
+    },
+    "Ox-center_text_bj": {
+      "__uuid__": "268ce456-ee8c-44ee-bc08-0a28e533189d"
+    },
+    "Ox-pic_start_logo": {
+      "__uuid__": "022e05a7-2bdc-49da-88b7-60213ececc2a"
+    },
+    "Ox-text_call_banker_1": {
+      "__uuid__": "246a8594-f466-4b44-8092-429e0cbeaeeb"
+    },
+    "Ox-text_call_banker_2": {
+      "__uuid__": "c27f0fb4-f455-4e60-9b23-686d94278b5c"
+    },
+    "Ox-text_call_banker_3": {
+      "__uuid__": "299a1132-1695-4b64-8842-f46837ddea38"
+    },
+    "Ox-text_open_card_1": {
+      "__uuid__": "09f6ad2b-8be9-4ec5-ba2a-d917dee4dcf2"
+    },
+    "Ox-text_open_card_2": {
+      "__uuid__": "e3856354-b68c-4261-b9af-554839192832"
+    },
+    "Ox-text_open_card_3": {
+      "__uuid__": "61af8409-ad5a-486f-b243-b6bdd21d50e9"
+    },
+    "Ox-text_wait_bet_1": {
+      "__uuid__": "d86b2013-28e1-497f-92f3-1d55d053c0c6"
+    },
+    "Ox-text_wait_bet_2": {
+      "__uuid__": "e891a153-0602-4801-a16b-555f3e9fd17e"
+    },
+    "Ox-text_wait_bet_3": {
+      "__uuid__": "bf45a520-5042-491f-9ed0-251a5c784b32"
+    },
+    "Ox-tip_pic_ox_00": {
+      "__uuid__": "3a9e22dd-03a6-4a8b-8484-18703852dbbc"
+    },
+    "Ox-tip_pic_ox_01": {
+      "__uuid__": "8744a14b-0765-4793-8dbe-535048023fed"
+    },
+    "Ox-tip_pic_ox_02": {
+      "__uuid__": "2e94363a-f054-46df-b8c5-f93ddd9447c7"
+    },
+    "Ox-tip_pic_ox_03": {
+      "__uuid__": "1aa0d09c-aa44-408d-bc32-8ff2be09848d"
+    },
+    "Ox-tip_pic_ox_04": {
+      "__uuid__": "5523f519-fe86-4d65-b3cf-3ef829397fe0"
+    },
+    "Ox-tip_pic_ox_05": {
+      "__uuid__": "7ee1e492-4d62-4e8b-8675-0e8f5eedabe5"
+    },
+    "Ox-tip_pic_ox_06": {
+      "__uuid__": "39992a98-da36-44ee-8cb4-dd8d65c11a22"
+    },
+    "Ox-tip_pic_ox_07": {
+      "__uuid__": "30c820ec-0d55-4795-ba32-3a17f309f4ea"
+    },
+    "Ox-tip_pic_ox_08": {
+      "__uuid__": "7b27345f-bd56-45b1-bd04-9e943509c53c"
+    },
+    "Ox-tip_pic_ox_09": {
+      "__uuid__": "9daeee2c-da01-4cb3-9f5e-c0d7aa8fc757"
+    },
+    "Ox-tip_pic_ox_10": {
+      "__uuid__": "9897af13-9a5b-4ce4-92e0-73f82ffcef95"
+    },
+    "Ox-tip_pic_ox_11": {
+      "__uuid__": "0c44fd18-5bff-4b31-8f8f-b982a019fb1e"
+    },
+    "Ox-tip_pic_ox_12": {
+      "__uuid__": "a40a2de5-7ada-4347-ba62-799bb25d2b14"
+    },
+    "Ox-tip_pic_ox_13": {
+      "__uuid__": "ab74b6a2-124d-4350-abc8-2280cdfe03eb"
+    },
+    "Ox-tip_pic_ox_bg_0": {
+      "__uuid__": "8e15fbdc-3219-44a1-a278-395f19f16951"
+    },
+    "Ox-tip_pic_ox_bg_1": {
+      "__uuid__": "bc974201-2384-4921-b0fa-f8bf59312ef9"
+    },
+    "Ox-tip_pic_ox_bg_2": {
+      "__uuid__": "1986b828-d9cc-4af4-bba8-3bee7cbdbf2d"
+    }
+  }
+}

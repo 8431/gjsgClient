@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sparrow-Card-32",
+    "texture": "64606081-5d77-464a-84b7-18157c283d46",
+    "atlas": "da1b791b-316c-4ff9-99c6-36a443f5be92",
+    "rect": [
+      364,
+      570,
+      40,
+      40
+    ],
+    "offset": [
+      2,
+      1
+    ],
+    "originalSize": [
+      44,
+      50
+    ]
+  }
+}

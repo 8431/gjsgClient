@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dlg_zxsel_bg",
+    "texture": "38f5eb7c-9018-4705-b584-55405b2248bf",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      717,
+      381
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      718,
+      381
+    ]
+  }
+}

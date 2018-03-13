@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "fb3c23c2-24c8-407a-8eec-df3ce562b68e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Skill_Tornado_11": {
+      "ver": "1.0.3",
+      "uuid": "0ded1fe7-5614-4612-bb51-092143582c25",
+      "rawTextureUuid": "fb3c23c2-24c8-407a-8eec-df3ce562b68e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3,
+      "offsetY": 0.5,
+      "trimX": 8,
+      "trimY": 0,
+      "width": 270,
+      "height": 199,
+      "rawWidth": 280,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

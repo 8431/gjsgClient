@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "playerGold_label",
+    "Label",
+    "bankGold_label",
+    "getGold_editbox",
+    "EditBox",
+    "back",
+    "returnLast",
+    "getRecord",
+    "getConfirm",
+    "self",
+    "getDate",
+    "string",
+    "ajaxData",
+    "HxsgUrl",
+    "bankSGUrl",
+    "msg",
+    "showAlert",
+    "result",
+    "onLoad",
+    "Bank",
+    "playerGold",
+    "bankGold"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,0BAAkBL,GAAGM,KADb;AAERC,wBAAgBP,GAAGM,KAFX;AAGRE,yBAAiBR,GAAGS;AAHZ,KAHP;;AASL;AACAC,UAAM,gBAAY;AACdC;AACH,KAZI;;AAcL;AACAC,eAAW,qBAAY,CAEtB,CAjBI;;AAmBL;AACAC,gBAAY,sBAAY;AACpB,YAAIC,OAAO,IAAX;AACA,YAAIC,UAAU;AACV,sBAAU,KADA,EACM;AAChB,mBAAO,KAAKP,eAAL,CAAqBQ,MAFlB,EAAd;AAIAC,iBAASC,QAAQC,SAAjB,EAA4BJ,OAA5B,EAAqC,UAAUK,GAAV,EAAe;AAChDN,iBAAKJ,IAAL;AACAW,sBAAUD,IAAIE,MAAd;AACH,SAHD;AAIH,KA9BI;;AAgCL;AACAC,YAAQ,kBAAY;AAChB,aAAKlB,gBAAL,CAAsBW,MAAtB,GAA+B,SAASQ,KAAKC,UAAd,GAA2B,IAA1D;AACA,aAAKlB,cAAL,CAAoBS,MAApB,GAA6B,SAASQ,KAAKE,QAAd,GAAyB,IAAtD;AACH;;AApCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        playerGold_label: cc.Label,\r\n        bankGold_label: cc.Label,\r\n        getGold_editbox: cc.EditBox,\r\n    },\r\n\r\n    //返回钱庄场景\r\n    back: function () {\r\n        returnLast();\r\n    },\r\n\r\n    //取款记录\r\n    getRecord: function () {\r\n\r\n    },\r\n\r\n    //确认取款\r\n    getConfirm: function () {\r\n        var self = this;\r\n        var getDate = {\r\n            \"status\": \"del\",//该参数有add(存款),del(取款)\r\n            \"jin\": this.getGold_editbox.string,//存金就填该参数\r\n        };\r\n        ajaxData(HxsgUrl.bankSGUrl, getDate, function (msg) {\r\n            self.back();\r\n            showAlert(msg.result);\r\n        });\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.playerGold_label.string = \"您目前有\" + Bank.playerGold + \"金砖\";\r\n        this.bankGold_label.string = \"钱庄存款\" + Bank.bankGold + \"金砖\";\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

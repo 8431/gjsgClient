@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bankOrders_normal",
+    "texture": "37c134ac-0d34-4a49-8fe4-63ff3269a77a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      58
+    ]
+  }
+}

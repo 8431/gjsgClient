@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "attackName",
+    "Label",
+    "type",
+    "xue",
+    "jing",
+    "su",
+    "onLoad",
+    "setAttackName",
+    "name",
+    "string",
+    "setType",
+    "setXue",
+    "setJing",
+    "setsu",
+    "return",
+    "roleDetail",
+    "find",
+    "active",
+    "zhiLing",
+    "onloadJnZhiling",
+    "selectEnemy",
+    "pk",
+    "clickArrayLeft",
+    "sureClick",
+    "pkyaostatus",
+    "clickArrayRight",
+    "rightPlay"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;AAELC,gBAAY;AACRC,oBAAYL,GAAGM,KADP;AAERC,cAAMP,GAAGM,KAFD;AAGRE,aAAKR,GAAGM,KAHA;AAIRG,cAAMT,GAAGM,KAJD;AAKRI,YAAIV,GAAGM;;AALC,KAFP;;AAqBL;AACAK,YAAQ,kBAAY,CAEnB,CAxBI;AAyBLC,mBAAe,uBAAUC,IAAV,EAAgB;AAC3B,aAAKR,UAAL,CAAgBS,MAAhB,GAAyBD,IAAzB;AACH,KA3BI;AA4BLE,aAAS,iBAAUF,IAAV,EAAgB;AACrB,aAAKN,IAAL,CAAUO,MAAV,GAAmBD,IAAnB;AACH,KA9BI;AA+BLG,YAAQ,gBAAUH,IAAV,EAAgB;AACpB,aAAKL,GAAL,CAASM,MAAT,GAAkBD,IAAlB;AACH,KAjCI;AAkCLI,aAAS,iBAAUJ,IAAV,EAAgB;AACrB,aAAKJ,IAAL,CAAUK,MAAV,GAAmBD,IAAnB;AACH,KApCI;AAqCLK,WAAO,eAAUL,IAAV,EAAgB;AACnB,aAAKH,EAAL,CAAQI,MAAR,GAAiBD,IAAjB;AACH,KAvCI;AAwCLM,YAAQ,mBAAY;AAChB,YAAIC,aAAapB,GAAGqB,IAAH,CAAQ,mBAAR,CAAjB;AACAD,mBAAWE,MAAX,GAAoB,KAApB;AACA,YAAIC,UAAUvB,GAAGqB,IAAH,CAAQ,gBAAR,CAAd;AACAE,gBAAQD,MAAR,GAAiB,IAAjB;AACAE,wBAAgB,IAAhB;AACAC,oBAAY,IAAZ,EAAiBC,GAAGC,cAApB;AACAD,WAAGE,SAAH,GAAa,EAAb;AACA,YAAGF,GAAGG,WAAH,IAAiB,GAApB,EAAwB;AACtBH,eAAGG,WAAH,GAAiB,GAAjB;AACCJ,wBAAaC,GAAGI,eAAH,CAAmB,CAAnB,CAAb,EAAmCJ,GAAGK,SAAtC;AACF;AAGJ;;AAED;AACA;;AAEA;AA3DK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n    properties: {\r\n        attackName: cc.Label,\r\n        type: cc.Label,\r\n        xue: cc.Label,\r\n        jing: cc.Label,\r\n        su: cc.Label,\r\n\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    setAttackName: function (name) {\r\n        this.attackName.string = name;\r\n    },\r\n    setType: function (name) {\r\n        this.type.string = name;\r\n    },\r\n    setXue: function (name) {\r\n        this.xue.string = name;\r\n    },\r\n    setJing: function (name) {\r\n        this.jing.string = name;\r\n    },\r\n    setsu: function (name) {\r\n        this.su.string = name;\r\n    },\r\n    return: function () {\r\n        let roleDetail = cc.find(\"Canvas/roleDetail\");\r\n        roleDetail.active = false;\r\n        let zhiLing = cc.find(\"Canvas/zhiling\");\r\n        zhiLing.active = true;\r\n        onloadJnZhiling(true);\r\n        selectEnemy(null,pk.clickArrayLeft);\r\n        pk.sureClick=\"\";\r\n        if(pk.pkyaostatus !=\"0\"){\r\n          pk.pkyaostatus = \"0\";\r\n           selectEnemy( pk.clickArrayRight[0],pk.rightPlay);\r\n        }\r\n       \r\n\r\n    }\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

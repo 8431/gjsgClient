@@ -1,0 +1,167 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "icon.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "icgoods038": {
+      "__uuid__": "c7193297-3ea8-44fd-9c5d-5b1f83ec6f1e"
+    },
+    "icgoods039": {
+      "__uuid__": "e3e207e1-5c7a-4227-8137-3eb5bac7f965"
+    },
+    "icgoods040": {
+      "__uuid__": "b95b9c21-a812-4b58-be17-54de429df484"
+    },
+    "icgoods042": {
+      "__uuid__": "d5a490fe-10bf-45c3-8d3d-ce0742b8060a"
+    },
+    "icgoods043": {
+      "__uuid__": "fa877ef4-1c41-413c-ac9f-b362d6fdb2fc"
+    },
+    "icgoods044": {
+      "__uuid__": "f33f766a-c081-4c4f-bf4e-bb01895fbe9d"
+    },
+    "icgoods045": {
+      "__uuid__": "78928ee1-407e-4412-87cc-698cfab13472"
+    },
+    "icgoods046": {
+      "__uuid__": "1f0bb48a-a8bf-4006-a468-366f80ea19df"
+    },
+    "icgoods047": {
+      "__uuid__": "ad827c00-7732-47f9-87f3-bd118749d8ae"
+    },
+    "icgoods048": {
+      "__uuid__": "861ddf32-56df-4a07-93b1-a5b4f19334a9"
+    },
+    "icgoods049": {
+      "__uuid__": "d15fa815-20b2-44ca-ad74-adadf3c7b2fa"
+    },
+    "icgoods050": {
+      "__uuid__": "abe29be5-02c4-4f39-9e7a-88def6aa759b"
+    },
+    "icgoods051": {
+      "__uuid__": "39dbae3d-7408-430e-a280-0bf0f3b77a60"
+    },
+    "icgoods058": {
+      "__uuid__": "b4e0ca2c-6ab8-4df4-b02a-b9f1c0938312"
+    },
+    "icgoods070": {
+      "__uuid__": "e3ca7f2f-f825-4e7f-ad36-f8e1dcf45035"
+    },
+    "icgoods071": {
+      "__uuid__": "11e3e914-4fee-4798-984a-5fb51f8c1134"
+    },
+    "icgoods072": {
+      "__uuid__": "b12a59b2-701b-41d6-b6e4-80afb8e9c99a"
+    },
+    "icgoods073": {
+      "__uuid__": "a4d682be-c194-4f59-aefc-412317f65880"
+    },
+    "icgoods074": {
+      "__uuid__": "f02311e6-7b6e-4295-971d-2abcfb778a42"
+    },
+    "icgoods075": {
+      "__uuid__": "fd380641-880a-4571-b9a0-205b2c114f3e"
+    },
+    "icgoods076": {
+      "__uuid__": "7948d802-2b9a-454a-aecd-3420a6a091d8"
+    },
+    "icgoods077": {
+      "__uuid__": "059213e7-ff8c-4c63-8319-d43bc7c209bf"
+    },
+    "icgoods078": {
+      "__uuid__": "3758f150-4ec4-433c-9a32-3ceb7c0008ed"
+    },
+    "icgoods079": {
+      "__uuid__": "32232269-f8d5-400f-9e69-32abf4bf2dda"
+    },
+    "icgoods080": {
+      "__uuid__": "f1ea29ea-fe03-4057-b347-2795943cecfc"
+    },
+    "icgoods081": {
+      "__uuid__": "41d163e6-f3b1-4ffb-92a4-f32b99f11833"
+    },
+    "icgoods082": {
+      "__uuid__": "9f522519-06ec-4ac6-a52f-c7250b2a432b"
+    },
+    "icgoods083": {
+      "__uuid__": "8b084506-6e56-4f73-a881-1bc8fc7be0c9"
+    },
+    "icgoods084": {
+      "__uuid__": "6bc50d6c-8e69-44c4-9f29-cd786e48ac0b"
+    },
+    "icgoods085": {
+      "__uuid__": "291caf17-7896-4793-9f35-3771f8517dbe"
+    },
+    "icgoods086": {
+      "__uuid__": "343915e7-55a7-44bd-8cfd-db8988a72c8b"
+    },
+    "icgoods087": {
+      "__uuid__": "3207d915-a091-4223-991a-7566ac0ca203"
+    },
+    "icgoods088": {
+      "__uuid__": "c7de414a-5839-4f0f-a62e-a7a6ab54005e"
+    },
+    "icgoods089": {
+      "__uuid__": "a5e01274-a5a8-4c92-afc4-47ef125ce88c"
+    },
+    "icgoods209": {
+      "__uuid__": "ca817c17-4aaf-4baf-bc82-6c745785e80f"
+    },
+    "icgoods210": {
+      "__uuid__": "e3653b2d-7dd4-445d-b284-9b35cbb663c3"
+    },
+    "icgoods214": {
+      "__uuid__": "a3298581-f865-423d-8fea-ed7246493004"
+    },
+    "icgoods217": {
+      "__uuid__": "478ff97a-d28e-4e91-8ed3-6d497cd88192"
+    },
+    "icgoods218": {
+      "__uuid__": "48313607-20b5-4a4e-9567-7aef7afe3ef9"
+    },
+    "icgoods219": {
+      "__uuid__": "66c4d1be-1120-445a-9da4-59f237e383ab"
+    },
+    "icgoods220": {
+      "__uuid__": "b4e94488-5fea-4d6d-90fa-4008a70f15e7"
+    },
+    "icgoods227": {
+      "__uuid__": "e19633d3-94e7-4240-b16b-3cb895650eae"
+    },
+    "icgoods234": {
+      "__uuid__": "34ebde2d-0f7e-453e-882e-ccc92d073981"
+    },
+    "icgoods235": {
+      "__uuid__": "3a73cdd8-a6bf-4666-8508-592fbc478732"
+    },
+    "icgoods240": {
+      "__uuid__": "e9d75dd7-77b4-4dcf-abe2-bcc8e193bb57"
+    },
+    "icgoods241": {
+      "__uuid__": "34f6d19e-ca21-4046-ad6f-5951afb356cc"
+    },
+    "icgoods242": {
+      "__uuid__": "de60d346-0406-47ad-b68e-3f85bbfec837"
+    },
+    "icgoods253": {
+      "__uuid__": "987371c1-3407-48df-a90f-be45f2eece85"
+    },
+    "icgoods267": {
+      "__uuid__": "7524a359-01f8-41c2-9dea-22453cf330eb"
+    },
+    "icgoods268": {
+      "__uuid__": "81038b7c-07ba-474d-9e78-2334dfe94443"
+    },
+    "icgoods269": {
+      "__uuid__": "f283af18-b5fb-4233-9250-89e590b1a8e4"
+    },
+    "icgoods270": {
+      "__uuid__": "05c87331-6c15-4f85-96b5-2c680deb6417"
+    },
+    "icgoods271": {
+      "__uuid__": "a493c2c7-528d-4ce1-84f8-ca530d06670a"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "luan",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "ae0727f3-9870-44b7-aa91-aa0978545588"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "a4f272ea-81f8-49b0-af90-f05a77df9765"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "f8548bfb-e865-4d86-84ef-f3f74c35c7b8"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "006fa18c-052d-4da1-a2db-04e17ce6dce0"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "1096e886-d013-450e-9f86-9d8146f6165a"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "f7dd6524-8c97-49f2-86d0-b9ece38b3589"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0.5,
+          "value": 255
+        },
+        {
+          "frame": 0.6,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

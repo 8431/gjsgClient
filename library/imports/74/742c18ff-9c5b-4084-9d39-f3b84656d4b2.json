@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameLand-Animations-plane2",
+    "texture": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+    "atlas": "26c91ed1-ef88-4cb1-95ba-8dda1f0c46c5",
+    "rect": [
+      2,
+      104,
+      499,
+      328
+    ],
+    "offset": [
+      3,
+      -2
+    ],
+    "originalSize": [
+      505,
+      338
+    ]
+  }
+}

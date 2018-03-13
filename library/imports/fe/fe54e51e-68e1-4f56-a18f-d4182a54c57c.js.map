@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "self",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "click",
+    "e",
+    "id",
+    "find",
+    "destroy",
+    "log",
+    "loader",
+    "loadRes",
+    "Prefab",
+    "err",
+    "prefab",
+    "bsList",
+    "instantiate",
+    "addChild",
+    "msgid",
+    "zbBaoshi",
+    "setPositionX",
+    "setPositionY"
+  ],
+  "mappings": ";;AAAA,IAAIA,IAAJ;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;;AAgBL;AACAC,YAAQ,kBAAY;AAChBN,eAAO,IAAP;AACH,KAnBI;AAoBLO,WAAO,eAAUC,CAAV,EAAaC,EAAb,EAAiB;AACpB,YAAIR,GAAGS,IAAH,CAAQ,iBAAR,KAA8B,IAAlC,EAAwC;AACpCT,eAAGS,IAAH,CAAQ,iBAAR,EAA2BC,OAA3B;AACH;;AAED;AACA,YAAIF,MAAM,CAAV,EAAa;AACTR,eAAGW,GAAH,CAAO,YAAYH,EAAnB;AACJR,eAAGY,MAAH,CAAUC,OAAV,CAAkB,YAAlB,EAAgCb,GAAGc,MAAnC,EAA2C,UAAUC,GAAV,EAAeC,MAAf,EAAuB;AAClD,oBAAI,CAACD,GAAL,EAAU;;AAEN,wBAAIE,SAASjB,GAAGkB,WAAH,CAAeF,MAAf,CAAb;AACAhB,uBAAGS,IAAH,CAAQ,QAAR,EAAkBU,QAAlB,CAA2BF,MAA3B;AAEH;AACJ,aAPb;AASC,SAXD,MAWO;AACHjB,eAAGW,GAAH,CAAO,YAAYH,EAAnB;AACAR,eAAGY,MAAH,CAAUC,OAAV,CAAkB,kBAAlB,EAAsCb,GAAGc,MAAzC,EAAiD,UAAUC,GAAV,EAAeC,MAAf,EAAuB;AACpE,oBAAI,CAACD,GAAL,EAAU;AACNf,uBAAGW,GAAH,CAAOZ,IAAP;AACAC,uBAAGW,GAAH,CAAOZ,KAAKqB,KAAZ;AACA,wBAAIC,WAAWrB,GAAGkB,WAAH,CAAeF,MAAf,CAAf;AACAhB,uBAAGS,IAAH,CAAQ,QAAR,EAAkBU,QAAlB,CAA2BE,QAA3B,EAAqC,EAArC;AACAA,6BAASC,YAAT,CAAsB,EAAtB;AACAD,6BAASE,YAAT,CAAsB,CAAC,EAAvB;AACH;AACJ,aATD;AAWH;AACJ;AACD;AACA;;AAEA;AAvDK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var self;\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        self = this;\r\n    },\r\n    click: function (e, id) {\r\n        if (cc.find('Canvas/zbBaoshi') != null) {\r\n            cc.find('Canvas/zbBaoshi').destroy();\r\n        }\r\n\r\n        //空槽\r\n        if (id == 1) {\r\n            cc.log(\"宝石孔按钮: \" + id)\r\n        cc.loader.loadRes('prefabs/bs', cc.Prefab, function (err, prefab) {\r\n                        if (!err) {\r\n                        \r\n                            var bsList = cc.instantiate(prefab);\r\n                            cc.find('Canvas').addChild(bsList);\r\n                          \r\n                        }\r\n                    });\r\n\r\n        } else {\r\n            cc.log(\"宝石孔按钮: \" + id)\r\n            cc.loader.loadRes('prefabs/zbBaoshi', cc.Prefab, function (err, prefab) {\r\n                if (!err) {\r\n                    cc.log(self)\r\n                    cc.log(self.msgid)\r\n                    var zbBaoshi = cc.instantiate(prefab);\r\n                    cc.find('Canvas').addChild(zbBaoshi, 90);\r\n                    zbBaoshi.setPositionX(30);\r\n                    zbBaoshi.setPositionY(-10);\r\n                }\r\n            });\r\n\r\n        }\r\n    }\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

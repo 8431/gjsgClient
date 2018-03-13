@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yishi2",
+    "texture": "3376c309-f51f-45cf-b60f-795dca91c520",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      64,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      80
+    ]
+  }
+}

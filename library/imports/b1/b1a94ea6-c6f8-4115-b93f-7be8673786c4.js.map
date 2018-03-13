@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "money_label",
+    "Label",
+    "back",
+    "returnLast",
+    "loadGetSilverScene",
+    "loadingScene",
+    "loadSaveSilverScene",
+    "loadGetGoldScene",
+    "loadSaveGoldScene",
+    "loadBuyGoldScene",
+    "loadSellGoldScene",
+    "loadOrdersScene",
+    "loadRechargeGoldScene",
+    "loadLookOverGoldCertificateScene",
+    "loadRechargeGoldCertificateScene",
+    "onLoad",
+    "self",
+    "ajaxData",
+    "HxsgUrl",
+    "bankUrl",
+    "msg",
+    "money",
+    "result",
+    "Bank",
+    "bankGold",
+    "jin",
+    "bankSilver",
+    "yin",
+    "playerGold",
+    "role",
+    "playerSilver",
+    "string"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,qBAAaL,GAAGM;AADR,KAHP;;AAOL;AACAC,UAAM,gBAAY;AACdC;AACH,KAVI;;AAYL;AACAC,wBAAoB,8BAAY;AAC5BC,qBAAa,WAAb,EAA0B,MAA1B;AACH,KAfI;;AAiBL;AACAC,yBAAqB,+BAAY;AAC7BD,qBAAa,YAAb,EAA2B,MAA3B;AACH,KApBI;;AAsBL;AACAE,sBAAkB,4BAAY;AAC1BF,qBAAa,SAAb,EAAwB,MAAxB;AACH,KAzBI;;AA2BL;AACAG,uBAAmB,6BAAY;AAC3BH,qBAAa,UAAb,EAAyB,MAAzB;AACH,KA9BI;;AAgCL;AACAI,sBAAkB,4BAAY;AAC1BJ,qBAAa,SAAb,EAAwB,MAAxB;AACH,KAnCI;;AAqCL;AACAK,uBAAmB,6BAAY;AAC3BL,qBAAa,UAAb,EAAyB,MAAzB;AACH,KAxCI;;AA0CL;AACAM,qBAAiB,2BAAY;AACzBN,qBAAa,YAAb,EAA2B,MAA3B;AACH,KA7CI;;AA+CL;AACAO,2BAAuB,iCAAY;AAC/BP,qBAAa,cAAb,EAA6B,MAA7B;AACH,KAlDI;;AAoDL;AACAQ,sCAAkC,4CAAY;AAC1CR,qBAAa,yBAAb,EAAwC,MAAxC;AACH,KAvDI;;AAyDL;AACAS,sCAAkC,4CAAY;AAC1CT,qBAAa,yBAAb,EAAwC,MAAxC;AACH,KA5DI;;AA8DL;AACAU,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAC,iBAASC,QAAQC,OAAjB,EAA0B,IAA1B,EAA+B,UAAUC,GAAV,EAAe;AAC1C,gBAAIC,QAAQD,IAAIE,MAAhB,CAD0C,CAClB;AACxB;AACAC,iBAAKC,QAAL,GAAgBH,MAAMA,KAAN,CAAYI,GAA5B;AACAF,iBAAKG,UAAL,GAAkBL,MAAMA,KAAN,CAAYM,GAA9B;AACAJ,iBAAKK,UAAL,GAAkBP,MAAMQ,IAAN,CAAWJ,GAA7B;AACAF,iBAAKO,YAAL,GAAoBT,MAAMQ,IAAN,CAAWF,GAA/B;;AAEAX,iBAAKhB,WAAL,CAAiB+B,MAAjB,GAA0B,SAASR,KAAKO,YAAd,GAA6B,GAA7B,GAAmCP,KAAKK,UAAxC,GAAqD,IAA/E;AACH,SATD;AAUH;;AA3EI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        money_label: cc.Label,\r\n    },\r\n\r\n    // 返回上一场景\r\n    back: function () {\r\n        returnLast();\r\n    },\r\n\r\n    // 加载 银两取款 场景\r\n    loadGetSilverScene: function () {\r\n        loadingScene('getSilver', 'bank');\r\n    },\r\n\r\n    // 加载 银两存款 场景\r\n    loadSaveSilverScene: function () {\r\n        loadingScene('saveSilver', 'bank');\r\n    },\r\n\r\n    // 加载 金砖取款 场景\r\n    loadGetGoldScene: function () {\r\n        loadingScene('getGold', 'bank');\r\n    },\r\n\r\n    // 加载 金砖存款 场景\r\n    loadSaveGoldScene: function () {\r\n        loadingScene('saveGold', 'bank');\r\n    },\r\n\r\n    // 加载 求购金砖 场景\r\n    loadBuyGoldScene: function () {\r\n        loadingScene('buyGold', 'bank');\r\n    },\r\n\r\n    // 加载 出售金砖 场景\r\n    loadSellGoldScene: function () {\r\n        loadingScene('sellGold', 'bank');\r\n    },\r\n\r\n    // 加载 订单记录 场景\r\n    loadOrdersScene: function () {\r\n        loadingScene('bankOrders', 'bank');\r\n    },\r\n\r\n    // 加载 金砖充值 场景\r\n    loadRechargeGoldScene: function () {\r\n        loadingScene('rechargeGold', 'bank');\r\n    },\r\n\r\n    // 加载 查看金券 场景\r\n    loadLookOverGoldCertificateScene: function () {\r\n        loadingScene('lookOverGoldCertificate', 'bank');\r\n    },\r\n\r\n    // 加载 金券充值 场景\r\n    loadRechargeGoldCertificateScene: function () {\r\n        loadingScene('rechargeGoldCertificate', 'bank');\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        var self = this;\r\n        ajaxData(HxsgUrl.bankUrl, null,function (msg) {\r\n            var money = msg.result; //拿到金银数据\r\n            //存入全局变量\r\n            Bank.bankGold = money.money.jin;\r\n            Bank.bankSilver = money.money.yin;\r\n            Bank.playerGold = money.role.jin;\r\n            Bank.playerSilver = money.role.yin;\r\n\r\n            self.money_label.string = \"您目前有\" + Bank.playerSilver + \"两\" + Bank.playerGold + \"金砖\";\r\n        });\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

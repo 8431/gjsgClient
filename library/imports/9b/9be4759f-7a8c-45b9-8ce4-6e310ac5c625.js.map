@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "itemPrefab",
+    "Prefab",
+    "content",
+    "Node",
+    "leftContent",
+    "onLoad",
+    "self",
+    "ajax",
+    "type",
+    "url",
+    "localhost",
+    "dataType",
+    "jsonp",
+    "success",
+    "msg",
+    "p",
+    "i",
+    "length",
+    "item",
+    "instantiate",
+    "addChild",
+    "x",
+    "y",
+    "height",
+    "name",
+    "getComponent",
+    "labelStr",
+    "custom1",
+    "log",
+    "setMsg"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,oBAAYL,GAAGM,MADP;AAERC,iBAASP,GAAGQ,IAFJ;AAGRC,qBAAaT,GAAGQ;;AAHR,KAHP;;AAUL;AACAE,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAC,aAAK;AACDC,kBAAM,KADL;AAEDC,iBAAK,KAAKC,SAAL,GAAiB,+BAFrB;AAGDC,sBAAU,OAHT;;AAKDC,mBAAO,eALN,EAKsB;AACvBC,qBAAS,iBAAUC,GAAV,EAAe;AACpB,oBAAIC,IAAID,IAAIA,GAAZ;AACA;AACA,qBAAK,IAAIE,IAAI,CAAb,EAAgBA,IAAID,EAAEE,MAAtB,EAA8BD,GAA9B,EAAmC;AAC/B;AACA,wBAAIE,OAAOvB,GAAGwB,WAAH,CAAeb,KAAKN,UAApB,CAAX;AACAM,yBAAKF,WAAL,CAAiBgB,QAAjB,CAA0BF,IAA1B;AACAA,yBAAKG,CAAL,GAAS,CAAT;AACAH,yBAAKI,CAAL,GAAS,CAAC,CAAD,GAAKN,CAAL,GAASE,KAAKK,MAAvB;AACAL,yBAAKM,IAAL,GAAY,YAAYR,CAAxB;AACAV,yBAAKJ,OAAL,CAAaqB,MAAb,GAAsB,CAACP,IAAI,CAAL,IAAUE,KAAKK,MAArC;;AAEAL,2BAAOA,KAAKO,YAAL,CAAkB,cAAlB,CAAP;AACA,wBAAIC,WAAW,yCAAuCX,EAAEC,CAAF,EAAKW,OAA5C,GAAoD,UAAnE;AACAhC,uBAAGiC,GAAH,CAAOF,QAAP;AACAR,yBAAKW,MAAL,CAAYH,QAAZ;AACH;AAEJ;AAxBA,SAAL;AA0BH;AAvCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        itemPrefab: cc.Prefab,\r\n        content: cc.Node,\r\n        leftContent: cc.Node,\r\n\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        var self = this;\r\n        ajax({\r\n            type: 'GET',\r\n            url: \"\" + localhost + \"cocos2dNotis/querySystemNotis\",\r\n            dataType: 'jsonp',\r\n\r\n            jsonp: \"jsonpCallback\",//服务端用于接收callback调用的function名的参数\r\n            success: function (msg) {\r\n                var p = msg.msg;\r\n                //alert(p);\r\n                for (var i = 0; i < p.length; i++) {\r\n                    //s += \" <p class=\\\"yaoping\\\" style='color:#FFF3AE'>第\" + p[i].id + \"期，开出\" + p[i].num1 + \",\" + p[i].num2 + \",\" + p[i].num3 + \"&nbsp;&nbsp;\" + p[i].result + \"</p>\";\r\n                    var item = cc.instantiate(self.itemPrefab);\r\n                    self.leftContent.addChild(item);\r\n                    item.x = 0;\r\n                    item.y = -1 * i * item.height;\r\n                    item.name = 'history' + i;\r\n                    self.content.height = (i + 1) * item.height;\r\n\r\n                    item = item.getComponent('systemNotice');\r\n                    var labelStr = \"<color=#ff0000>新 </c><color=#ffffff>\"+p[i].custom1+\"</color>\";\r\n                    cc.log(labelStr)\r\n                    item.setMsg(labelStr);\r\n                }\r\n\r\n            }\r\n        });\r\n    },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "loadCommomScence",
+    "zhp",
+    "showAlert",
+    "tjp",
+    "wqd",
+    "loadingScene",
+    "HxsgScenes",
+    "wuqi",
+    "index",
+    "tzsc",
+    "dp"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;;AAgBL;AACAC,YAAQ,kBAAY;AACVC;AAET,KApBI;AAqBJC,SAAK,eAAY;AACTC,kBAAU,MAAV;AAER,KAxBI;AAyBLC,SAAK,eAAY;AACVD,kBAAU,MAAV;AAEN,KA5BI;AA6BLE,SAAK,eAAY;AACTC,qBAAaC,WAAWC,IAAxB,EAA6BD,WAAWE,KAAxC;AAGP,KAjCI;AAkCJC,UAAM,gBAAY;AACXP,kBAAU,MAAV;AAEP,KArCI;AAsCLQ,QAAI,cAAY;AACNR,kBAAU,MAAV;AAET;;AAzCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n              loadCommomScence();\r\n\r\n    },\r\n     zhp: function () {\r\n             showAlert(\"暂未开放\")\r\n\r\n    },\r\n    tjp: function () {\r\n           showAlert(\"暂未开放\")\r\n\r\n    },\r\n    wqd: function () {\r\n            loadingScene(HxsgScenes.wuqi,HxsgScenes.index)\r\n            \r\n\r\n    },\r\n     tzsc: function () {\r\n            showAlert(\"暂未开放\")\r\n\r\n    },\r\n    dp: function () {\r\n              showAlert(\"暂未开放\")\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

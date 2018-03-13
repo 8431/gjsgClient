@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "saveSilver_normal",
+    "texture": "2cf01bba-ca06-461a-b277-5378f51cc4fd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      58
+    ]
+  }
+}

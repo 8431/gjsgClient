@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZPoker-spr_slider_bg",
+    "texture": "faced866-1636-4940-bb5e-1b99fa3174dc",
+    "atlas": "69f33637-ffdc-4728-ae9a-656738bd8a5b",
+    "rect": [
+      287,
+      2,
+      549,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      549,
+      46
+    ]
+  }
+}

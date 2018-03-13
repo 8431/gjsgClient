@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "wz",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.55,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "wz": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -0.3,
+                55
+              ],
+              "motionPath": [
+                [
+                  -1.3,
+                  72.2,
+                  0.1,
+                  63.5,
+                  -2.6,
+                  80.8
+                ]
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -15.3,
+                91.3
+              ],
+              "motionPath": []
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {}
+        }
+      }
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            6,
+            56
+          ]
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            -15,
+            96
+          ]
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 0.5,
+          "value": 255
+        },
+        {
+          "frame": 0.55,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

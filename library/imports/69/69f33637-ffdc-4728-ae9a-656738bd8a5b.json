@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "GameDZPokerRes.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "DZPoker-addscore_bg": {
+      "__uuid__": "aaac9de0-e0a1-42e5-a939-54d9546f9b75"
+    },
+    "DZPoker-b_poker_back": {
+      "__uuid__": "152eb113-3097-4c08-84ca-02620f1cedb0"
+    },
+    "DZPoker-btn_addscore_all": {
+      "__uuid__": "686bba81-1dfa-4366-9e14-049d9569d36b"
+    },
+    "DZPoker-btn_addscore_d": {
+      "__uuid__": "9de48085-05ac-4963-a0f1-df3d87789114"
+    },
+    "DZPoker-btn_addscore_n": {
+      "__uuid__": "998ddf38-801b-432b-a4ea-2f7876ab87ae"
+    },
+    "DZPoker-btn_addscore_ok": {
+      "__uuid__": "615d0999-c119-4de4-9479-67952405c791"
+    },
+    "DZPoker-btn_addscore_s": {
+      "__uuid__": "c4ab5fcf-aada-4d03-9adb-da8c016a76b5"
+    },
+    "DZPoker-btn_addscore_x1": {
+      "__uuid__": "5cb1a1e4-f14d-4710-bb71-dd019e9a2e21"
+    },
+    "DZPoker-btn_addscore_x10": {
+      "__uuid__": "e7a34746-e06d-4341-be03-1d19f1e50576"
+    },
+    "DZPoker-btn_addscore_x2": {
+      "__uuid__": "16a560f8-3a50-4d9f-bc28-2064f0281d4c"
+    },
+    "DZPoker-btn_addscore_x5": {
+      "__uuid__": "541af043-2e0f-4081-9ce1-32426f1ba51f"
+    },
+    "DZPoker-btn_follow_d": {
+      "__uuid__": "716034ee-a140-4372-9398-0e950a792c9b"
+    },
+    "DZPoker-btn_follow_n": {
+      "__uuid__": "74e4ba98-79c7-44c9-95f3-0a04cc989207"
+    },
+    "DZPoker-btn_follow_s": {
+      "__uuid__": "371f9d9a-84d1-4340-82db-7e83ea8a79bb"
+    },
+    "DZPoker-btn_giveup_d": {
+      "__uuid__": "9f8414fd-5287-419d-8663-d52fa5c106ff"
+    },
+    "DZPoker-btn_giveup_n": {
+      "__uuid__": "666b4071-4bd9-4fb1-98ec-59cdd9d2b297"
+    },
+    "DZPoker-btn_giveup_s": {
+      "__uuid__": "29502bee-b1b0-4e24-80f0-7a96543b3d01"
+    },
+    "DZPoker-btn_pass_d": {
+      "__uuid__": "2838ea02-316e-4f7c-856e-6a7d2c1283e7"
+    },
+    "DZPoker-btn_pass_n": {
+      "__uuid__": "38bbbbfa-8049-4706-b186-1b1c066864ef"
+    },
+    "DZPoker-btn_pass_s": {
+      "__uuid__": "c1f93ace-f716-4a92-9d5a-ce66cf0d517e"
+    },
+    "DZPoker-game_info_0": {
+      "__uuid__": "31d4398c-a487-4af2-8c93-b8522443c471"
+    },
+    "DZPoker-game_info_1": {
+      "__uuid__": "b2d9641b-e7a0-400b-8506-6a54f6e4f3d1"
+    },
+    "DZPoker-pic_card_type_0": {
+      "__uuid__": "857fd568-efd7-4a0a-99a7-a49ca082b8f0"
+    },
+    "DZPoker-pic_card_type_00": {
+      "__uuid__": "e92794f8-7a58-4ff8-8790-32c20f92435b"
+    },
+    "DZPoker-pic_card_type_1": {
+      "__uuid__": "74b587f8-27e6-4553-be70-4875ac253738"
+    },
+    "DZPoker-pic_card_type_2": {
+      "__uuid__": "79ace022-c5b3-4ec9-b86e-ef1e9b4a5312"
+    },
+    "DZPoker-pic_card_type_3": {
+      "__uuid__": "f58c579b-9c66-4220-9d1d-44640a51b6f9"
+    },
+    "DZPoker-pic_card_type_4": {
+      "__uuid__": "df5ee931-b3a5-4e49-81c9-074b561a02bd"
+    },
+    "DZPoker-pic_card_type_5": {
+      "__uuid__": "41f31ccc-d406-4ca0-a2bd-20f5308eec30"
+    },
+    "DZPoker-pic_card_type_6": {
+      "__uuid__": "6590c716-5ef1-478d-b848-87b4e543c86f"
+    },
+    "DZPoker-pic_card_type_7": {
+      "__uuid__": "bf7efd92-eece-44f9-84e3-5fdab3ea719b"
+    },
+    "DZPoker-pic_card_type_8": {
+      "__uuid__": "4b36b501-2c56-414f-9d5c-6fed18203b8c"
+    },
+    "DZPoker-pic_card_type_9": {
+      "__uuid__": "dfd8ee05-54be-4bef-a2a7-64d4bf8c9914"
+    },
+    "DZPoker-pic_progress_bg": {
+      "__uuid__": "4a723d24-3d05-4ee8-905d-883423cf2638"
+    },
+    "DZPoker-poker_back_disable": {
+      "__uuid__": "deb89da0-b7cc-49e9-bd2d-a114b50244fd"
+    },
+    "DZPoker-spr_slider_bg": {
+      "__uuid__": "75e55c91-7024-4cd2-8350-c1bfc20123e8"
+    },
+    "DZPoker-spr_slider_fill": {
+      "__uuid__": "b75f082f-95e2-44a2-8fac-e99f4274bd9b"
+    },
+    "DZPoker-spr_slider_select": {
+      "__uuid__": "a55c748b-b286-44af-b8fe-157abf884cb2"
+    },
+    "DZPoker-tip_pic_add": {
+      "__uuid__": "e819717c-5af2-4d36-81d1-26e7869bd881"
+    },
+    "DZPoker-tip_pic_follow": {
+      "__uuid__": "8882c2cf-cb65-4b53-be37-b2e512c4d0be"
+    },
+    "DZPoker-tip_pic_giveup": {
+      "__uuid__": "249ff2f2-5961-4149-bd3a-f878c99f3dab"
+    },
+    "DZPoker-tip_pic_notadd": {
+      "__uuid__": "0a05d9a9-d464-4f1b-b6fb-abdea9d342cd"
+    },
+    "DZPoker-tip_pic_showhand": {
+      "__uuid__": "5bcf9be1-30a1-4e07-af50-4eb5427f76dc"
+    }
+  }
+}

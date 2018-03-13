@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "room_text_lookox",
+    "texture": "eb0b6529-d202-476b-bc84-a1cc1c17a13d",
+    "atlas": "",
+    "rect": [
+      1,
+      9,
+      953,
+      81
+    ],
+    "offset": [
+      -5,
+      0.5
+    ],
+    "originalSize": [
+      965,
+      100
+    ]
+  }
+}

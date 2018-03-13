@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "GameLandRes": {
+      "ver": "1.0.3",
+      "uuid": "8d33909c-a8e0-4e63-b696-50b6543b96b2",
+      "rawTextureUuid": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 2019,
+      "height": 1358,
+      "rawWidth": 2023,
+      "rawHeight": 1362,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

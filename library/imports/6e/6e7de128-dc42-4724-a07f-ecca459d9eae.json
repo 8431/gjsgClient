@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZaJinHua-look_card",
+    "texture": "a26f0722-50c3-4832-90b7-1bb19163a17f",
+    "atlas": "579f99d5-eaa2-4776-b7ff-c037fb97fba9",
+    "rect": [
+      728,
+      609,
+      114,
+      98
+    ],
+    "offset": [
+      -2,
+      3
+    ],
+    "originalSize": [
+      118,
+      114
+    ]
+  }
+}

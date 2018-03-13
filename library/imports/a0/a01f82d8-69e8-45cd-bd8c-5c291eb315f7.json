@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhanli",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "1000/play/role/top": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.5,
+              "value": 13
+            }
+          ]
+        }
+      },
+      "1000/play/role/body": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                56,
+                -16
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                55,
+                -16
+              ]
+            }
+          ]
+        }
+      },
+      "1000/play/role/foot": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                3.4000000000000004,
+                -37.9
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                4.4,
+                -37.9
+              ]
+            }
+          ]
+        }
+      },
+      "body": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                53.9,
+                -15
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                53.9,
+                -18
+              ]
+            }
+          ]
+        }
+      },
+      "foot": {
+        "props": {}
+      },
+      "top": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5,
+              "value": -2
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "x": []
+    }
+  },
+  "events": []
+}

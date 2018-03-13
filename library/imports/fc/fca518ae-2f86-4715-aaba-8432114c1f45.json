@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gong",
+    "texture": "d9787318-7880-4f06-a6e0-a6025dce4f87",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      16,
+      13
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      16,
+      19
+    ]
+  }
+}

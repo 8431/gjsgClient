@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GamePlaza-btn_baccarat_s",
+    "texture": "0ea3d241-dde5-4c0d-b63c-8cf8add20d7d",
+    "atlas": "0f37f007-be83-4b51-bdec-3550a3de0664",
+    "rect": [
+      1469,
+      492,
+      194,
+      182
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      200,
+      200
+    ]
+  }
+}

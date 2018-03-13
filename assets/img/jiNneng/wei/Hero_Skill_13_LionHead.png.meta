@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "cc680637-e2e4-4f97-b0f6-23f59e7a9397",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Hero_Skill_13_LionHead": {
+      "ver": "1.0.3",
+      "uuid": "5c46715c-d301-47e6-b650-c78e2133a31c",
+      "rawTextureUuid": "cc680637-e2e4-4f97-b0f6-23f59e7a9397",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 120,
+      "height": 108,
+      "rawWidth": 120,
+      "rawHeight": 110,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

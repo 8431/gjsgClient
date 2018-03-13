@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wushinv2",
+    "texture": "9770e08d-8e83-4ae8-9e6b-870cfeb141c2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      63,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      79
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "speakPrefab",
+    "Prefab",
+    "onLoad",
+    "canvas",
+    "find",
+    "haoyouEvent",
+    "log",
+    "wupinEvent",
+    "xiaoxiEvent",
+    "paihangEvent",
+    "renwuEvent",
+    "fujiangEvent",
+    "youjianEvent",
+    "baokuEvent",
+    "wanjiaEvent",
+    "gengduoEvent",
+    "pindaoEvent",
+    "fayanEvent",
+    "curChannel",
+    "speak",
+    "instantiate",
+    "x",
+    "y",
+    "addChild",
+    "backEvent",
+    "node",
+    "active"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,qBAAaL,GAAGM;AADR,KAHP;;AAOL;AACAC,YAAQ,kBAAY;AAChB,aAAKC,MAAL,GAAcR,GAAGS,IAAH,CAAQ,QAAR,CAAd;AACH,KAVI;;AAYLC,iBAAa,uBAAU;AACnBV,WAAGW,GAAH,CAAO,iBAAP;AACH,KAdI;;AAgBLC,gBAAY,sBAAU;AAClBZ,WAAGW,GAAH,CAAO,iBAAP;AACH,KAlBI;;AAoBLE,iBAAa,uBAAU;AACnBb,WAAGW,GAAH,CAAO,iBAAP;AACH,KAtBI;;AAwBLG,kBAAc,wBAAU;AACpBd,WAAGW,GAAH,CAAO,iBAAP;AACH,KA1BI;;AA4BLI,gBAAY,sBAAU;AAClBf,WAAGW,GAAH,CAAO,iBAAP;AACH,KA9BI;;AAgCLK,kBAAc,wBAAU;AACpBhB,WAAGW,GAAH,CAAO,iBAAP;AACH,KAlCI;;AAoCLM,kBAAc,wBAAU;AACpBjB,WAAGW,GAAH,CAAO,iBAAP;AACH,KAtCI;;AAwCLO,gBAAY,sBAAU;AAClBlB,WAAGW,GAAH,CAAO,iBAAP;AACH,KA1CI;;AA4CLQ,iBAAa,uBAAU;AACnBnB,WAAGW,GAAH,CAAO,iBAAP;AACH,KA9CI;;AAgDLS,kBAAc,wBAAU;AACpBpB,WAAGW,GAAH,CAAO,iBAAP;AACH,KAlDI;;AAoDLU,iBAAa,uBAAU;AACnBrB,WAAGW,GAAH,CAAO,iBAAP;AACH,KAtDI;;AAwDLW,gBAAY,sBAAU;AAClBtB,WAAGW,GAAH,CAAO,iBAAP;;AAEA,YAAGY,eAAe,CAAlB,EAAqB;AACjBvB,eAAGW,GAAH,CAAO,UAAP;AACA,mBAFiB,CAEN;AACd,SAHD,MAIK,IAAGY,eAAe,CAAlB,EAAoB;AACrB;AACAvB,eAAGW,GAAH,CAAO,UAAP;AACH;AACD;AACAX,WAAGW,GAAH,CAAO,IAAP;AACA,YAAIa,QAAQxB,GAAGyB,WAAH,CAAe,KAAKpB,WAApB,CAAZ;AACAmB,cAAME,CAAN,GAAU,CAAV;AACAF,cAAMG,CAAN,GAAU,CAAV;AACA,aAAKnB,MAAL,CAAYoB,QAAZ,CAAqBJ,KAArB;AACH,KAzEI;;AA2ELK,eAAW,qBAAU;AACjB7B,WAAGW,GAAH,CAAO,iBAAP;AACA,aAAKmB,IAAL,CAAUC,MAAV,GAAmB,KAAnB;AACH;AA9EI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        speakPrefab: cc.Prefab\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.canvas = cc.find('Canvas');\r\n    },\r\n\r\n    haoyouEvent: function(){\r\n        cc.log('index hotkey 好友');\r\n    },\r\n\r\n    wupinEvent: function(){\r\n        cc.log('index hotkey 物品');\r\n    },\r\n\r\n    xiaoxiEvent: function(){\r\n        cc.log('index hotkey 消息');\r\n    },\r\n\r\n    paihangEvent: function(){\r\n        cc.log('index hotkey 排行');\r\n    },\r\n\r\n    renwuEvent: function(){\r\n        cc.log('index hotkey 任务');\r\n    },\r\n\r\n    fujiangEvent: function(){\r\n        cc.log('index hotkey 副将');\r\n    },\r\n\r\n    youjianEvent: function(){\r\n        cc.log('index hotkey 邮件');\r\n    },\r\n\r\n    baokuEvent: function(){\r\n        cc.log('index hotkey 宝库');\r\n    },\r\n\r\n    wanjiaEvent: function(){\r\n        cc.log('index hotkey 玩家');\r\n    },\r\n\r\n    gengduoEvent: function(){\r\n        cc.log('index hotkey 更多');\r\n    },\r\n\r\n    pindaoEvent: function(){\r\n        cc.log('index hotkey 频道');\r\n    },\r\n\r\n    fayanEvent: function(){\r\n        cc.log('index hotkey 发言');\r\n\r\n        if(curChannel === 3) {\r\n            cc.log('世界频道禁止发言');\r\n            return;    //世界频道禁止发言\r\n        }\r\n        else if(curChannel === 1){\r\n            //TODO:门派验证\r\n            cc.log('门派系统还未开放');\r\n        }\r\n        //发言\r\n        cc.log('发言');\r\n        var speak = cc.instantiate(this.speakPrefab);\r\n        speak.x = 0;\r\n        speak.y = 0;\r\n        this.canvas.addChild(speak);\r\n    },\r\n\r\n    backEvent: function(){\r\n        cc.log('index hotkey 返回');\r\n        this.node.active = false;\r\n    }\r\n});\r\n"
+  ]
+}

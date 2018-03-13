@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "head",
+    "node",
+    "getComponent",
+    "Sprite",
+    "spriteFrame",
+    "id",
+    "clickEvent",
+    "setHead",
+    "data",
+    "headUrl",
+    "touxiang",
+    "headName",
+    "substring",
+    "lastIndexOf",
+    "loader",
+    "loadRes",
+    "SpriteFrame",
+    "err"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY,EAHP;;AAOL;AACAC,YAAQ,kBAAY;AAChB,aAAKC,IAAL,GAAY,KAAKC,IAAL,CAAUC,YAAV,CAAuBR,GAAGS,MAA1B,CAAZ;AACA,aAAKH,IAAL,CAAUI,WAAV,GAAwB,IAAxB;AACA,aAAKC,EAAL,GAAU,CAAC,CAAX;AACH,KAZI;;AAcLC,gBAAY,sBAAU;AAClB,YAAG,KAAKD,EAAL,GAAU,CAAb,EAAgB;AAChB;AACH,KAjBI;;AAmBLE,aAAS,iBAASC,IAAT,EAAc;AACnB,aAAKH,EAAL,GAAUG,KAAKH,EAAf;AACA,YAAII,UAAUD,KAAKE,QAAnB;AACAD,kBAAUE,SAASC,SAAT,CAAmBD,SAASE,WAAT,CAAqB,GAArB,IAA4B,CAA/C,EAAkDF,SAASE,WAAT,CAAqB,GAArB,CAAlD,CAAV;AACA,aAAKJ,OAAL,GAAe,cAAcE,QAA7B;AACAjB,WAAGoB,MAAH,CAAUC,OAAV,CAAkB,KAAKN,OAAvB,EAAgCf,GAAGsB,WAAnC,EAAgD,UAASC,GAAT,EAAcb,WAAd,EAA0B;AACtE,gBAAG,CAACa,GAAJ,EAAQ;AACJ,qBAAKjB,IAAL,CAAUI,WAAV,GAAwBA,WAAxB;AACH;AACJ,SAJD;AAKH;AA7BI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        \r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.head = this.node.getComponent(cc.Sprite);\r\n        this.head.spriteFrame = null;\r\n        this.id = -1;\r\n    },\r\n\r\n    clickEvent: function(){\r\n        if(this.id < 0) return;\r\n        //TODO:点击事件\r\n    },\r\n\r\n    setHead: function(data){\r\n        this.id = data.id;\r\n        var headUrl = data.touxiang;\r\n        headUrl = headName.substring(headName.lastIndexOf('/') + 1, headName.lastIndexOf('.'));\r\n        this.headUrl = 'touxiang/' + headName;\r\n        cc.loader.loadRes(this.headUrl, cc.SpriteFrame, function(err, spriteFrame){\r\n            if(!err){\r\n                this.head.spriteFrame = spriteFrame;\r\n            }\r\n        });\r\n    }\r\n});\r\n"
+  ]
+}

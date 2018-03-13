@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameLandRes",
+    "texture": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      2019,
+      1358
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2023,
+      1362
+    ]
+  }
+}

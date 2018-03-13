@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c06b6fe0-8987-4c78-89d2-7e1c38ee99c4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "sellGold_normal": {
+      "ver": "1.0.3",
+      "uuid": "ea4f7597-b02c-45e4-9f63-62ffd53024b4",
+      "rawTextureUuid": "c06b6fe0-8987-4c78-89d2-7e1c38ee99c4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 162,
+      "height": 58,
+      "rawWidth": 162,
+      "rawHeight": 58,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

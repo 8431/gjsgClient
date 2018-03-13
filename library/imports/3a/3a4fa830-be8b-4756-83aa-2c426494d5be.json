@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Baccarat_banking_list",
+    "texture": "118875aa-bb1e-45aa-b7a4-9e0bd5e7b0b1",
+    "atlas": "f9d41f4b-d0ac-4b49-8787-e5aa78c73066",
+    "rect": [
+      726,
+      2,
+      272,
+      118
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      272,
+      118
+    ],
+    "rotated": 1
+  }
+}

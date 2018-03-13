@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dlg_steup_bg",
+    "texture": "023a035c-8275-47b5-8704-214aa4afe8af",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      816,
+      546
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      818,
+      546
+    ]
+  }
+}

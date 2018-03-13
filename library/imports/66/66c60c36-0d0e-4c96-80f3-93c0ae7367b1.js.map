@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "playerSilver_label",
+    "Label",
+    "bankSilver_label",
+    "getSilver_editbox",
+    "EditBox",
+    "back",
+    "returnLast",
+    "getRecord",
+    "getConfirm",
+    "self",
+    "getDate",
+    "string",
+    "ajaxData",
+    "HxsgUrl",
+    "bankSGUrl",
+    "msg",
+    "showAlert",
+    "result",
+    "onLoad",
+    "Bank",
+    "playerSilver",
+    "bankSilver"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,4BAAoBL,GAAGM,KADf;AAERC,0BAAkBP,GAAGM,KAFb;AAGRE,2BAAmBR,GAAGS;AAHd,KAHP;;AASL;AACAC,UAAM,gBAAY;AACdC;AACH,KAZI;;AAcL;AACAC,eAAW,qBAAY,CAEtB,CAjBI;;AAmBL;AACAC,gBAAY,sBAAY;AACpB,YAAIC,OAAO,IAAX;AACA,YAAIC,UAAU;AACV,sBAAU,KADA,EACM;AAChB,mBAAO,KAAKP,iBAAL,CAAuBQ,MAFpB,EAAd;AAIAC,iBAASC,QAAQC,SAAjB,EAA4BJ,OAA5B,EAAqC,UAAUK,GAAV,EAAe;;AAEhDC,sBAAUD,IAAIE,MAAd,EAAqBR,KAAKJ,IAAL,EAArB;AACH,SAHD;AAIH,KA9BI;;AAgCL;AACAa,YAAQ,kBAAY;AAChB,aAAKlB,kBAAL,CAAwBW,MAAxB,GAAiC,SAASQ,KAAKC,YAAd,GAA6B,GAA9D;AACA,aAAKlB,gBAAL,CAAsBS,MAAtB,GAA+B,SAASQ,KAAKE,UAAd,GAA2B,GAA1D;AACH;;AApCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        playerSilver_label: cc.Label,\r\n        bankSilver_label: cc.Label,\r\n        getSilver_editbox: cc.EditBox,\r\n    },\r\n\r\n    //返回钱庄场景\r\n    back: function () {\r\n        returnLast();\r\n    },\r\n\r\n    //取款记录\r\n    getRecord: function () {\r\n\r\n    },\r\n\r\n    //确认取款\r\n    getConfirm: function () {\r\n        var self = this;\r\n        var getDate = {\r\n            \"status\": \"del\",//该参数有add(存款),del(取款)\r\n            \"yin\": this.getSilver_editbox.string,//存银就填该参数\r\n        };\r\n        ajaxData(HxsgUrl.bankSGUrl, getDate, function (msg) {\r\n          \r\n            showAlert(msg.result,self.back());\r\n        });\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.playerSilver_label.string = \"您目前有\" + Bank.playerSilver + \"两\";\r\n        this.bankSilver_label.string = \"钱庄存款\" + Bank.bankSilver + \"两\";\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

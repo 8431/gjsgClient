@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guji",
+    "texture": "46acd9b2-347e-4e38-ab8c-a505f15db09f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      312,
+      468
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      312,
+      468
+    ]
+  }
+}

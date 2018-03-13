@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "zhuangtaiEvent",
+    "log",
+    "loadScene",
+    "HxsgScenes",
+    "role",
+    "index",
+    "wupinEvent",
+    "scene",
+    "director",
+    "getScene",
+    "name",
+    "wupin",
+    "fujiangEvent",
+    "fujiang",
+    "zuduiEvent",
+    "paihangEvent",
+    "haoyouEvent",
+    "friends",
+    "youjianEvent",
+    "renwuEvent",
+    "leitaiEvent",
+    "jiaopaiEvent",
+    "xunlianEvent",
+    "loadingScene",
+    "xunLian",
+    "baokuEvent",
+    "gonggaoEvent",
+    "ggList",
+    "gonglueEvent",
+    "dengchuEvent"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY,EAHP;;AAOL;AACAC,YAAQ,kBAAY,CAEnB,CAVI;;AAYLC,oBAAgB,0BAAU;AACtBN,WAAGO,GAAH,CAAO,mBAAP;AACGC,kBAAUC,WAAWC,IAArB,EAA2BD,WAAWE,KAAtC;AACN,KAfI;;AAiBLC,gBAAY,sBAAU;AAClBZ,WAAGO,GAAH,CAAO,mBAAP;AACA,YAAIM,QAAQb,GAAGc,QAAH,CAAYC,QAAZ,GAAuBC,IAAnC;AACAR,kBAAUC,WAAWQ,KAArB,EAA4BR,WAAWE,KAAvC;AACH,KArBI;;AAuBLO,kBAAc,wBAAU;AACpBlB,WAAGO,GAAH,CAAO,mBAAP;AACAC,kBAAUC,WAAWU,OAArB,EAA8BV,WAAWE,KAAzC;AACH,KA1BI;;AA4BLS,gBAAY,sBAAU;AAClBpB,WAAGO,GAAH,CAAO,mBAAP;AACH,KA9BI;;AAgCLc,kBAAc,wBAAU;AACpBrB,WAAGO,GAAH,CAAO,mBAAP;AACH,KAlCI;;AAoCLe,iBAAa,uBAAU;AACnBtB,WAAGO,GAAH,CAAO,mBAAP;AACCC,kBAAUC,WAAWc,OAArB,EAA8Bd,WAAWE,KAAzC;AACJ,KAvCI;;AAyCLa,kBAAc,wBAAU;AACpBxB,WAAGO,GAAH,CAAO,mBAAP;AACH,KA3CI;;AA6CLkB,gBAAY,sBAAU;AAClBzB,WAAGO,GAAH,CAAO,mBAAP;AACH,KA/CI;;AAiDLmB,iBAAa,uBAAU;AACnB1B,WAAGO,GAAH,CAAO,mBAAP;AACH,KAnDI;;AAqDLoB,kBAAc,wBAAU;AACpB3B,WAAGO,GAAH,CAAO,mBAAP;AACH,KAvDI;;AAyDLqB,kBAAc,wBAAU;AAClBC,qBAAapB,WAAWqB,OAAxB,EAAiCrB,WAAWE,KAA5C;AACFX,WAAGO,GAAH,CAAO,mBAAP;AACH,KA5DI;;AA8DLwB,gBAAY,sBAAU;AAClB/B,WAAGO,GAAH,CAAO,mBAAP;AACH,KAhEI;;AAkELyB,kBAAc,wBAAU;AACpBhC,WAAGO,GAAH,CAAO,mBAAP;AACEC,kBAAUC,WAAWwB,MAArB,EAA6BxB,WAAWE,KAAxC;AAEL,KAtEI;;AAwELuB,kBAAc,wBAAU;AACpBlC,WAAGO,GAAH,CAAO,mBAAP;AACH,KA1EI;;AA4EL4B,kBAAc,wBAAU;AACpBnC,WAAGO,GAAH,CAAO,mBAAP;AACH;AA9EI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        \r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    zhuangtaiEvent: function(){\r\n        cc.log('gongneng panel 状态');\r\n           loadScene(HxsgScenes.role, HxsgScenes.index);\r\n    },\r\n\r\n    wupinEvent: function(){\r\n        cc.log('gongneng panel 物品');\r\n        var scene = cc.director.getScene().name;\r\n        loadScene(HxsgScenes.wupin, HxsgScenes.index);\r\n    },\r\n\r\n    fujiangEvent: function(){\r\n        cc.log('gongneng panel 副将');\r\n        loadScene(HxsgScenes.fujiang, HxsgScenes.index);\r\n    },\r\n\r\n    zuduiEvent: function(){\r\n        cc.log('gongneng panel 组队');\r\n    },\r\n\r\n    paihangEvent: function(){\r\n        cc.log('gongneng panel 排行');\r\n    },\r\n\r\n    haoyouEvent: function(){\r\n        cc.log('gongneng panel 好友');\r\n         loadScene(HxsgScenes.friends, HxsgScenes.index);\r\n    },\r\n\r\n    youjianEvent: function(){\r\n        cc.log('gongneng panel 邮件');\r\n    },\r\n\r\n    renwuEvent: function(){\r\n        cc.log('gongneng panel 任务');\r\n    },\r\n\r\n    leitaiEvent: function(){\r\n        cc.log('gongneng panel 擂台');\r\n    },\r\n\r\n    jiaopaiEvent: function(){\r\n        cc.log('gongneng panel 教派');\r\n    },\r\n\r\n    xunlianEvent: function(){\r\n          loadingScene(HxsgScenes.xunLian, HxsgScenes.index);\r\n        cc.log('gongneng panel 训练');\r\n    },\r\n\r\n    baokuEvent: function(){\r\n        cc.log('gongneng panel 宝库');\r\n    },\r\n\r\n    gonggaoEvent: function(){\r\n        cc.log('gongneng panel 公告');\r\n          loadScene(HxsgScenes.ggList, HxsgScenes.index);\r\n        \r\n    },\r\n\r\n    gonglueEvent: function(){\r\n        cc.log('gongneng panel 攻略');\r\n    },\r\n\r\n    dengchuEvent: function(){\r\n        cc.log('gongneng panel 登出');\r\n    }\r\n});\r\n"
+  ]
+}

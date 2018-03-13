@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameSparrowRes",
+    "texture": "64606081-5d77-464a-84b7-18157c283d46",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      584,
+      1018
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      588,
+      1022
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "buff.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "du": {
+      "__uuid__": "c5d5b1d8-cc27-4ede-b8f9-9dbb2a4d1860"
+    },
+    "feng": {
+      "__uuid__": "256445b5-a57c-4c9f-9ac9-dcee96a7e325"
+    },
+    "gong": {
+      "__uuid__": "bc089d64-1b9b-4df0-b3d9-470168c52605"
+    },
+    "gu": {
+      "__uuid__": "f0aee72d-12b4-4dfc-a429-171c498533c4"
+    },
+    "luan": {
+      "__uuid__": "ea7d4d46-b7f9-42b3-b29a-4d4d2fc77a76"
+    },
+    "su": {
+      "__uuid__": "6a3e7fba-2535-4ba0-8101-b637d7555b91"
+    },
+    "wei": {
+      "__uuid__": "9c9b2f5a-f09c-48b5-ab79-aa11429fc6bf"
+    },
+    "yin": {
+      "__uuid__": "640b602c-15d8-47bc-bdc5-3b1f879c2fd2"
+    }
+  }
+}

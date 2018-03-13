@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bsList",
+    "texture": "bf5103ef-1ba2-4331-8145-2c0ee8a3bf71",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      327,
+      331
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      327,
+      331
+    ]
+  }
+}

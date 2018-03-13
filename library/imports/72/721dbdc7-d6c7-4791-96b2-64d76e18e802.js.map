@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "yiguanEvent",
+    "log",
+    "loadingScene",
+    "HxsgScenes",
+    "yiguan",
+    "index",
+    "qianzhuangEvent",
+    "loadScene",
+    "bank",
+    "guanyiEvent",
+    "showAlert",
+    "shichangEvent",
+    "director",
+    "guangchangEvent",
+    "guanfuEvent",
+    "zhanchangEvent",
+    "guanjiaEvent",
+    "wabaoEvent",
+    "wabao"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY,EAHP;;AAOL;AACAC,YAAQ,kBAAY,CAEnB,CAVI;;AAYLC,iBAAa,uBAAY;AACrBN,WAAGO,GAAH,CAAO,iBAAP;AACEC,qBAAaC,WAAWC,MAAxB,EAA+BD,WAAWE,KAA1C;AACL,KAfI;;AAiBLC,qBAAiB,2BAAY;AACzBZ,WAAGO,GAAH,CAAO,iBAAP;AACAM,kBAAUJ,WAAWK,IAArB,EAA2BL,WAAWE,KAAtC;AACH,KApBI;;AAsBLI,iBAAa,uBAAY;AACnBC,kBAAU,MAAV;AACFhB,WAAGO,GAAH,CAAO,iBAAP;AACH,KAzBI;;AA2BLU,mBAAe,yBAAY;AACvBjB,WAAGO,GAAH,CAAO,iBAAP;AACAP,WAAGkB,QAAH,CAAYL,SAAZ,CAAsB,eAAtB;AACH,KA9BI;;AAgCLM,qBAAiB,2BAAY;AACzBnB,WAAGO,GAAH,CAAO,iBAAP;AACAP,WAAGkB,QAAH,CAAYL,SAAZ,CAAsB,YAAtB;AACH,KAnCI;;AAqCLO,iBAAa,uBAAY;AACrBJ,kBAAU,MAAV;AACAhB,WAAGO,GAAH,CAAO,iBAAP;AACH,KAxCI;;AA0CLc,oBAAgB,0BAAY;AACtBL,kBAAU,MAAV;AACFhB,WAAGO,GAAH,CAAO,iBAAP;AACH,KA7CI;;AA+CLe,kBAAc,wBAAY;AACpBN,kBAAU,MAAV;AACFhB,WAAGO,GAAH,CAAO,iBAAP;AACH,KAlDI;AAmDJgB,gBAAY,sBAAY;AACtBf,qBAAaC,WAAWe,KAAxB,EAA8Bf,WAAWE,KAAzC;AACF;;AArDI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    yiguanEvent: function () {\r\n        cc.log('sheshi panel 医馆');\r\n          loadingScene(HxsgScenes.yiguan,HxsgScenes.index);\r\n    },\r\n\r\n    qianzhuangEvent: function () {\r\n        cc.log('sheshi panel 钱庄');\r\n        loadScene(HxsgScenes.bank, HxsgScenes.index);\r\n    },\r\n\r\n    guanyiEvent: function () {\r\n          showAlert(\"暂未开放\")\r\n        cc.log('sheshi panel 馆驿');\r\n    },\r\n\r\n    shichangEvent: function () {\r\n        cc.log('sheshi panel 市场');\r\n        cc.director.loadScene('shiChangIndex');\r\n    },\r\n\r\n    guangchangEvent: function () {\r\n        cc.log('sheshi panel 广场');\r\n        cc.director.loadScene('guangChang');\r\n    },\r\n\r\n    guanfuEvent: function () {\r\n        showAlert(\"暂未开放\")\r\n        cc.log('sheshi panel 官府');\r\n    },\r\n\r\n    zhanchangEvent: function () {\r\n          showAlert(\"暂未开放\")\r\n        cc.log('sheshi panel 战场');\r\n    },\r\n\r\n    guanjiaEvent: function () {\r\n          showAlert(\"暂未开放\")\r\n        cc.log('sheshi panel 管家');\r\n    },\r\n     wabaoEvent: function () {\r\n       loadingScene(HxsgScenes.wabao,HxsgScenes.index);\r\n    }\r\n    \r\n});\r\n"
+  ]
+}

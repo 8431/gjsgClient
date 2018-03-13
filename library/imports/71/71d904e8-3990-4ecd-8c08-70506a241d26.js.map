@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "clickEvent",
+    "e",
+    "num",
+    "jiesuan",
+    "find",
+    "active",
+    "log",
+    "DuChangVo",
+    "getComponent",
+    "setMsg",
+    "ChiBiVo"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;;AAgBL;AACAC,YAAQ,kBAAY,CAEnB,CAnBI;AAoBLC,gBAAW,oBAASC,CAAT,EAAWC,GAAX,EAAe;AACnB,YAAIC,UAAQT,GAAGU,IAAH,CAAQ,gBAAR,CAAZ;AACC,gBAAOF,GAAP;AACI,iBAAK,GAAL;AAAS;AACL;AACIC,4BAAQE,MAAR,GAAe,KAAf;AACDX,uBAAGU,IAAH,CAAQ,cAAR,EAAwBC,MAAxB,GAA+B,KAA/B;AACAX,uBAAGU,IAAH,CAAQ,cAAR,EAAwBC,MAAxB,GAA+B,IAA/B;AACAX,uBAAGY,GAAH,CAAO,kBAAgBC,UAAUL,GAAjC;;AAED,wBAAIK,UAAUL,GAAV,IAAe,CAAnB,EAAqB;AACnBC,gCAAQE,MAAR,GAAe,IAAf;AACAF,gCAAQK,YAAR,CAAqB,SAArB,EAAgCC,MAAhC,CAAuC,cAAvC;AAEA;AACJ;AACH;AACA,iBAAK,GAAL;AAAS;AACL;AACCf,uBAAGU,IAAH,CAAQ,gBAAR,EAA0BC,MAA1B,GAAiC,KAAjC;AACCX,uBAAGU,IAAH,CAAQ,cAAR,EAAwBC,MAAxB,GAA+B,IAA/B;AACAX,uBAAGU,IAAH,CAAQ,cAAR,EAAwBC,MAAxB,GAA+B,KAA/B;AACA,wBAAIK,QAAQR,GAAR,IAAa,CAAjB,EAAmB;AAChBC,gCAAQE,MAAR,GAAe,IAAf;AACAF,gCAAQK,YAAR,CAAqB,SAArB,EAAgCC,MAAhC,CAAuC,aAAvC;AACF;AACJ;AACH;AACA,iBAAK,GAAL;AAAS;AACN;AACH;AACA,iBAAK,GAAL;AAAS;AACN;AACH;AA/BL;AAkCP;AACD;AACA;;AAEA;AA5DK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    clickEvent:function(e,num){\r\n           var jiesuan=cc.find(\"Canvas/jiesuan\");\r\n            switch(num){\r\n                case '1':{\r\n                    //猜猜猜\r\n                        jiesuan.active=false;\r\n                       cc.find(\"Canvas/chibi\").active=false;\r\n                       cc.find(\"Canvas/saizi\").active=true;\r\n                       cc.log(\"DuChangVo.num\"+DuChangVo.num)\r\n                    \r\n                      if( DuChangVo.num<=0){\r\n                        jiesuan.active=true;\r\n                        jiesuan.getComponent(\"jiesuan\").setMsg(\"猜猜猜结算中，请稍后再来\");     \r\n              \r\n                       }   \r\n                    break;\r\n                }\r\n                 case '2':{\r\n                     //赤壁\r\n                      cc.find(\"Canvas/jiesuan\").active=false;\r\n                       cc.find(\"Canvas/chibi\").active=true;\r\n                       cc.find(\"Canvas/saizi\").active=false;\r\n                       if( ChiBiVo.num<=0){\r\n                          jiesuan.active=true;\r\n                          jiesuan.getComponent(\"jiesuan\").setMsg(\"赤壁结算中，请稍后再来\");     \r\n                       }\r\n                    break;\r\n                }\r\n                 case '3':{\r\n                    break;\r\n                }\r\n                 case '4':{\r\n                    break;\r\n                }\r\n            }\r\n\r\n    }\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

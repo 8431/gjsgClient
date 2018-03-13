@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dlg_junpay_bg",
+    "texture": "331f7c71-9458-482f-ad60-cf738a4ff6db",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      1062,
+      636
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1064,
+      636
+    ]
+  }
+}

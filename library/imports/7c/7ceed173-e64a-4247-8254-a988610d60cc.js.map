@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "wait",
+    "Sprite",
+    "onLoad",
+    "action",
+    "repeatForever",
+    "rotateBy",
+    "node",
+    "runAction"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,cAAKL,GAAGM;AADA,KAHP;;AAiBL;AACAC,YAAQ,kBAAY;AACtB,YAAIC,SAAQR,GAAGS,aAAH,CAAiBT,GAAGU,QAAH,CAAY,GAAZ,EAAiB,GAAjB,CAAjB,CAAZ;AACA,aAAKL,IAAL,CAAUM,IAAV,CAAeC,SAAf,CAAyBJ,MAAzB;AAEG;;AAtBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        wait:cc.Sprite,\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n  var action= cc.repeatForever(cc.rotateBy(3.0, 360));\r\n  this.wait.node.runAction(action);\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

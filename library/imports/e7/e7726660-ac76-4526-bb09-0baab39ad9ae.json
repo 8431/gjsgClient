@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yin",
+    "texture": "af939d19-be15-4cf0-ba27-c87afe8bb0f7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      14,
+      17
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      14,
+      18
+    ]
+  }
+}

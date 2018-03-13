@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ox-btn_banker_d",
+    "texture": "919fcdd3-d877-4e0a-8ad8-422eb2a35fad",
+    "atlas": "410f1e7a-fa73-445d-b61f-f4cb6264ebb5",
+    "rect": [
+      346,
+      597,
+      224,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      224,
+      76
+    ],
+    "rotated": 1
+  }
+}

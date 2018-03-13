@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icequ331",
+    "texture": "43407c43-a8b8-43b6-a4f8-0c46fa89c8f1",
+    "atlas": "c9bb7df8-0077-4941-9cb7-41c671b44250",
+    "rect": [
+      1869,
+      859,
+      40,
+      46
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      56,
+      56
+    ],
+    "rotated": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "richLabel",
+    "RichText",
+    "sprite",
+    "Sprite",
+    "selectBn",
+    "Button",
+    "onLoad",
+    "friendInfo",
+    "event",
+    "log",
+    "node",
+    "target",
+    "r",
+    "getComponent",
+    "id",
+    "roleMsg",
+    "loadingScene",
+    "HxsgScenes",
+    "friends",
+    "initFriendsList",
+    "index",
+    "type",
+    "data",
+    "num",
+    "name",
+    "richString",
+    "btn",
+    "rolename",
+    "status",
+    "string"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACTC,mBAAWL,GAAGM,QADL;AAERC,gBAAQP,GAAGQ,MAFH;AAGRC,kBAAUT,GAAGU;AAHL,KAHP;;AAmBL;AACAC,YAAQ,kBAAY,CAEnB,CAtBI;AAuBL;;;AAGAC,gBAAW,oBAASC,KAAT,EAAe;AACzBb,WAAGc,GAAH,CAAO,WAAP;AACG,YAAIC,OAAOF,MAAMG,MAAjB;AACC,YAAIC,IAAEF,KAAKG,YAAL,CAAmBlB,GAAGM,QAAtB,CAAN;AACDN,WAAGc,GAAH,CAAOG,EAAEE,EAAT;AACAC,gBAAQD,EAAR,GAAWF,EAAEE,EAAF,CAAKA,EAAhB;AACD;AACAE,qBAAaC,WAAWV,UAAxB,EAAoCU,WAAWC,OAA/C;AACF,KAlCI;AAmCLC,qBAAiB,yBAAUC,KAAV,EAAiBC,IAAjB,EAAuBC,IAAvB,EAA6B;;AAGzC,YAAIC,MAAI,CAAR;AACD,aAAKb,IAAL,CAAUc,IAAV,GAAiBH,OAAOD,KAAxB;AACA,aAAKC,IAAL,GAAYA,IAAZ;AACA,aAAKC,IAAL,GAAYA,IAAZ;AACD;AACE,YAAIG,UAAJ;;AAED,YAAIC,MAAI,KAAKtB,QAAL,CAAcU,EAAd,GAAiB,EAAC,MAAKQ,KAAKR,EAAX,EAAc,QAAOQ,KAAKK,QAA1B,EAAzB;;AAEA;AACC,YAAGL,KAAKM,MAAL,IAAa,IAAhB,EAAqB;AACXH,yBAAa,uCAAuCH,KAAKK,QAA5C,GAAuD,WAApE;AACF,SAFR,MAEY;AACDJ,kBAAI,CAAJ;AACGE,yBAAa,uCAAuCH,KAAKK,QAA5C,GAAuD,iDAApE;AACN;AACR,aAAK3B,SAAL,CAAe6B,MAAf,GAAwBJ,UAAxB;AACD,aAAKzB,SAAL,CAAec,EAAf,GAAkBQ,IAAlB;AACA,eAAOC,GAAP;AAEH;;AA1DI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n       richLabel: cc.RichText,\r\n        sprite: cc.Sprite,\r\n        selectBn: cc.Button,\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    /**\r\n     *跳转到好友详情界面 \r\n     */\r\n    friendInfo:function(event){\r\n     cc.log('跳转到好友详情界面')\r\n        var node = event.target;\r\n         var r=node.getComponent( cc.RichText);\r\n        cc.log(r.id)\r\n        roleMsg.id=r.id.id;\r\n       //  cc.log(\"跳转到好友详情界面:\"+msg.friendName)\r\n       loadingScene(HxsgScenes.friendInfo, HxsgScenes.friends)\r\n    },\r\n    initFriendsList: function (index, type, data) {\r\n\r\n\r\n         var num=0;\r\n        this.node.name = type + index;\r\n        this.type = type;\r\n        this.data = data;\r\n       // this.event = event;\r\n         var richString;\r\n         \r\n        var btn=this.selectBn.id={'id':data.id,'name':data.rolename};\r\n      \r\n        //cc.log(btn+btn2);\r\n         if(data.status=='离线'){\r\n                   richString = '<color=#918E83 click=\"friendInfo\">' + data.rolename + '【离线】</c> ';\r\n                }else{\r\n                    num=1;\r\n                       richString = '<color=#FFFF00 click=\"friendInfo\">' + data.rolename + '</c><color=#FF0000 click=\"friendInfo\">【在线】</c> ' ;\r\n                }\r\n         this.richLabel.string = richString;\r\n        this.richLabel.id=data;\r\n        return num;\r\n     \r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

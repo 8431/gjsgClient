@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "username",
+    "default",
+    "type",
+    "EditBox",
+    "pass",
+    "onLoad",
+    "anim",
+    "getComponent",
+    "Animation",
+    "play",
+    "check",
+    "start",
+    "ajaxUtils",
+    "HxsgUrl",
+    "checkVersion",
+    "data",
+    "showAlert",
+    "director",
+    "end",
+    "login",
+    "self",
+    "name",
+    "string",
+    "undefined",
+    "log",
+    "dataJson",
+    "uuidKey",
+    "ajaxData",
+    "msg",
+    "code",
+    "loadScene",
+    "register"
+  ],
+  "mappings": "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",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        username: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        pass: {\r\n            default: null,\r\n            type: cc.EditBox,\r\n        },\r\n        //test:22,\r\n        //pressedScale: 1,\r\n        //transDuration: 0, \r\n    },\r\n    // use this for initialization\r\n    onLoad: function () {\r\n      \r\n       \r\n        // var key= uuid(16,36);\r\n        // uuidKey=key;\r\n        var anim = this.getComponent(cc.Animation);\r\n        // 如果没有指定播放哪个动画，并且有设置 defaultClip 的话，则会播放 defaultClip 动画\r\n        anim.play();\r\n        // 指定播放 test 动画\r\n        anim.play('system');\r\n        this.check();\r\n\r\n         \r\n    },\r\n    start: function () {\r\n        \r\n        // Change the text in Label Component    \r\n    },\r\n    check:function(){\r\n          ajaxUtils(HxsgUrl.checkVersion,null,function(data){\r\n            if(data==\"1\"){\r\n                showAlert(\"检测到有新的版本！q群455895673下载\",function(){\r\n                    cc.director.end()\r\n                },function(){\r\n                    cc.director.end()\r\n                })\r\n            }\r\n             if(data==\"2\"){\r\n                showAlert(\"停服维护中！q群455895673\",function(){\r\n                    cc.director.end()\r\n                },function(){\r\n                    cc.director.end()\r\n                })\r\n            }\r\n\r\n        });\r\n\r\n    },\r\n    //登入按钮\r\n    login: function () {\r\n \r\n        var self = this;\r\n        //获取用户输入         \r\n        var name = self.username.string;\r\n        var pass = self.pass.string;\r\n        //空数据拦截\r\n        if (name === null || name === undefined || name === '') {\r\n            showAlert('请输入用户名');\r\n            return;\r\n        }\r\n        if (pass === null || pass === undefined || pass === '') {\r\n            showAlert('请输入密码');\r\n            return;\r\n        }\r\n        cc.log(name, pass);\r\n        //敏感词检测 ？\r\n        var dataJson = { \"name\": name, \"password\": pass, \"key\": uuidKey };\r\n        ajaxData(HxsgUrl.login, dataJson, function (msg) {\r\n            if (msg.code == \"000\") {\r\n                if (msg.data === \"005\") {\r\n                    cc.log(\"跳转到选择角色界面\");\r\n                    //跳转到选择界面\r\n                    loadScene('selectRole', 'login');\r\n                    //cc.director.loadScene('scenes/login/selectRole');\r\n                }\r\n                else if (msg.data === \"003\") {//创建角色\r\n                    cc.log(\"跳转到创建角色界面\");\r\n                    loadScene('selectRole', 'login');\r\n                    //cc.director.loadScene('scenes/login/createRole');\r\n                }\r\n                else if (msg.data === \"001\") {\r\n                    cc.log(\"登入失败\" + msg.msg);\r\n                    showAlert('用户名或者密码错误');\r\n                }\r\n                else if (msg.data === \"002\") {//服务器异常\r\n                    cc.log(\"登入失败\" + msg.msg);\r\n                    showAlert('用户名或者密码错误');\r\n                }\r\n                else {\r\n                    cc.log(\"未定义错误\" + msg.data);\r\n                    showAlert('发生未知错误');\r\n                }\r\n            } else {\r\n                showAlert('服务器异常');\r\n            }\r\n\r\n\r\n        });\r\n    },\r\n    //注册按钮 回调函数\r\n    register: function () {\r\n        loadScene('register', 'login');\r\n        //cc.director.loadScene('register');\r\n    },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "title",
+    "Label",
+    "text",
+    "back",
+    "returnLast",
+    "onLoad",
+    "string",
+    "GG"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,eAAOL,GAAGM,KADF;AAERC,cAAMP,GAAGM;AAFD,KAHP;;AAQL;AACAE,UAAM,gBAAY;AACdC;AACH,KAXI;;AAaL;AACAC,YAAQ,kBAAY;AAChB,aAAKL,KAAL,CAAWM,MAAX,GAAoBC,GAAGP,KAAvB;AACA,aAAKE,IAAL,CAAUI,MAAV,GAAmBC,GAAGL,IAAtB;AACH;;AAjBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        title: cc.Label,\r\n        text: cc.Label,\r\n    },\r\n\r\n    //加载公告列表场景\r\n    back: function () {\r\n        returnLast();\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.title.string = GG.title;\r\n        this.text.string = GG.text;\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

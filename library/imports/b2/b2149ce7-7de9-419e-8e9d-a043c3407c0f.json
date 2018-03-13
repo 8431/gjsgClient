@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "room_text_baccarat",
+    "texture": "b4b9da18-a840-46e0-b8c0-25a6ea9a2251",
+    "atlas": "",
+    "rect": [
+      0,
+      8,
+      939,
+      82
+    ],
+    "offset": [
+      -13,
+      1
+    ],
+    "originalSize": [
+      965,
+      100
+    ]
+  }
+}

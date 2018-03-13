@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ox-tip_pic_ox_12",
+    "texture": "919fcdd3-d877-4e0a-8ad8-422eb2a35fad",
+    "atlas": "410f1e7a-fa73-445d-b61f-f4cb6264ebb5",
+    "rect": [
+      74,
+      982,
+      70,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      36
+    ]
+  }
+}

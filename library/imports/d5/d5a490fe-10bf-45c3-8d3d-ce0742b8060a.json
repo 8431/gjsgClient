@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icgoods042",
+    "texture": "99cc67c3-23c3-45aa-b6a7-a1350922e278",
+    "atlas": "1fbce200-cdba-4f35-9522-ccf9f3aec103",
+    "rect": [
+      1085,
+      57,
+      40,
+      53
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      56,
+      55
+    ]
+  }
+}

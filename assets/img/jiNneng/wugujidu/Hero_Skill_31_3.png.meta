@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "fc0c0298-3601-4612-a3f1-02ba379666c1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Hero_Skill_31_3": {
+      "ver": "1.0.3",
+      "uuid": "b351ab40-b7eb-43ec-a139-ff6b4f695e54",
+      "rawTextureUuid": "fc0c0298-3601-4612-a3f1-02ba379666c1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 60,
+      "trimX": 95,
+      "trimY": 59,
+      "width": 60,
+      "height": 62,
+      "rawWidth": 252,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

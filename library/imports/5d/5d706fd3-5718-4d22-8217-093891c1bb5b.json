@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "主界面UI",
+    "texture": "af435f97-c012-4b0d-89b8-2881d12a37c2",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      481,
+      645
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      481,
+      649
+    ]
+  }
+}

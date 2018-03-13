@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "itemPrefab",
+    "Prefab",
+    "onLoad",
+    "prefab",
+    "node",
+    "ajaxUrl",
+    "log",
+    "name",
+    "HxsgUrl",
+    "queryWinJinBang",
+    "queryBettingRecord",
+    "ajaxData",
+    "msg",
+    "mheight",
+    "i",
+    "length",
+    "item",
+    "instantiate",
+    "addChild",
+    "getComponent",
+    "init",
+    "height",
+    "e",
+    "backEvent",
+    "returnLast"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACVC,oBAAYL,GAAGM;AADL,KAHP;;AAOL;AACAC,YAAQ,kBAAY;AACb,YAAIC,SAAO,KAAKH,UAAhB;AACA,YAAII,OAAK,KAAKA,IAAd;AACA,YAAIC,UAAQ,EAAZ;AACGV,WAAGW,GAAH,CAAOH,OAAOI,IAAd;AACA,YAAG,mBAAiBJ,OAAOI,IAA3B,EAAgC;AAC3BF,sBAAQG,QAAQC,eAAhB;AACJ,SAFD,MAEK;AACDJ,sBAAQG,QAAQE,kBAAhB;AACH;AACJC,iBAASN,OAAT,EAAiB,IAAjB,EAAsB,UAAUO,GAAV,EAAc;AACvBjB,eAAGW,GAAH,CAAOM,IAAIA,GAAX;AACC,gBAAIC,UAAQ,CAAZ;AACX,iBAAK,IAAIC,IAAI,CAAb,EAAgBA,IAAIF,IAAIA,GAAJ,CAAQG,MAA5B,EAAoC,EAAED,CAAtC,EAAyC;AACrC,oBAAG;AACc,wBAAIE,OAAOrB,GAAGsB,WAAH,CAAed,MAAf,CAAX;AACAC,yBAAKc,QAAL,CAAcF,IAAd;AACAA,yBAAKG,YAAL,CAAkB,YAAlB,EAAgCC,IAAhC,CAAqCR,IAAIA,GAAJ,CAAQE,CAAR,CAArC,EAAgDA,CAAhD;AACAD,+BAASG,KAAKK,MAAd;AAChB,iBALD,CAMA,OAAMC,CAAN,EAAQ,CAEP;AACL;AACDlB,iBAAKiB,MAAL,GAAYR,OAAZ;AAGJ,SAjBE;AAkBN,KApCI;AAqCL;;;AAGAU,eAAW,qBAAY;AACnB;AACAC;AACH;;AA3CI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n      itemPrefab: cc.Prefab,\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n           var prefab=this.itemPrefab;\r\n           var node=this.node;\r\n           var ajaxUrl='';\r\n              cc.log(prefab.name);\r\n              if('zhuanqianitem'==prefab.name){\r\n                   ajaxUrl=HxsgUrl.queryWinJinBang;\r\n              }else{\r\n                  ajaxUrl=HxsgUrl.queryBettingRecord;\r\n              }\r\n           ajaxData(ajaxUrl,null,function (msg){\r\n                        cc.log(msg.msg);\r\n                         var mheight=0;\r\n\t\t\t\t          for (var i = 0; i < msg.msg.length; ++i) {\r\n\t\t\t\t              try{\r\n                                   var item = cc.instantiate(prefab);\r\n                                   node.addChild(item);\r\n                                   item.getComponent('commonItem').init(msg.msg[i],i);\r\n                                   mheight+=item.height;\r\n\t\t\t\t              }\r\n\t\t\t\t              catch(e){\r\n\t\t\t\t                  \r\n\t\t\t\t              }\r\n\t\t\t    \t     }\r\n\t\t\t    \t     node.height=mheight;\r\n                    \r\n            \t\r\n        });\r\n    },\r\n    /**\r\n     * 点击事件-->返回\r\n     */\r\n    backEvent: function () {\r\n        //调用通用的返回上一场景方法\r\n        returnLast();\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

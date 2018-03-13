@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "chatMng",
+    "Node",
+    "speakPrefab",
+    "Prefab",
+    "onLoad",
+    "getComponent",
+    "canvas",
+    "find",
+    "backEvent",
+    "self",
+    "log",
+    "returnLastScene",
+    "HxsgScenes",
+    "indexchat",
+    "refreshEvent",
+    "updataMessageData",
+    "speakEvent",
+    "curChannel",
+    "speak",
+    "instantiate",
+    "x",
+    "y",
+    "addChild",
+    "viewClickEvent",
+    "loadScene",
+    "index",
+    "hotkeyEvent"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,iBAASL,GAAGM,IADJ;AAERC,qBAAaP,GAAGQ;AAFR,KAHP;;AAQL;AACAC,YAAQ,kBAAY;AAChB,aAAKJ,OAAL,GAAe,KAAKA,OAAL,CAAaK,YAAb,CAA0B,aAA1B,CAAf;AACA,aAAKC,MAAL,GAAcX,GAAGY,IAAH,CAAQ,QAAR,CAAd;AACH,KAZI;;AAcL;;;AAGAC,eAAW,qBAAY;AACnB,YAAIC,OAAO,IAAX;AACA;AACAd,WAAGe,GAAH,CAAO,IAAP;AACAC,wBAAgBC,WAAWC,SAA3B;AACH,KAtBI;;AAwBLC,kBAAc,wBAAY;AACtB;AACAnB,WAAGe,GAAH,CAAO,IAAP;AACA,aAAKV,OAAL,CAAae,iBAAb;AACH,KA5BI;;AA8BLC,gBAAY,sBAAY;AACpB,YAAGC,eAAe,CAAlB,EAAqB;AACjBtB,eAAGe,GAAH,CAAO,UAAP;AACA,mBAFiB,CAEN;AACd,SAHD,MAIK,IAAGO,eAAe,CAAlB,EAAoB;AACrB;AACAtB,eAAGe,GAAH,CAAO,UAAP;AACH;AACD;AACAf,WAAGe,GAAH,CAAO,IAAP;AACA,YAAIQ,QAAQvB,GAAGwB,WAAH,CAAe,KAAKjB,WAApB,CAAZ;AACAgB,cAAME,CAAN,GAAU,CAAV;AACAF,cAAMG,CAAN,GAAU,CAAV;AACA,aAAKf,MAAL,CAAYgB,QAAZ,CAAqBJ,KAArB;AACH,KA7CI;;AA+CL;;;AAGAK,oBAAgB,0BAAY;AACxB5B,WAAGe,GAAH,CAAO,QAAP;AACAc,kBAAUZ,WAAWC,SAArB,EAAgCD,WAAWa,KAA3C;AACH,KArDI;;AAuDLC,iBAAa,uBAAY;AACrB/B,WAAGe,GAAH,CAAO,KAAP;AACA;AACH;;AA1DI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        chatMng: cc.Node,\r\n        speakPrefab: cc.Prefab\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.chatMng = this.chatMng.getComponent('ChatManager');\r\n        this.canvas = cc.find('Canvas');\r\n    },\r\n\r\n    /**\r\n     * 返回上一场景\r\n     */\r\n    backEvent: function () {\r\n        var self = this;\r\n        //返回\r\n        cc.log('返回');\r\n        returnLastScene(HxsgScenes.indexchat);\r\n    },\r\n\r\n    refreshEvent: function () {\r\n        //刷新\r\n        cc.log('刷新');\r\n        this.chatMng.updataMessageData();\r\n    },\r\n\r\n    speakEvent: function () {\r\n        if(curChannel === 3) {\r\n            cc.log('世界频道禁止发言');\r\n            return;    //世界频道禁止发言\r\n        }\r\n        else if(curChannel === 1){\r\n            //TODO:门派验证\r\n            cc.log('门派系统还未开放');\r\n        }\r\n        //发言\r\n        cc.log('发言');\r\n        var speak = cc.instantiate(this.speakPrefab);\r\n        speak.x = 0;\r\n        speak.y = 0;\r\n        this.canvas.addChild(speak);\r\n    },\r\n\r\n    /**\r\n     * 进入聊天场景\r\n     */\r\n    viewClickEvent: function () {\r\n        cc.log('加载聊天页面');\r\n        loadScene(HxsgScenes.indexchat, HxsgScenes.index);\r\n    },\r\n\r\n    hotkeyEvent: function () {\r\n        cc.log('快捷键');\r\n        //TODO:显示快捷键面板\r\n    }\r\n\r\n});\r\n"
+  ]
+}

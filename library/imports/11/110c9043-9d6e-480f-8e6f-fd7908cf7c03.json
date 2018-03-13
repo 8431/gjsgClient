@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "懒人素材 (6)",
+    "texture": "78fd723a-e6d9-437d-8835-8bb22ea0e907",
+    "atlas": "0b3dbe54-32f5-42c6-b5fc-e36b2f64e7ba",
+    "rect": [
+      1121,
+      281,
+      138,
+      138
+    ],
+    "offset": [
+      2,
+      -6
+    ],
+    "originalSize": [
+      150,
+      150
+    ]
+  }
+}

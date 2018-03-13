@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sparrow-text_anim_zimo",
+    "texture": "64606081-5d77-464a-84b7-18157c283d46",
+    "atlas": "da1b791b-316c-4ff9-99c6-36a443f5be92",
+    "rect": [
+      268,
+      284,
+      180,
+      102
+    ],
+    "offset": [
+      3,
+      1
+    ],
+    "originalSize": [
+      236,
+      114
+    ]
+  }
+}

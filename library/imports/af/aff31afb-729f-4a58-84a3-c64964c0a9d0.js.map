@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "id",
+    "richText",
+    "RichText",
+    "init",
+    "data",
+    "str",
+    "getDate",
+    "date",
+    "rolename",
+    "baoname",
+    "string",
+    "node",
+    "color",
+    "Color",
+    "onLoad"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,YAAG,CADK;AAERC,kBAASN,GAAGO;AAFJ,KAHP;;AAULC,UAAM,cAASC,IAAT,EAAcJ,EAAd,EAAiB;AACf,YAAIK,MAAI,oBAAmBC,QAAQF,KAAKG,IAAb,CAAnB,GAAsC,wBAAtC,GAA+DH,KAAKI,QAApE,GAA6E,MAArF;AACAH,eAAK,wBAAL;AACAA,eAAK,sBAAoBD,KAAKK,OAAzB,GAAiC,UAAtC;AACA,aAAKR,QAAL,CAAcS,MAAd,GAAqBL,GAArB;AACA,aAAKL,EAAL,GAAQA,EAAR;;AAEL,YAAGA,KAAG,CAAH,KAAO,CAAV,EAAY;AACJ,iBAAKW,IAAL,CAAUC,KAAV,GAAgB,IAAIjB,GAAGkB,KAAP,CAAa,CAAb,EAAgB,CAAhB,EAAkB,EAAlB,CAAhB;AACF,SAFN,MAGS;AACD,iBAAKF,IAAL,CAAUC,KAAV,GAAgB,IAAIjB,GAAGkB,KAAP,CAAa,EAAb,EAAgB,EAAhB,EAAmB,EAAnB,CAAhB;AACH;AACP,KAvBI;;AAyBL;AACAC,YAAQ,kBAAY,CAEnB;;AA5BI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        id:0,\r\n        richText:cc.RichText\r\n    },\r\n    \r\n\r\n\r\n    init: function(data,id){\r\n            var str=\"<color=#08E7BA>\"+ getDate(data.date)+\"</c><color=#ff9e00>   \"+data.rolename+\"</c>\";\r\n            str+=\"<color=#F8EEEB>挖到了</c>\";\r\n            str+=\"<color=#F34913>  \"+data.baoname+\"</color>\";\r\n            this.richText.string=str;\r\n            this.id=id;\r\n    \r\n       if(id%2===0){\r\n               this.node.color=new cc.Color(0, 0,38);\r\n            }\r\n            else{\r\n               this.node.color=new cc.Color(99,65,99);\r\n           }\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sparrow-room_bt_hu_disabled",
+    "texture": "64606081-5d77-464a-84b7-18157c283d46",
+    "atlas": "da1b791b-316c-4ff9-99c6-36a443f5be92",
+    "rect": [
+      2,
+      605,
+      94,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      94,
+      100
+    ],
+    "rotated": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wenren3",
+    "texture": "ebd7c1e8-3c7e-4bcf-a297-c91ac0819fd6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      64,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      79
+    ]
+  }
+}

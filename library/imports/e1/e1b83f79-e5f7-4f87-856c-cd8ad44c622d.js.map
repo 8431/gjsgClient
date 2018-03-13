@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "id",
+    "richText",
+    "RichText",
+    "init",
+    "data",
+    "node",
+    "name",
+    "str",
+    "rolename",
+    "jin",
+    "toString",
+    "yin",
+    "string",
+    "num",
+    "result",
+    "jieguo",
+    "color",
+    "Color",
+    "onLoad"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,YAAG,CADK;AAERC,kBAASN,GAAGO;AAFJ,KAHP;;AAULC,UAAM,cAASC,IAAT,EAAcJ,EAAd,EAAiB;AACrB,YAAG,KAAKK,IAAL,CAAUC,IAAV,KAAiB,eAApB,EAAoC;AAC9B,gBAAIC,MAAI,qBAAmBH,KAAKI,QAAxB,GAAiC,OAAzC;AACA,gBAAG,OAAOJ,KAAKK,GAAZ,IAAkB,WAAlB,IAA+BL,KAAKK,GAAL,KAAW,IAA1C,IAAgDL,KAAKK,GAAL,KAAW,CAA9D,EAAgE;AAC5DF,uBAAK,oBAAkB,KAAlB,GAAwBH,KAAKK,GAAL,CAASC,QAAT,EAAxB,GAA4C,IAA5C,GAAiD,UAAtD;AACH;AACD,gBAAG,OAAON,KAAKO,GAAZ,IAAkB,WAAlB,IAA+BP,KAAKO,GAAL,KAAW,IAA1C,IAAgDP,KAAKO,GAAL,KAAW,CAA9D,EAAgE;AAC5DJ,uBAAK,oBAAkB,KAAlB,GAAwBH,KAAKO,GAAL,CAASD,QAAT,EAAxB,GAA4C,IAA5C,GAAiD,UAAtD;AACH;AACD,iBAAKT,QAAL,CAAcW,MAAd,GAAqBL,GAArB;AACA,iBAAKP,EAAL,GAAQA,EAAR;AACL,SAVD,MAWI;AACE,gBAAIO,MAAI,qBAAmBH,KAAKI,QAAxB,GAAiC,SAAjC,GAA2CJ,KAAKS,GAAhD,GAAoD,GAApD,GAAwD,EAAhE;AACA,gBAAG,OAAOT,KAAKK,GAAZ,IAAkB,WAAlB,IAA+BL,KAAKK,GAAL,KAAW,IAA1C,IAAgDL,KAAKK,GAAL,KAAW,CAA9D,EAAgE;AAC7DF,uBAAK,oBAAkB,IAAlB,GAAuBH,KAAKU,MAA5B,GAAmC,EAAnC,GAAsCV,KAAKK,GAAL,CAASC,QAAT,EAAtC,GAA0D,IAA1D,GAA+D,UAApE;AACF;AACF,gBAAG,OAAON,KAAKO,GAAZ,IAAkB,WAAlB,IAA+BP,KAAKO,GAAL,KAAW,IAA1C,IAAgDP,KAAKO,GAAL,KAAW,CAA9D,EAAgE;AAC5DJ,uBAAK,oBAAkB,IAAlB,GAAuBH,KAAKU,MAA5B,GAAmC,EAAnC,GAAsCV,KAAKO,GAAL,CAASD,QAAT,EAAtC,GAA0D,IAA1D,GAA+D,UAApE;AACF;AACD,gBAAGN,KAAKW,MAAL,IAAa,GAAhB,EAAoB;AACdR,uBAAK,oBAAkB,GAAlB,GAAsBH,KAAKW,MAA3B,GAAkC,UAAvC;AACL,aAFD,MAEK;AACCR,uBAAK,oBAAkB,GAAlB,GAAsBH,KAAKW,MAA3B,GAAkC,UAAvC;AACL;;AAED,iBAAKd,QAAL,CAAcW,MAAd,GAAqBL,GAArB;AACA,iBAAKP,EAAL,GAAQA,EAAR;AAEL;AACA,YAAGA,KAAG,CAAH,KAAO,CAAV,EAAY;AACJ,iBAAKK,IAAL,CAAUW,KAAV,GAAgB,IAAIrB,GAAGsB,KAAP,CAAa,CAAb,EAAgB,CAAhB,EAAkB,EAAlB,CAAhB;AACF,SAFN,MAGS;AACD,iBAAKZ,IAAL,CAAUW,KAAV,GAAgB,IAAIrB,GAAGsB,KAAP,CAAa,EAAb,EAAgB,EAAhB,EAAmB,EAAnB,CAAhB;AACH;AACP,KA9CI;;AAgDL;AACAC,YAAQ,kBAAY,CAEnB;;AAnDI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        id:0,\r\n        richText:cc.RichText\r\n    },\r\n    \r\n\r\n\r\n    init: function(data,id){\r\n      if(this.node.name===\"zhuanqianItem\"){\r\n            var str=\"<color=#ff9e00>【\"+data.rolename+\"】</c>\";\r\n            if(typeof(data.jin)!=\"undefined\"&&data.jin!==null&&data.jin!==0){\r\n                str+=\"<color=#ffffff>\"+\"(赢得\"+data.jin.toString()+\"金)\"+\"</color>\";\r\n            }\r\n            if(typeof(data.yin)!=\"undefined\"&&data.yin!==null&&data.yin!==0){\r\n                str+=\"<color=#ffffff>\"+\"(赢得\"+data.yin.toString()+\"银)\"+\"</color>\";\r\n            }\r\n            this.richText.string=str;\r\n            this.id=id;\r\n      }\r\n      else{\r\n            var str=\"<color=#ff9e00>【\"+data.rolename+\"】</c>在第\"+data.num+\"期\"+\"\";\r\n            if(typeof(data.jin)!=\"undefined\"&&data.jin!==null&&data.jin!==0){\r\n               str+=\"<color=#ffffff>\"+\"(买\"+data.result+\"\"+data.jin.toString()+\"金)\"+\"</color>\";\r\n            }\r\n           if(typeof(data.yin)!=\"undefined\"&&data.yin!==null&&data.yin!==0){\r\n               str+=\"<color=#ffffff>\"+\"(买\"+data.result+\"\"+data.yin.toString()+\"银)\"+\"</color>\";\r\n            }\r\n            if(data.jieguo=='输'){\r\n                  str+=\"<color=#ffffff>\"+\",\"+data.jieguo+\"</color>\";\r\n            }else{\r\n                  str+=\"<color=#EDF715>\"+\",\"+data.jieguo+\"</color>\";\r\n            }\r\n          \r\n            this.richText.string=str;\r\n            this.id=id;\r\n\r\n      }\r\n       if(id%2===0){\r\n               this.node.color=new cc.Color(0, 0,38);\r\n            }\r\n            else{\r\n               this.node.color=new cc.Color(99,65,99);\r\n           }\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

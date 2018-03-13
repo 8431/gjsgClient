@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "labelJump",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8333333333333334,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -26.9,
+            -55.6
+          ],
+          "motionPath": [
+            [
+              -1.5,
+              -38.8,
+              -17.7,
+              -46.1,
+              29.4,
+              -44.1
+            ]
+          ]
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": [
+            54.1,
+            -19.1
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

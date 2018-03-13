@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mini_map6",
+    "texture": "f7df2e4c-262b-45db-bb0e-0cb415b3827b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      202,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      202,
+      83
+    ]
+  }
+}

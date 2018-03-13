@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameBaccarat",
+    "texture": "118875aa-bb1e-45aa-b7a4-9e0bd5e7b0b1",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      858,
+      1005
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      862,
+      1009
+    ]
+  }
+}

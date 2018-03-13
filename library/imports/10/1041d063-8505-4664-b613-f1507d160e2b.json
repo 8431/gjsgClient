@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameLand-Animations-bomb_frame_18",
+    "texture": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+    "atlas": "26c91ed1-ef88-4cb1-95ba-8dda1f0c46c5",
+    "rect": [
+      1845,
+      93,
+      257,
+      83
+    ],
+    "offset": [
+      5,
+      -113
+    ],
+    "originalSize": [
+      381,
+      407
+    ],
+    "rotated": 1
+  }
+}

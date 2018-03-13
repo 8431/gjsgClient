@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "addhp",
+    "texture": "6694cc7a-4d32-4eef-9cbf-aa9b2f46479f",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      411,
+      207
+    ],
+    "offset": [
+      -49.5,
+      23.5
+    ],
+    "originalSize": [
+      512,
+      256
+    ]
+  }
+}

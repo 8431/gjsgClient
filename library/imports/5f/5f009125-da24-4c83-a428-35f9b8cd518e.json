@@ -1,0 +1,12 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "font_10",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "fntDataStr": "info face=\"Adobe ���� Std R\" size=30 bold=0 italic=0 charset=\"\" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0\r\ncommon lineHeight=30 base=23 scaleW=140 scaleH=140 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0\r\npage id=0 file=\"font_10_0.png\"\r\nchars count=11\r\nchar id=47   x=32    y=90    width=27    height=44    xoffset=0     yoffset=0     xadvance=27    page=0  chnl=15\r\nchar id=48   x=0     y=0     width=33    height=44    xoffset=0     yoffset=0     xadvance=33    page=0  chnl=15\r\nchar id=49   x=60    y=90    width=22    height=44    xoffset=0     yoffset=0     xadvance=22    page=0  chnl=15\r\nchar id=50   x=0     y=90    width=31    height=44    xoffset=0     yoffset=0     xadvance=31    page=0  chnl=15\r\nchar id=51   x=34    y=45    width=32    height=44    xoffset=0     yoffset=0     xadvance=32    page=0  chnl=15\r\nchar id=52   x=34    y=0     width=33    height=44    xoffset=0     yoffset=0     xadvance=33    page=0  chnl=15\r\nchar id=53   x=67    y=45    width=32    height=44    xoffset=0     yoffset=0     xadvance=32    page=0  chnl=15\r\nchar id=54   x=100   y=45    width=32    height=44    xoffset=0     yoffset=0     xadvance=32    page=0  chnl=15\r\nchar id=55   x=68    y=0     width=33    height=44    xoffset=0     yoffset=0     xadvance=33    page=0  chnl=15\r\nchar id=56   x=102   y=0     width=33    height=44    xoffset=0     yoffset=0     xadvance=33    page=0  chnl=15\r\nchar id=57   x=0     y=45    width=33    height=44    xoffset=0     yoffset=0     xadvance=33    page=0  chnl=15\r\n",
+  "spriteFrame": {
+    "__uuid__": "c3b8ae8c-05e7-45a4-abf7-9ca2ba52e898"
+  },
+  "fontSize": 30,
+  "_fntConfig": null
+}

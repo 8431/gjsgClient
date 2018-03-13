@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "edit",
+    "EditBox",
+    "sendEvent",
+    "SocketEvents",
+    "connected",
+    "datas",
+    "JSON",
+    "stringify",
+    "uuidKey",
+    "curChannel",
+    "toString",
+    "data",
+    "string",
+    "ws",
+    "send",
+    "log",
+    "node",
+    "destroy",
+    "cancelEvent"
+  ],
+  "mappings": ";;AACAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,cAAML,GAAGM;AADD,KAHP;;AAOLC,eAAW,qBAAU;AACjB,YAAGC,aAAaC,SAAhB,EAA0B;AACtB,gBAAIC,QAAQC,KAAKC,SAAL,CAAe,EAAE,OAAMC,OAAR,EAAgB,QAAQ,MAAxB,EAAgC,YAAY,CAACC,aAAW,CAAZ,EAAeC,QAAf,EAA5C,EAAuE,QAAOP,aAAaQ,IAA3F,EAAiG,WAAW,KAAKX,IAAL,CAAUY,MAAtH,EAAf,CAAZ;AACAC,eAAGC,IAAH,CAAQT,KAAR;AACAV,eAAGoB,GAAH,CAAO,cAAYV,KAAnB;AACA,iBAAKW,IAAL,CAAUC,OAAV;AACH,SALD,MAMI;AACAtB,eAAGoB,GAAH,CAAO,QAAP;AACH;AAEJ,KAlBI;;AAoBLG,iBAAa,uBAAU;AACnB,aAAKF,IAAL,CAAUC,OAAV;AACH;AAtBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        edit: cc.EditBox,\r\n    },\r\n\r\n    sendEvent: function(){\r\n        if(SocketEvents.connected){\r\n            var datas = JSON.stringify({ 'key':uuidKey,'type': 'chat', 'typeChat': (curChannel+1).toString(), 'role':SocketEvents.data, 'chatMsg': this.edit.string});\r\n            ws.send(datas);\r\n            cc.log('ws.send: '+datas);\r\n            this.node.destroy();\r\n        }\r\n        else{\r\n            cc.log('ws 未连接');\r\n        }\r\n        \r\n    },\r\n\r\n    cancelEvent: function(){\r\n        this.node.destroy();\r\n    }\r\n});\r\n"
+  ]
+}

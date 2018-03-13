@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DZPoker-pic_card_type_8",
+    "texture": "faced866-1636-4940-bb5e-1b99fa3174dc",
+    "atlas": "69f33637-ffdc-4728-ae9a-656738bd8a5b",
+    "rect": [
+      982,
+      2,
+      63,
+      24
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      71,
+      24
+    ],
+    "rotated": 1
+  }
+}

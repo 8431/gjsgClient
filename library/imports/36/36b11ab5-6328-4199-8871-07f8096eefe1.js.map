@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "msg",
+    "RichText",
+    "buttonMsg",
+    "Button",
+    "onLoad",
+    "setMsg",
+    "msgStr",
+    "string"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,aAAIL,GAAGM,QADC;AAERC,mBAAUP,GAAGQ;AAFL,KAHP;;AAQL;AACAC,YAAQ,kBAAY,CACnB,CAVI;;AAYLC,YAAQ,gBAASC,MAAT,EAAgB;AACpB,aAAKN,GAAL,CAASO,MAAT,GAAkBD,MAAlB;AACH;;AAdI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        msg:cc.RichText,\r\n        buttonMsg:cc.Button\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n    },\r\n\r\n    setMsg: function(msgStr){\r\n        this.msg.string = msgStr;\r\n    }\r\n\r\n});\r\n"
+  ]
+}

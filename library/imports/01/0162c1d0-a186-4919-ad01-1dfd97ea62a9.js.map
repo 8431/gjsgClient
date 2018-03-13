@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "cityName",
+    "Label",
+    "zuoBiao",
+    "Sprite",
+    "move2",
+    "cityImg",
+    "zuoBiaoList",
+    "default",
+    "type",
+    "SpriteFrame",
+    "cityImgList",
+    "init",
+    "msg",
+    "string",
+    "name",
+    "spriteFrame",
+    "key",
+    "Math",
+    "round",
+    "random",
+    "log",
+    "num",
+    "e"
+  ],
+  "mappings": ";;AACAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,kBAAUL,GAAGM,KADL;AAERC,iBAASP,GAAGQ,MAFJ;AAGPC,eAAOT,GAAGQ,MAHH;AAIRE,iBAASV,GAAGQ,MAJJ;AAKRG,qBAAa;AACTC,qBAAS,EADA;AAETC,kBAAMb,GAAGc;AAFA,SALL;AASRC,qBAAa;AACTH,qBAAS,EADA;AAETC,kBAAMb,GAAGc;AAFA;AATL,KAHP;AA2BLE,UAAM,cAAUC,GAAV,EAAe;AACjB,YAAI;AACA,iBAAKZ,QAAL,CAAca,MAAd,GAAuBD,IAAIE,IAA3B;AACA,iBAAKZ,OAAL,CAAaa,WAAb,GAA2B,IAA3B;AACA,iBAAKV,OAAL,CAAaU,WAAb,GAA2B,IAA3B;AACA,gBAAIC,MAAMC,KAAKC,KAAL,CAAWD,KAAKE,MAAL,KAAgB,EAA3B,CAAV;AACAxB,eAAGyB,GAAH,CAAO,QAAQJ,GAAf;AACA,iBAAKX,OAAL,CAAaU,WAAb,GAA2B,KAAKL,WAAL,CAAiBM,GAAjB,CAA3B;AACA,gBAAIJ,IAAIS,GAAJ,IAAW,CAAf,EAAkB;AACd,qBAAKnB,OAAL,CAAaa,WAAb,GAA2B,KAAKT,WAAL,CAAiBM,IAAIS,GAArB,CAA3B;AACH;AACJ,SAVD,CAUE,OAAOC,CAAP,EAAU;AACR3B,eAAGyB,GAAH,CAAO,cAAcE,CAArB;AACH;AAIJ;AA5CI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        cityName: cc.Label,\r\n        zuoBiao: cc.Sprite,\r\n         move2: cc.Sprite,\r\n        cityImg: cc.Sprite,\r\n        zuoBiaoList: {\r\n            default: [],\r\n            type: cc.SpriteFrame\r\n        },\r\n        cityImgList: {\r\n            default: [],\r\n            type: cc.SpriteFrame\r\n        },\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n    init: function (msg) {\r\n        try {\r\n            this.cityName.string = msg.name;\r\n            this.zuoBiao.spriteFrame = null;\r\n            this.cityImg.spriteFrame = null;\r\n            var key = Math.round(Math.random() * 15);\r\n            cc.log('key' + key)\r\n            this.cityImg.spriteFrame = this.cityImgList[key];\r\n            if (msg.num != 4) {\r\n                this.zuoBiao.spriteFrame = this.zuoBiaoList[msg.num];\r\n            }\r\n        } catch (e) {\r\n            cc.log('加载地图信息异常:' + e)\r\n        }\r\n\r\n\r\n\r\n    },\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

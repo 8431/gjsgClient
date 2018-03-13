@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sys20",
+    "texture": "1c54fc74-7904-47c8-8125-22335d725fff",
+    "atlas": "",
+    "rect": [
+      2,
+      5,
+      37,
+      35
+    ],
+    "offset": [
+      1,
+      -2.5
+    ],
+    "originalSize": [
+      39,
+      40
+    ]
+  }
+}

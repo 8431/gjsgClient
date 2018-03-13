@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dlg_insure_save",
+    "texture": "3b1b1901-902f-4569-b0a9-3d330e07f48d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      670,
+      423
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      670,
+      423
+    ]
+  }
+}

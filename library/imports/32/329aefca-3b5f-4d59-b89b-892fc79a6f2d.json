@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hybut",
+    "texture": "8b1e9254-4e14-475a-aaf0-b60377b0dc20",
+    "atlas": "14c12e24-9aee-49f4-8e41-78a5209e6a72",
+    "rect": [
+      49,
+      0,
+      69,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      18
+    ]
+  }
+}

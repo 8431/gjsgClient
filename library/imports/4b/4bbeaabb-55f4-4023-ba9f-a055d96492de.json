@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GamePlazaRes",
+    "texture": "0ea3d241-dde5-4c0d-b63c-8cf8add20d7d",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      2024,
+      1288
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2028,
+      1292
+    ]
+  }
+}

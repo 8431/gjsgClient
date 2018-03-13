@@ -1,0 +1,245 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "GameSparrowRes.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "Sparrow-Animations-dice_frame_1": {
+      "__uuid__": "3acc5be6-6dbb-4bc0-b928-71060d9a10a7"
+    },
+    "Sparrow-Animations-dice_frame_2": {
+      "__uuid__": "5fb4db43-aa86-4c6e-8d97-b5cc96286693"
+    },
+    "Sparrow-Animations-dice_frame_3": {
+      "__uuid__": "522dda59-5c03-4e3e-99e3-de06c54633b7"
+    },
+    "Sparrow-Animations-dice_frame_4": {
+      "__uuid__": "7ad63767-f088-441d-a8fe-cf08c07665ee"
+    },
+    "Sparrow-Animations-dice_frame_5": {
+      "__uuid__": "14d05446-9aaa-498e-98ce-b8f70f9f79af"
+    },
+    "Sparrow-Animations-dice_frame_6": {
+      "__uuid__": "054b7e8d-3287-4504-8432-d2653fe45e08"
+    },
+    "Sparrow-Card-01": {
+      "__uuid__": "9f0b9195-cd53-42bb-b6ce-b307fc45bbc2"
+    },
+    "Sparrow-Card-02": {
+      "__uuid__": "e6199b0a-4397-4074-9bf3-bcb6a0df9f71"
+    },
+    "Sparrow-Card-03": {
+      "__uuid__": "17aef0b5-f4a6-4b65-85d2-477f73a04dc7"
+    },
+    "Sparrow-Card-04": {
+      "__uuid__": "441da1b2-671c-4962-993e-32359f808ac8"
+    },
+    "Sparrow-Card-05": {
+      "__uuid__": "4c39a0ad-eb76-4d1f-8995-a5dbef1d42a8"
+    },
+    "Sparrow-Card-06": {
+      "__uuid__": "30d5e2d5-540d-4b2f-9dad-9c847bff670b"
+    },
+    "Sparrow-Card-07": {
+      "__uuid__": "8ae37d91-9e2c-4df5-a1a9-04551cd7c73a"
+    },
+    "Sparrow-Card-08": {
+      "__uuid__": "9d14eff4-c28b-4783-8952-e17436908800"
+    },
+    "Sparrow-Card-09": {
+      "__uuid__": "660bfd9c-7318-49fa-b1a9-284b0cc0066f"
+    },
+    "Sparrow-Card-11": {
+      "__uuid__": "2c88ccb1-2068-43ca-b2c6-e3f475da13f4"
+    },
+    "Sparrow-Card-12": {
+      "__uuid__": "de41a960-6c11-45c5-95a5-37d17a6e6686"
+    },
+    "Sparrow-Card-13": {
+      "__uuid__": "dbf58d84-e500-47b9-9c42-3dd3e5f881db"
+    },
+    "Sparrow-Card-14": {
+      "__uuid__": "76cedda6-ff59-4a3a-9459-23297db725ae"
+    },
+    "Sparrow-Card-15": {
+      "__uuid__": "bfb204c3-a42c-4bd2-8896-6ad8948e7936"
+    },
+    "Sparrow-Card-16": {
+      "__uuid__": "58a6f124-7ae6-494a-a1ee-82462f213447"
+    },
+    "Sparrow-Card-17": {
+      "__uuid__": "911123d7-675e-4929-b406-5b6920afa7d9"
+    },
+    "Sparrow-Card-18": {
+      "__uuid__": "affdd2ef-2fab-42c4-b19f-853eaf12e9a5"
+    },
+    "Sparrow-Card-19": {
+      "__uuid__": "4b1f8903-a7e6-4e6f-bf6f-1bfbe9c7c8b3"
+    },
+    "Sparrow-Card-21": {
+      "__uuid__": "068bd4f8-db9d-4dba-9772-65838db26575"
+    },
+    "Sparrow-Card-22": {
+      "__uuid__": "5a02b6fc-45f7-4f46-bbf2-220a9a1cc40f"
+    },
+    "Sparrow-Card-23": {
+      "__uuid__": "12abcbb6-a313-4233-b76f-6f3590aa13d0"
+    },
+    "Sparrow-Card-24": {
+      "__uuid__": "7e4adf29-e266-4896-859b-d0c677fa056b"
+    },
+    "Sparrow-Card-25": {
+      "__uuid__": "35883095-0ddf-4ee2-83b4-8e379b0a0e73"
+    },
+    "Sparrow-Card-26": {
+      "__uuid__": "4e7f4b7a-0a29-4d40-a15d-1e736d7e0d51"
+    },
+    "Sparrow-Card-27": {
+      "__uuid__": "52a77a4c-0ac6-4fd1-be7b-38e64fc1b4fc"
+    },
+    "Sparrow-Card-28": {
+      "__uuid__": "1fb5c59e-e357-4c19-8aee-cb9d85cab6d5"
+    },
+    "Sparrow-Card-29": {
+      "__uuid__": "aedc5f16-2b7c-4286-96e8-b1e40b170e69"
+    },
+    "Sparrow-Card-31": {
+      "__uuid__": "a74f891d-e1d7-4dd0-873b-8bfab69a3a3c"
+    },
+    "Sparrow-Card-32": {
+      "__uuid__": "f4d1e262-9dde-4b47-a5e9-b056551aec42"
+    },
+    "Sparrow-Card-33": {
+      "__uuid__": "ac43c842-3aad-45cd-bf26-9d70f1322d1d"
+    },
+    "Sparrow-Card-34": {
+      "__uuid__": "c844a3e0-d0c6-4a82-a588-d0282c267c5e"
+    },
+    "Sparrow-Card-35": {
+      "__uuid__": "1270c8af-007b-41ab-85fb-bb4341cc1060"
+    },
+    "Sparrow-Card-36": {
+      "__uuid__": "fbe7ccfc-82ca-4011-b52c-9dc0c46c77c9"
+    },
+    "Sparrow-Card-37": {
+      "__uuid__": "431b6e93-1a92-4c21-9a27-98f74263d4eb"
+    },
+    "Sparrow-angang_bottom": {
+      "__uuid__": "a3bf70c7-8ed2-4857-9061-d8ccd3f3c17c"
+    },
+    "Sparrow-angang_top": {
+      "__uuid__": "ab91c4c5-f7c7-4eaa-b0f9-23eba689b174"
+    },
+    "Sparrow-anim_pointer": {
+      "__uuid__": "da0d84d4-d20a-4d67-af97-a609cca3755a"
+    },
+    "Sparrow-bn_grab_ting": {
+      "__uuid__": "33b6e0ca-bd7c-4377-9ec6-f045277a7151"
+    },
+    "Sparrow-btn_ting_n": {
+      "__uuid__": "565a133b-03d4-4c75-8c3b-224368a24489"
+    },
+    "Sparrow-room_bt_chi_disabled": {
+      "__uuid__": "0952e775-ea56-469d-add9-3ae7bb3b18c7"
+    },
+    "Sparrow-room_bt_chi_normal": {
+      "__uuid__": "548ba7f0-9cb1-4452-bcc7-96b546f7afd7"
+    },
+    "Sparrow-room_bt_chi_selected": {
+      "__uuid__": "e33b22af-9729-4d68-a6eb-708accfd2dfe"
+    },
+    "Sparrow-room_bt_gang_disabled": {
+      "__uuid__": "4264f343-5262-454f-944d-0699fd53c843"
+    },
+    "Sparrow-room_bt_gang_normal": {
+      "__uuid__": "b005694b-99ee-4766-abe9-0f49e926d2d8"
+    },
+    "Sparrow-room_bt_gang_selected": {
+      "__uuid__": "a584858a-02e8-42f5-bcce-b2c41f2ff543"
+    },
+    "Sparrow-room_bt_hu_disabled": {
+      "__uuid__": "aa2eefb7-56d3-4a8b-9445-fb2127ced161"
+    },
+    "Sparrow-room_bt_hu_normal": {
+      "__uuid__": "6c5c3c2f-ca24-4b4b-8d3e-bd2bae0124bd"
+    },
+    "Sparrow-room_bt_hu_selected": {
+      "__uuid__": "09613593-7f0b-45ef-a555-e830f65cf900"
+    },
+    "Sparrow-room_bt_peng_disabled": {
+      "__uuid__": "bde05bc5-0825-4a56-b369-219353b60059"
+    },
+    "Sparrow-room_bt_peng_normal": {
+      "__uuid__": "5b429188-39cf-46c0-b9fb-9e33ebe98e04"
+    },
+    "Sparrow-room_bt_peng_selected": {
+      "__uuid__": "cda67a28-e687-4ac6-8a52-7e5c95248ff6"
+    },
+    "Sparrow-room_bt_qi_disabled": {
+      "__uuid__": "39961154-17c5-4c25-9dcd-2bc69ec212bd"
+    },
+    "Sparrow-room_bt_qi_normal": {
+      "__uuid__": "a7a3c6b6-8e38-4c9b-92f4-dc24eaf4b6c7"
+    },
+    "Sparrow-room_bt_qi_selected": {
+      "__uuid__": "02fcce12-8b93-428d-8aff-1232b607fab4"
+    },
+    "Sparrow-text_anim_bj": {
+      "__uuid__": "41cf4394-6273-40c9-a279-5bf7e51760c6"
+    },
+    "Sparrow-text_anim_chi": {
+      "__uuid__": "75303e72-44ff-43fd-a095-53d19bb5a0cb"
+    },
+    "Sparrow-text_anim_gang": {
+      "__uuid__": "d555b926-87a1-4b4a-bfa5-b61b261ba7ac"
+    },
+    "Sparrow-text_anim_hu": {
+      "__uuid__": "5367560a-0a70-43cd-94d0-3296b594f821"
+    },
+    "Sparrow-text_anim_liuju": {
+      "__uuid__": "fa6b7fec-bf38-480b-adfb-ae126bfd64f2"
+    },
+    "Sparrow-text_anim_peng": {
+      "__uuid__": "f0c38ff0-4104-4be9-b6c6-9e1346cd72cb"
+    },
+    "Sparrow-text_anim_ting": {
+      "__uuid__": "5e50ded4-f1f4-4273-8bb8-49040c9705f2"
+    },
+    "Sparrow-text_anim_zimo": {
+      "__uuid__": "ca1dd41c-c2c3-43f7-ae22-67e8ffea85ba"
+    },
+    "Sparrow-text_pao_icon": {
+      "__uuid__": "3fcbd1c2-3bf9-414a-bd52-1c98017963c4"
+    },
+    "Sparrow-tingicon_myself": {
+      "__uuid__": "804d6e15-9e1b-47b7-9dfa-3c142b8be87e"
+    },
+    "Sparrow-tingicon_other": {
+      "__uuid__": "1cc5555b-4fe7-4910-8d8f-57784ae86dcb"
+    },
+    "Sparrow-user_bottom_bg": {
+      "__uuid__": "76abc141-2b01-4bef-9303-5d745cbed5be"
+    },
+    "Sparrow-user_bottom_black": {
+      "__uuid__": "52e462e1-50f7-4511-b892-529cde69274d"
+    },
+    "Sparrow-user_font_bg": {
+      "__uuid__": "d8531957-adf9-439e-8826-918ebabc843b"
+    },
+    "Sparrow-user_font_effect": {
+      "__uuid__": "81c8b6a0-43ac-44fa-b455-f763d952b351"
+    },
+    "Sparrow-user_info_bar": {
+      "__uuid__": "4f603530-259b-4471-a8fb-e446a7fb3de5"
+    },
+    "Sparrow-user_outcard_bg": {
+      "__uuid__": "5151faf8-76e9-4f30-a849-694f962245a8"
+    },
+    "Sparrow-user_smallfont_bg": {
+      "__uuid__": "94d6888e-0a0a-4417-939e-fa07114e72af"
+    },
+    "Sparrow-user_top_bg": {
+      "__uuid__": "8f569e17-8a8a-4465-8b80-a38ecc52b095"
+    }
+  }
+}

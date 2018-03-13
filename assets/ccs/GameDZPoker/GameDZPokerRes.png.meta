@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "faced866-1636-4940-bb5e-1b99fa3174dc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "GameDZPokerRes": {
+      "ver": "1.0.3",
+      "uuid": "c73c3966-46f0-4f53-8209-75ee948bed59",
+      "rawTextureUuid": "faced866-1636-4940-bb5e-1b99fa3174dc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1015,
+      "height": 591,
+      "rawWidth": 1019,
+      "rawHeight": 595,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

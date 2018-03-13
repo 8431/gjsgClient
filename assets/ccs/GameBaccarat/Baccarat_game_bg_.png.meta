@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "f64e96a1-837c-4502-9ad2-0fabd9110095",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Baccarat_game_bg_": {
+      "ver": "1.0.3",
+      "uuid": "e15e159a-62b0-4255-bade-1c6acbba1db1",
+      "rawTextureUuid": "f64e96a1-837c-4502-9ad2-0fabd9110095",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1280,
+      "height": 720,
+      "rawWidth": 1280,
+      "rawHeight": 720,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

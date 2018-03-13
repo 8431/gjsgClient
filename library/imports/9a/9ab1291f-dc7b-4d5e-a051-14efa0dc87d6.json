@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bank_line",
+    "texture": "b72f006e-8652-451b-9cdb-0b5e3fcb2db7",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      435,
+      10
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      435,
+      20
+    ]
+  }
+}

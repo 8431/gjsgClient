@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plaza_match_bg",
+    "texture": "1761510e-1d0f-4145-93c8-51d1edba96c3",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      1040,
+      644
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1042,
+      644
+    ]
+  }
+}

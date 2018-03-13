@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chatmsg",
+    "texture": "f1bc4cfa-c077-4d5b-ad41-eb70067a8a19",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      452,
+      676
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      452,
+      676
+    ]
+  }
+}

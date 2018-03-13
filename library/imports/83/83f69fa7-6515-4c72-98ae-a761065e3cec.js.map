@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "item",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "newText",
+    "Label",
+    "title",
+    "init",
+    "gg",
+    "string",
+    "custom1",
+    "loadGGDetails",
+    "GG",
+    "text",
+    "msg",
+    "loadingScene",
+    "onLoad"
+  ],
+  "mappings": ";;AAAA,IAAIA,IAAJ;;AAEAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;AAELC,gBAAY;AACRC,iBAASL,GAAGM,KADJ;AAERC,eAAOP,GAAGM;AAFF,KAFP;;AAOL;AACAE,UAAM,cAAUC,EAAV,EAAc;AAChB,aAAKV,IAAL,GAAYU,EAAZ;AACA,aAAKF,KAAL,CAAWG,MAAX,GAAoB,KAAKX,IAAL,CAAUY,OAA9B;AACH,KAXI;;AAaL;AACAC,mBAAe,yBAAY;AACvBC,WAAGN,KAAH,GAAW,KAAKR,IAAL,CAAUY,OAArB;AACAE,WAAGC,IAAH,GAAU,KAAKf,IAAL,CAAUgB,GAApB;AACAC,qBAAa,WAAb,EAA0B,QAA1B;AACH,KAlBI;;AAoBL;AACAC,YAAQ,kBAAY,CAEnB;AAvBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var item;\r\n\r\ncc.Class({\r\n    extends: cc.Component,\r\n    properties: {\r\n        newText: cc.Label,\r\n        title: cc.Label,\r\n    },\r\n\r\n    //初始化设置\r\n    init: function (gg) {\r\n        this.item = gg;\r\n        this.title.string = this.item.custom1;\r\n    },\r\n\r\n    //加载公告详情场景\r\n    loadGGDetails: function () {\r\n        GG.title = this.item.custom1;\r\n        GG.text = this.item.msg;\r\n        loadingScene('ggDetails', 'ggList');\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n});\r\n"
+  ]
+}

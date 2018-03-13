@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fight_img3",
+    "texture": "17deb32a-1b57-4c67-aba0-2b6d51b7464e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      640,
+      187
+    ],
+    "offset": [
+      -192,
+      33.5
+    ],
+    "originalSize": [
+      1024,
+      256
+    ]
+  }
+}

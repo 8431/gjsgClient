@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c52f0054-2f7c-48db-a921-d5737b95ac98",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Hero_Skill_Sword_25": {
+      "ver": "1.0.3",
+      "uuid": "d1a35ef7-1669-495a-9d70-6484f64cd569",
+      "rawTextureUuid": "c52f0054-2f7c-48db-a921-d5737b95ac98",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 32,
+      "offsetY": 20.5,
+      "trimX": 120,
+      "trimY": 22,
+      "width": 44,
+      "height": 85,
+      "rawWidth": 220,
+      "rawHeight": 170,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

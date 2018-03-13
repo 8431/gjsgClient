@@ -1,0 +1,52 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "self",
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "itemPrefab",
+    "Prefab",
+    "msgCount",
+    "onLoad",
+    "prefab",
+    "node",
+    "thisclass",
+    "ajaxUrl",
+    "HxsgUrl",
+    "wabaoMsg",
+    "log",
+    "name",
+    "ajaxData",
+    "msg",
+    "m",
+    "i",
+    "length",
+    "addMsg",
+    "SocketEvents",
+    "backEvent",
+    "loadScene",
+    "HxsgScenes",
+    "saizi",
+    "index",
+    "find",
+    "item",
+    "instantiate",
+    "addChild",
+    "getComponent",
+    "init",
+    "height",
+    "selfthis",
+    "e"
+  ],
+  "mappings": ";;AAAA,IAAIA,IAAJ;AACAC,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACVC,oBAAYL,GAAGM,MADL;AAEVC,kBAAS;AAFC,KAHP;;AAQL;AACAC,YAAQ,kBAAY;AAChBT,eAAK,IAAL;AACG,YAAIU,SAAO,KAAKJ,UAAhB;AACA,YAAIK,OAAK,KAAKA,IAAd;AACA,YAAIC,YAAU,IAAd;AACA,YAAIC,UAAQC,QAAQC,QAApB;AACGd,WAAGe,GAAH,CAAON,OAAOO,IAAd;AACJC,iBAASL,OAAT,EAAiB,IAAjB,EAAuB,UAAUM,GAAV,EAAe;AAChC,gBAAIC,IAAID,IAAIA,GAAZ;;AAEA,iBAAK,IAAIE,IAAID,EAAEE,MAAF,GAAW,CAAxB,EAA2BD,KAAK,CAAhC,EAAmCA,GAAnC,EAAwC;AACpCT,0BAAUW,MAAV,CAAiBJ,IAAIA,GAAJ,CAAQE,CAAR,CAAjB;AACH;AACJ,SANH;AAOFG,qBAAaT,QAAb,GAAsB,KAAKQ,MAA3B;AAEH,KAzBI;AA0BL;;;AAGAE,eAAW,qBAAY;AACnB;AACEC,kBAAUC,WAAWC,KAArB,EAA4BD,WAAWE,KAAvC;AACL,KAhCI;;AAkCLN,YAAO,gBAASJ,GAAT,EAAa;AACf,YAAIR,OAAKV,GAAG6B,IAAH,CAAQ,qCAAR,CAAT;AACA,YAAG;AACI,gBAAIC,OAAO9B,GAAG+B,WAAH,CAAehC,KAAKM,UAApB,CAAX;AACAK,iBAAKsB,QAAL,CAAcF,IAAd;AACAA,iBAAKG,YAAL,CAAkB,cAAlB,EAAkCC,IAAlC,CAAuChB,GAAvC,EAA2CnB,KAAKQ,QAAhD;AACAG,iBAAKyB,MAAL,IAAaL,KAAKK,MAAlB;AACAC,qBAAS7B,QAAT;AACZ,SANK,CAOP,OAAM8B,CAAN,EAAQ,CAEN;AACC;;AAED;AACA;;AAEA;AAnDK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var self;\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n      itemPrefab: cc.Prefab,\r\n      msgCount:0\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        self=this;\r\n           var prefab=this.itemPrefab;\r\n           var node=this.node;\r\n           var thisclass=this;\r\n           var ajaxUrl=HxsgUrl.wabaoMsg;\r\n              cc.log(prefab.name);\r\n          ajaxData(ajaxUrl,null, function (msg) {\r\n                var m = msg.msg;\r\n\r\n                for (var i = m.length - 1; i >= 0; i--) {\r\n                    thisclass.addMsg(msg.msg[i]);\r\n                }\r\n            });\r\n        SocketEvents.wabaoMsg=this.addMsg;\r\n        \r\n    },\r\n    /**\r\n     * 点击事件-->返回\r\n     */\r\n    backEvent: function () {\r\n        //调用通用的返回上一场景方法\r\n          loadScene(HxsgScenes.saizi, HxsgScenes.index);\r\n    },\r\n\r\n    addMsg:function(msg){\r\n         var node=cc.find(\"Canvas/scrollView/view/content/list\");\r\n         try{\r\n                var item = cc.instantiate(self.itemPrefab);\r\n                node.addChild(item);\r\n                item.getComponent('wabaoMsgItem').init(msg,self.msgCount);\r\n                node.height+=item.height;\r\n                selfthis.msgCount++;\r\n\t\t\t}\r\n\t\tcatch(e){\r\n\t\t\t\t                  \r\n\t\t\t}\r\n    }\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sparrow-Animations-dice_frame_4",
+    "texture": "64606081-5d77-464a-84b7-18157c283d46",
+    "atlas": "da1b791b-316c-4ff9-99c6-36a443f5be92",
+    "rect": [
+      424,
+      830,
+      64,
+      66
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      66,
+      66
+    ],
+    "rotated": 1
+  }
+}

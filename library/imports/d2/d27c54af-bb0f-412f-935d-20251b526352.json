@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wushi1",
+    "texture": "88a2b43e-dfcf-49d2-bcd1-d4c9ef84bb00",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      63,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      80
+    ]
+  }
+}

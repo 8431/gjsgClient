@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "room_text_dz",
+    "texture": "3bd27dfa-2a45-46fc-8708-ca35ac5b3706",
+    "atlas": "",
+    "rect": [
+      0,
+      9,
+      959,
+      82
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      965,
+      100
+    ]
+  }
+}

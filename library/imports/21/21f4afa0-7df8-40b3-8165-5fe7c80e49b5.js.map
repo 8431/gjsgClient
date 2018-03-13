@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "ylc",
+    "loadingScene",
+    "HxsgScenes",
+    "saizi",
+    "index",
+    "backEvent",
+    "returnLast"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;;AAgBL;AACAC,YAAQ,kBAAY;AAChB;AACA;AACA;;AAEH,KAtBI;AAuBLC,SAAK,eAAY;AACbC,qBAAaC,WAAWC,KAAxB,EAA+BD,WAAWE,KAA1C;AACH,KAzBI;AA0BL;;;AAGAC,eAAW,qBAAY;AACnB;AACAC;AACH;AAhCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        // showSystemMsgAlert(1,'11111');\r\n        //  showSystemMsgAlert(2,'22222');\r\n        //   showSystemMsgAlert(3,'33333');\r\n   \r\n    },\r\n    ylc: function () {\r\n        loadingScene(HxsgScenes.saizi, HxsgScenes.index);\r\n    },\r\n    /**\r\n     * 点击事件-->返回\r\n     */\r\n    backEvent: function () {\r\n        //调用通用的返回上一场景方法\r\n        returnLast();\r\n    },\r\n});\r\n"
+  ]
+}

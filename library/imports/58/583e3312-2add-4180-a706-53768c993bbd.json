@@ -1,0 +1,12 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "font_07",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "fntDataStr": "info face=\"������ͤ��W9(P)\" size=24 bold=0 italic=0 charset=\"\" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0\r\ncommon lineHeight=24 base=21 scaleW=80 scaleH=80 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0\r\npage id=0 file=\"font_07_0.png\"\r\nchars count=12\r\nchar id=45   x=31    y=44    width=9     height=21    xoffset=0     yoffset=0     xadvance=9     page=0  chnl=15\r\nchar id=48   x=0     y=0     width=19    height=21    xoffset=0     yoffset=0     xadvance=19    page=0  chnl=15\r\nchar id=49   x=18    y=44    width=12    height=21    xoffset=0     yoffset=0     xadvance=12    page=0  chnl=15\r\nchar id=50   x=57    y=22    width=17    height=21    xoffset=0     yoffset=0     xadvance=17    page=0  chnl=15\r\nchar id=51   x=20    y=0     width=18    height=21    xoffset=0     yoffset=0     xadvance=18    page=0  chnl=15\r\nchar id=52   x=39    y=0     width=18    height=21    xoffset=0     yoffset=0     xadvance=18    page=0  chnl=15\r\nchar id=53   x=0     y=44    width=17    height=21    xoffset=0     yoffset=0     xadvance=17    page=0  chnl=15\r\nchar id=54   x=58    y=0     width=18    height=21    xoffset=0     yoffset=0     xadvance=18    page=0  chnl=15\r\nchar id=55   x=0     y=22    width=18    height=21    xoffset=0     yoffset=0     xadvance=18    page=0  chnl=15\r\nchar id=56   x=19    y=22    width=18    height=21    xoffset=0     yoffset=0     xadvance=18    page=0  chnl=15\r\nchar id=57   x=38    y=22    width=18    height=21    xoffset=0     yoffset=0     xadvance=18    page=0  chnl=15\r\nchar id=58   x=41    y=44    width=6     height=21    xoffset=0     yoffset=0     xadvance=6     page=0  chnl=15\r\n",
+  "spriteFrame": {
+    "__uuid__": "0285e79a-1860-4366-8a61-3d4888db33b5"
+  },
+  "fontSize": 24,
+  "_fntConfig": null
+}

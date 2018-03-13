@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameLand-btn_callscore_d_2",
+    "texture": "ce9b72a0-b3aa-4a64-92b7-be3ac2ec6f45",
+    "atlas": "26c91ed1-ef88-4cb1-95ba-8dda1f0c46c5",
+    "rect": [
+      1729,
+      1075,
+      224,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      224,
+      76
+    ],
+    "rotated": 1
+  }
+}

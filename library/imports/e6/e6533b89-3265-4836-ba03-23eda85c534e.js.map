@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "headImg",
+    "Sprite",
+    "headImgList",
+    "default",
+    "type",
+    "SpriteFrame",
+    "onLoad",
+    "init",
+    "num",
+    "spriteFrame"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,iBAAQL,GAAGM,MADH;AAERC,qBAAY;AACRC,qBAAS,EADD;AAERC,kBAAMT,GAAGU;AAFD;AAFJ,KAHP;;AAqBL;AACAC,YAAQ,kBAAY,CAEnB,CAxBI;AAyBLC,UAAK,cAASC,GAAT,EAAa;AACd,aAAKR,OAAL,CAAaS,WAAb,GAAyB,KAAKP,WAAL,CAAiBM,GAAjB,CAAzB;AAEH;AA5BI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        headImg:cc.Sprite,\r\n        headImgList:{\r\n            default: [],\r\n            type: cc.SpriteFrame\r\n        },\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    init:function(num){\r\n        this.headImg.spriteFrame=this.headImgList[num];\r\n\r\n    }\r\n});\r\n"
+  ]
+}

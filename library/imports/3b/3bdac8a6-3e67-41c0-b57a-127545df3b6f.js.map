@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "jName",
+    "Label",
+    "onLoad",
+    "setJname",
+    "data",
+    "string",
+    "animationTest"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,eAAML,GAAGM;AADD,KAHP;;AAiBL;AACAC,YAAQ,kBAAY,CAEnB,CApBI;AAqBLC,cAAS,kBAASC,IAAT,EAAc;AACnB,aAAKJ,KAAL,CAAWK,MAAX,GAAkBD,IAAlB;AAEH,KAxBI;AAyBNE,mBAAc,yBAAU,CAGvB;;AAEA;AACA;;AAEA;AAjCK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        jName:cc.Label,\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    setJname:function(data){\r\n        this.jName.string=data;\r\n\r\n    },\r\n   animationTest:function(){\r\n\r\n       \r\n   }\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Baccarat_bc_chip_50",
+    "texture": "118875aa-bb1e-45aa-b7a4-9e0bd5e7b0b1",
+    "atlas": "f9d41f4b-d0ac-4b49-8787-e5aa78c73066",
+    "rect": [
+      555,
+      895,
+      78,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      78,
+      76
+    ],
+    "rotated": 1
+  }
+}

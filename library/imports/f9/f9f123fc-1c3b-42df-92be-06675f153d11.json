@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yishinv2",
+    "texture": "0384541a-6574-4fff-8e01-b358f2becba8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      63,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      80
+    ]
+  }
+}

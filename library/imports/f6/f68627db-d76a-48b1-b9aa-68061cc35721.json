@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zhandou2",
+    "texture": "58070f28-4c4e-424b-9c40-2b79794e22c8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      52,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      52,
+      30
+    ]
+  }
+}

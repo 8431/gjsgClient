@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "41f8fe36-d1d3-48ce-a084-08c1f5af5425",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "懒人素材 (26)": {
+      "ver": "1.0.3",
+      "uuid": "c78869ac-e60b-41da-8638-7dd4fe0c303f",
+      "rawTextureUuid": "41f8fe36-d1d3-48ce-a084-08c1f5af5425",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0.5,
+      "trimX": 3,
+      "trimY": 6,
+      "width": 120,
+      "height": 115,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

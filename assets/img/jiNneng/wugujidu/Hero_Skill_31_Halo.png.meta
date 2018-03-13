@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8dbac89c-ca81-4dd8-8a7d-fa51c922b05f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Hero_Skill_31_Halo": {
+      "ver": "1.0.3",
+      "uuid": "af35502b-4e43-4f9e-9c88-b5144e247697",
+      "rawTextureUuid": "8dbac89c-ca81-4dd8-8a7d-fa51c922b05f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 6,
+      "trimY": 3,
+      "width": 218,
+      "height": 85,
+      "rawWidth": 230,
+      "rawHeight": 90,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

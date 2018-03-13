@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wei",
+    "texture": "a1c54dea-23c4-40c9-a87f-cc3cf9f8aad2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      17,
+      17
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      17,
+      18
+    ]
+  }
+}

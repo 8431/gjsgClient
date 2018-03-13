@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "ggItem",
+    "default",
+    "type",
+    "Prefab",
+    "tooltip",
+    "back",
+    "returnLast",
+    "onLoad",
+    "self",
+    "ajaxData",
+    "HxsgUrl",
+    "ggUrl",
+    "msg",
+    "array",
+    "i",
+    "item",
+    "instantiate",
+    "getComponent",
+    "init",
+    "y",
+    "enabled",
+    "newText",
+    "node",
+    "addChild",
+    "height"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,gBAAQ;AACJC,qBAAS,IADL;AAEJC,kBAAMP,GAAGQ,MAFL;AAGJC,qBAAS;AAHL;AADA,KAHP;;AAWL;AACAC,UAAM,gBAAY;AACdC;AACH,KAdI;;AAgBLC,YAAQ,kBAAY;AAChB,YAAIC,OAAO,IAAX;AACAC,iBAASC,QAAQC,KAAjB,EAAwB,IAAxB,EAA6B,UAAUC,GAAV,EAAe;AACxC,gBAAIC,QAAQD,IAAIA,GAAhB,CADwC,CACnB;AACrB,gBAAIE,IAAI,CAAR;AACA,iBAAKA,CAAL,IAAUD,KAAV,EAAiB;AAAE;AACf,oBAAIE,OAAOpB,GAAGqB,WAAH,CAAeR,KAAKR,MAApB,CAAX,CADa,CAC2B;AACxCe,qBAAKE,YAAL,CAAkB,QAAlB,EAA4BC,IAA5B,CAAiCL,MAAMC,CAAN,CAAjC,EAFa,CAE+B;AAC5CC,qBAAKI,CAAL,IAAUL,IAAI,EAAd,CAHa,CAGK;AAClB,oBAAIA,IAAI,CAAJ,IAAS,CAAb,EAAgB;AAAE;AACdC,yBAAKE,YAAL,CAAkB,WAAlB,EAA+BG,OAA/B,GAAyC,IAAzC;AACH,iBAFD,MAEO;AAAE;AACLL,yBAAKE,YAAL,CAAkB,WAAlB,EAA+BG,OAA/B,GAAyC,KAAzC;AACH;AACD,oBAAIN,IAAI,CAAR,EAAW;AAAE;AACTC,yBAAKE,YAAL,CAAkB,QAAlB,EAA4BI,OAA5B,CAAoCD,OAApC,GAA8C,KAA9C;AACH;AACDZ,qBAAKc,IAAL,CAAUC,QAAV,CAAmBR,IAAnB;AACAP,qBAAKc,IAAL,CAAUE,MAAV,IAAoB,EAApB;AACH;AACJ,SAlBD;AAmBH;;AArCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        ggItem: {\r\n            default: null,\r\n            type: cc.Prefab,\r\n            tooltip: \"公告预制项\",\r\n        },\r\n    },\r\n\r\n    //返回上一场景\r\n    back: function () {\r\n        returnLast();\r\n    },\r\n\r\n    onLoad: function () {\r\n        var self = this;\r\n        ajaxData(HxsgUrl.ggUrl, null,function (msg) {\r\n            var array = msg.msg; //拿到公告数组\r\n            var i = 0;\r\n            for (i in array) { //遍历数组\r\n                var item = cc.instantiate(self.ggItem); //实例化公告项预制\r\n                item.getComponent('GGItem').init(array[i]); //初始化设置\r\n                item.y -= i * 80; //设置位置\r\n                if (i % 2 == 0) { //若为双数，则显示sprite\r\n                    item.getComponent('cc.Sprite').enabled = true;\r\n                } else { //若为单数，则禁用sprite\r\n                    item.getComponent('cc.Sprite').enabled = false;\r\n                }\r\n                if (i > 5) { //前6项显示“新”\r\n                    item.getComponent('GGItem').newText.enabled = false;\r\n                }\r\n                self.node.addChild(item);\r\n                self.node.height += 80;\r\n            }\r\n        });\r\n    },\r\n\r\n});"
+  ]
+}

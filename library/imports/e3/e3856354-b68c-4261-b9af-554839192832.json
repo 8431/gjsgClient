@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ox-text_open_card_2",
+    "texture": "919fcdd3-d877-4e0a-8ad8-422eb2a35fad",
+    "atlas": "410f1e7a-fa73-445d-b61f-f4cb6264ebb5",
+    "rect": [
+      96,
+      218,
+      380,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      380,
+      45
+    ],
+    "rotated": 1
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "GameComm.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "CommDialog-btn_close_n": {
+      "__uuid__": "e8eb0cdd-abdc-4722-a50a-4a3ed448b953"
+    },
+    "CommDialog-btn_comm1_n": {
+      "__uuid__": "48c3aef8-5d57-4479-b2af-7fed48520ae8"
+    },
+    "CommDialog-btn_comm2_n": {
+      "__uuid__": "25eb3b82-1d9e-4cb3-8a76-f953dd6a88e1"
+    },
+    "CommDialog-frame_bg": {
+      "__uuid__": "5a8034af-27bf-4602-a74c-bbf726b38b9e"
+    },
+    "CommDialog-frame_sub": {
+      "__uuid__": "0884b4bb-5561-4a61-b202-438d93a39eb9"
+    },
+    "GameCard-BG_FAILED": {
+      "__uuid__": "61380f97-d11e-4b7b-86bb-cd77511ecfcf"
+    },
+    "GameCard-BG_FAILED_2": {
+      "__uuid__": "8b63abce-2600-4c10-b495-f1be6e8fb9c4"
+    },
+    "GameCard-BG_GRAY": {
+      "__uuid__": "47fad19e-1b28-49b3-88d6-ad7f1c0d2d90"
+    },
+    "GameCard-SELECTED": {
+      "__uuid__": "bf0b524e-7df5-4481-b04d-fc4654959b6a"
+    },
+    "GameCard-card_back": {
+      "__uuid__": "4a551bf8-e14a-4f6b-9bbb-e2931bbe30e8"
+    },
+    "GameCard-card_bg": {
+      "__uuid__": "4dec5482-419e-49d1-9f5c-4d11b857d084"
+    },
+    "GameCard-card_black_01": {
+      "__uuid__": "35936b9b-1173-4ec5-a048-3603752a44d4"
+    },
+    "GameCard-card_black_02": {
+      "__uuid__": "7b7a8d9c-9909-4b0a-8805-6f1385a1df4b"
+    },
+    "GameCard-card_black_03": {
+      "__uuid__": "f5c8ed1a-ce8b-4df4-9719-8aab15f74bb6"
+    },
+    "GameCard-card_black_04": {
+      "__uuid__": "384ea63e-6312-4ebd-af30-39f57a505d0e"
+    },
+    "GameCard-card_black_05": {
+      "__uuid__": "1a70f17a-eabf-4913-8310-db2b6c05a3b7"
+    },
+    "GameCard-card_black_06": {
+      "__uuid__": "1e6a5ccb-800a-4b69-b669-fe1c140a2ede"
+    },
+    "GameCard-card_black_07": {
+      "__uuid__": "b931bce8-fff7-4189-bfc7-e6c333f27ecf"
+    },
+    "GameCard-card_black_08": {
+      "__uuid__": "493d2bfc-3a80-41b9-a151-986f9fd63d70"
+    },
+    "GameCard-card_black_09": {
+      "__uuid__": "21b80961-5986-46ba-9f5f-aa4a272057d2"
+    },
+    "GameCard-card_black_0A": {
+      "__uuid__": "db89082b-90da-4f5e-a95a-aeaaf00ed0df"
+    },
+    "GameCard-card_black_0B": {
+      "__uuid__": "dd5eef11-8e4c-41dd-91a8-87cbd0a4a717"
+    },
+    "GameCard-card_black_0C": {
+      "__uuid__": "6d3d9e1f-5e68-438d-bd91-a19e3a8b6832"
+    },
+    "GameCard-card_black_0D": {
+      "__uuid__": "1789aa18-c735-424e-8235-d63fcb79c11c"
+    },
+    "GameCard-card_red_01": {
+      "__uuid__": "b5e68e38-0471-4050-8794-193254dd1b61"
+    },
+    "GameCard-card_red_02": {
+      "__uuid__": "35b478c6-9757-4d9b-ba4c-83b1827e116a"
+    },
+    "GameCard-card_red_03": {
+      "__uuid__": "84ddc9aa-ede0-4adf-af84-18e43e76ec5f"
+    },
+    "GameCard-card_red_04": {
+      "__uuid__": "022666d4-ae39-4dba-aa8a-18ce8eefd989"
+    },
+    "GameCard-card_red_05": {
+      "__uuid__": "85b10b13-a042-4e03-a523-bbacad0c9954"
+    },
+    "GameCard-card_red_06": {
+      "__uuid__": "140f72c0-5cf4-4109-bc98-ca2ab357f725"
+    },
+    "GameCard-card_red_07": {
+      "__uuid__": "3961119e-e797-495d-9153-36e59d5d00bf"
+    },
+    "GameCard-card_red_08": {
+      "__uuid__": "7e80594d-4013-4bb6-8b60-5d43f53666b7"
+    },
+    "GameCard-card_red_09": {
+      "__uuid__": "9e6caaac-7218-4117-9fd3-f88bb1993861"
+    },
+    "GameCard-card_red_0A": {
+      "__uuid__": "1319a873-44fe-47f6-90ad-5f68bf8237f0"
+    },
+    "GameCard-card_red_0B": {
+      "__uuid__": "507c3d21-ebb3-4941-a0cb-545cfeb494eb"
+    },
+    "GameCard-card_red_0C": {
+      "__uuid__": "6d3c2dbe-f75b-4a40-8c79-34aae0d10161"
+    },
+    "GameCard-card_red_0D": {
+      "__uuid__": "7724ffa8-143c-4671-af54-b8b5cf53c94c"
+    },
+    "GameCard-card_small_bg": {
+      "__uuid__": "4fb547a1-db06-4d7a-a76d-df4bf2846d71"
+    },
+    "GameCard-card_tag_0": {
+      "__uuid__": "386cbd14-b294-4e4b-976f-97a9568ed79f"
+    },
+    "GameCard-card_tag_1": {
+      "__uuid__": "bdf5659c-4991-4146-910f-b817b835d62a"
+    },
+    "GameCard-card_tag_2": {
+      "__uuid__": "2ff4913a-5862-4b89-b061-82ca3d4e0de9"
+    },
+    "GameCard-card_tag_3": {
+      "__uuid__": "5cf19a78-960e-4f8e-ad79-fd72d7c5ddf6"
+    },
+    "GameCard-card_tag_4": {
+      "__uuid__": "9c32c065-d559-4767-97d8-f52fe5764e46"
+    },
+    "GameCard-card_tag_5": {
+      "__uuid__": "90f370ee-bc08-4d01-859b-c79663066fee"
+    },
+    "GameCard-card_wangtag_1": {
+      "__uuid__": "ab969724-47b9-4b05-bad0-aa8f052b45db"
+    },
+    "GameCard-card_wangtag_2": {
+      "__uuid__": "7a0951cf-cbf5-49d1-907b-852716cdbff9"
+    },
+    "GameClock-clock01": {
+      "__uuid__": "26480202-8819-441b-a062-20b53ec35581"
+    },
+    "GameClock-clock02": {
+      "__uuid__": "678cb663-7bf8-45e7-8f88-f75424b25e5e"
+    },
+    "GameClock-clock03": {
+      "__uuid__": "65a5317a-f8be-4be9-be8b-c3c24a83aa1a"
+    },
+    "GameMenu-item_deposite_d": {
+      "__uuid__": "cd766923-c119-4746-b746-5e5e85a59200"
+    },
+    "GameMenu-item_deposite_n": {
+      "__uuid__": "b3e4a58a-4836-4bc8-a5ea-d6bb9e2c9669"
+    },
+    "GameMenu-item_deposite_s": {
+      "__uuid__": "ea3f41ed-0967-4956-98fb-6e21602625b2"
+    },
+    "GameMenu-item_exit_d": {
+      "__uuid__": "f561a839-1e37-403a-b713-5c26c599fc42"
+    },
+    "GameMenu-item_exit_n": {
+      "__uuid__": "fa221a94-271a-416a-9189-4fca3d9e813d"
+    },
+    "GameMenu-item_exit_s": {
+      "__uuid__": "a4d5d4c7-96c9-4a5b-8eaa-981e5df14a3b"
+    },
+    "GameMenu-item_setting_d": {
+      "__uuid__": "c888137a-74b6-47e7-85ad-1e8a8e7e97f7"
+    },
+    "GameMenu-item_setting_n": {
+      "__uuid__": "841c32e0-2c21-48c9-91c0-e8328d358c48"
+    },
+    "GameMenu-item_setting_s": {
+      "__uuid__": "06848aa5-c9cb-415a-a360-a28e3557f411"
+    },
+    "GameMenu-menu_bg": {
+      "__uuid__": "e4cb6f0a-dc0b-4526-a141-41f41e40d00d"
+    },
+    "btn_back_plaza": {
+      "__uuid__": "3cd7c94a-c5f9-49dd-9360-547c8005820f"
+    },
+    "btn_back_plaza_s": {
+      "__uuid__": "52dd1149-3674-4bb0-b0b8-7877b7f2eef0"
+    },
+    "btn_continue_n": {
+      "__uuid__": "b143927e-3718-4fe6-bb23-756e340c8cf5"
+    },
+    "btn_exit_n": {
+      "__uuid__": "04c84214-ca72-4789-a084-f2a53c0ac810"
+    },
+    "btn_menu_n": {
+      "__uuid__": "919208ff-d52e-4036-877d-2ba6b3a1c847"
+    },
+    "btn_stop_trustee_n": {
+      "__uuid__": "9c79c19c-3e74-4816-aef3-a6114c26812f"
+    },
+    "btn_stop_trustee_s": {
+      "__uuid__": "11f4c919-8e00-4754-a935-2ff72bf50362"
+    },
+    "clock_progress": {
+      "__uuid__": "60c691f9-5cb9-44ef-ad47-9521fed373a8"
+    },
+    "dist_anim_1": {
+      "__uuid__": "f0308968-6d8c-444f-b5ae-8ec24c5405a5"
+    },
+    "dist_anim_2": {
+      "__uuid__": "65970415-63ef-4c99-92e2-6df8548ffa5c"
+    },
+    "dist_anim_3": {
+      "__uuid__": "917a051e-40ff-4aed-9736-e5d88f94875c"
+    },
+    "input_bg": {
+      "__uuid__": "73451dcf-2996-43f7-bf83-fce9ea4c5a6b"
+    },
+    "jetton_icon": {
+      "__uuid__": "6170c62e-8884-466c-9d7b-ed6a343d1f56"
+    },
+    "match_info_bg": {
+      "__uuid__": "017db1da-cc5d-414f-9599-781e8d3fa433"
+    },
+    "pic_banker_flag": {
+      "__uuid__": "be393168-6b1b-4daa-a24f-59cd34bde98f"
+    },
+    "pic_head_01": {
+      "__uuid__": "0181f41d-0f0b-40c8-ae98-494bee0a3afe"
+    },
+    "pic_head_02": {
+      "__uuid__": "59a79402-4420-4e5c-bd5b-c682feab04c0"
+    },
+    "pic_smallhead_01": {
+      "__uuid__": "f8f4769d-a630-4bcf-bcf2-cd33f49f8a90"
+    },
+    "pic_smallhead_02": {
+      "__uuid__": "16673b03-b70c-4a36-bd46-4a91ca6c8807"
+    },
+    "user_info_bar": {
+      "__uuid__": "e7ab5341-bb4f-48eb-a067-a7bc5826dc2f"
+    }
+  }
+}

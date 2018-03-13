@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "118875aa-bb1e-45aa-b7a4-9e0bd5e7b0b1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "GameBaccarat": {
+      "ver": "1.0.3",
+      "uuid": "278ef40b-29aa-4604-a85a-e1a4e17b84b9",
+      "rawTextureUuid": "118875aa-bb1e-45aa-b7a4-9e0bd5e7b0b1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 858,
+      "height": 1005,
+      "rawWidth": 862,
+      "rawHeight": 1009,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

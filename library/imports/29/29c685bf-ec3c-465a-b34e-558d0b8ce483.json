@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hero_Skill_Sword_19",
+    "texture": "d2cd3835-0f11-4717-af50-f3e3b3515907",
+    "atlas": "",
+    "rect": [
+      40,
+      15,
+      173,
+      155
+    ],
+    "offset": [
+      16.5,
+      -7.5
+    ],
+    "originalSize": [
+      220,
+      170
+    ]
+  }
+}
